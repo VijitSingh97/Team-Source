@@ -15,12 +15,29 @@ import withRoot from "../utils/withRoot";
 import Chip from "@material-ui/core/Chip";
 import { Robot } from "mdi-material-ui";
 
+import firebase from "firebase";
+
+
 const styles = theme => ({
     root: {
       backgroundColor: "#2F3136",
     },
   }),
   Home = props => {
+
+    if(!firebase.app.length){
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
+        authDomain: "team-source.firebaseapp.com",
+        databaseURL: "https://team-source.firebaseio.com",
+        projectId: "team-source",
+        storageBucket: "team-source.appspot.com",
+        messagingSenderId: "79140289819"
+      };        
+
+      firebase.initializeApp(config);
+    }
     const products = props.data.allMarkdownRemark.edges;
     return (
       <Page title="TeamSource">
