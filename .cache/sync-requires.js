@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/index.js"))),
   "component---src-pages-products-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js"))),
   "component---src-pages-signin-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js"))),
-  "component---src-pages-team-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js")))
+  "component---src-pages-team-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js"))),
+  "component---src-pages-signup-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js")))
 }
 

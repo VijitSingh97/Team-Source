@@ -60,6 +60,11 @@
         "path": "/signin/"
     },
     {
+        "componentChunkName": "component---src-pages-signup-index-js",
+        "jsonName": "signup-371",
+        "path": "/signup/"
+    },
+    {
         "componentChunkName": "component---src-pages-team-index-js",
         "jsonName": "team-a07",
         "path": "/team/"

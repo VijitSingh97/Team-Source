@@ -932,6 +932,10 @@
             "link": "/team"
           },
           {
+            "name": "Sign Up",
+            "link": "/signup"
+          },
+          {
             "name": "Sign In",
             "link": "/signin"
           }
@@ -940,13 +944,12 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "/gatsby-material-ui-business-starter",
-      "polyfill": true,
       "buildTime": "2019-02-16T20:45:15.907Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a00e33863c840d4bfaf466ded01f8c1c",
+        "contentDigest": "02cd9c7bc975c1da7b4de14a360f0cc1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2281,6 +2284,115 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "15fde44d-068a-5964-9874-93a095214d9c": {
+      "id": "15fde44d-068a-5964-9874-93a095214d9c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d8fddc527f88a0f8a06991120c40b137",
+        "type": "Directory",
+        "description": "Directory \"src/pages/signup\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup",
+      "relativePath": "signup",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T20:54:39.366Z",
+      "accessTime": "2019-02-16T20:54:39.370Z",
+      "changeTime": "2019-02-16T20:54:39.366Z",
+      "birthTime": "2019-02-16T20:54:39.366Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
+      "base": "signup",
+      "ext": "",
+      "name": "signup",
+      "relativeDirectory": "",
+      "dev": 2054,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2523178,
+      "blocks": 8,
+      "atimeMs": 1550350479369.756,
+      "mtimeMs": 1550350479365.7559,
+      "ctimeMs": 1550350479365.7559,
+      "birthtimeMs": 1550350479365.7559,
+      "atime": "2019-02-16T20:54:39.370Z",
+      "mtime": "2019-02-16T20:54:39.366Z",
+      "ctime": "2019-02-16T20:54:39.366Z",
+      "birthtime": "2019-02-16T20:54:39.366Z"
+    },
+    "SitePage /signup/": {
+      "jsonName": "signup-371",
+      "internalComponentName": "ComponentSignup",
+      "path": "/signup/",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js",
+      "componentChunkName": "component---src-pages-signup-index-js",
+      "context": {},
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js",
+      "id": "SitePage /signup/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ddc7f76a9d8f58f66d9c7fede77e88cc",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6577298c-e2f0-5775-a95c-3a08ceea4f42": {
+      "id": "6577298c-e2f0-5775-a95c-3a08ceea4f42",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4875e10d6ae9dfe6a1fe6bfeae11a323",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/signup/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js",
+      "relativePath": "signup/index.js",
+      "extension": "js",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-16T21:26:17.507Z",
+      "accessTime": "2019-02-16T21:24:22.939Z",
+      "changeTime": "2019-02-16T21:26:17.507Z",
+      "birthTime": "2019-02-16T21:26:17.507Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/signup",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "signup",
+      "dev": 2054,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2503087,
+      "blocks": 0,
+      "atimeMs": 1550352262939.0684,
+      "mtimeMs": 1550352377506.6653,
+      "ctimeMs": 1550352377506.6653,
+      "birthtimeMs": 1550352377506.6653,
+      "atime": "2019-02-16T21:24:22.939Z",
+      "mtime": "2019-02-16T21:26:17.507Z",
+      "ctime": "2019-02-16T21:26:17.507Z",
+      "birthtime": "2019-02-16T21:26:17.507Z"
     }
   },
   "status": {
@@ -2353,7 +2465,8 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sign-up-684": "939/path---sign-up-684-533-NZuapzHg3X9TaN1iIixfv1W23E",
-    "signin-59f": "701/path---signin-59-f-ae5-NZuapzHg3X9TaN1iIixfv1W23E"
+    "signin-59f": "701/path---signin-59-f-ae5-NZuapzHg3X9TaN1iIixfv1W23E",
+    "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/home/vijit/Documents/projects/Team-Source/src/templates/general.js": {
@@ -2387,6 +2500,10 @@
     "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js": {
       "query": "query TeamQuery {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/team/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        html\n        frontmatter {\n          title\n          path\n          image\n          jobtitle\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js"
+    },
+    "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js": {
+      "query": "",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js"
     }
   },
   "staticQueryComponents": {
