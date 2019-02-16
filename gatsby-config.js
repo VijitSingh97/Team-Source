@@ -15,6 +15,10 @@ module.exports = {
         name: "Team",
         link: "/team",
       },
+      {
+        name: "Sign In",
+        link: "/signin",
+      },
     ],
   },
   plugins: [
