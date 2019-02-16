@@ -35,7 +35,7 @@ const styles = theme => ({
         className={props.classes.featureGrid}
       >
         <Grid item s={6}>
-          <img className={styles.img} alt="challenge" src={challenge} />
+          <img className={styles.img} alt="challenge" src={challenge} width='400rem' height='auto' />
         </Grid>
         {/* <Grid item xs={6}>
           <Chip

@@ -12,22 +12,13 @@ import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
-import { MaterialUi, Logout } from "mdi-material-ui";
+import { MaterialUi, Logout, WhiteBalanceAuto } from "mdi-material-ui";
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import logo from '../images/logo2.png'
 import { createMuiTheme } from '@material-ui/core/styles';
-
-const styles = {
-  logo: {
-    maxWidth: 345,
-  },
-  logo: {
-    height: 140,
-  },
-};
 
 
 const Header = props => {
@@ -41,7 +32,7 @@ const Header = props => {
           spacing={16}
         >
           <Grid item>
-            <img className={Header.img} alt="logo" src={logo} />
+          < Link to=""><img className={Header.img} alt="logo" src={logo} /></Link>
           </Grid>
           <Grid item>
             <Hidden smDown>
