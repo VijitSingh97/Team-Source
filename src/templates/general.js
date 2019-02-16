@@ -12,7 +12,7 @@ const Detail = ({ data }) => {
   const { title, image } = data.markdownRemark.frontmatter,
     { html } = data.markdownRemark;
   return (
-    <Page>
+    <Page style={{backgroundColor: "black"}}>
       <SEO title={title} />
       <Card>
         <CardMedia style={{ height: "200px" }} image={withPrefix(image)} />

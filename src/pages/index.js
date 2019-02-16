@@ -14,7 +14,7 @@ import { withStyles } from "@material-ui/core/styles";
 import withRoot from "../utils/withRoot";
 import Chip from "@material-ui/core/Chip";
 import { Robot } from "mdi-material-ui";
-
+import "./index.css";
 import firebase from "firebase";
 
 

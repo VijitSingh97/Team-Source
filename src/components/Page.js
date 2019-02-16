@@ -11,7 +11,7 @@ class Page extends React.Component {
     return (
       <>
         <Header />
-        <Grid style={{ marginTop: "94px" }}>
+        <Grid style={{ marginTop: "94px"}}>
           <Row>
             <Col xs={12}>
               {title ? (
