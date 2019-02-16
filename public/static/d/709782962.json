@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"data":{"site":{"siteMetadata":{"menuLinks":[{"name":"Products","link":"/products"},{"name":"Team","link":"/team"},{"name":"Sign Up","link":"/signup"},{"name":"Sign In","link":"/signin"}]}}}}
+=======
+{"data":{"site":{"siteMetadata":{"menuLinks":[{"name":"Products","link":"/products"},{"name":"Team","link":"/team"},{"name":"home","link":"/home"},{"name":"Challenge Details","link":"/challenge-details"}]}}}}
+>>>>>>> Made stuff

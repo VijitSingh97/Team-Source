@@ -23,6 +23,13 @@ module.exports = {
         name: "Sign In",
         link: "/signin",
       },
+        name: "home",
+        link: "/home"
+      },
+      {
+        name: "Challenge Details",
+        link: "/challenge-details"
+      }
     ],
   },
   plugins: [

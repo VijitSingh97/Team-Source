@@ -12,6 +12,7 @@ import Avatar from "@material-ui/core/Avatar";
 import { Gift } from "mdi-material-ui";
 import { withStyles } from "@material-ui/core/styles";
 import withRoot from "../utils/withRoot";
+<<<<<<< HEAD
 import Chip from "@material-ui/core/Chip";
 import { Robot } from "mdi-material-ui";
 import "./index.css";
@@ -19,6 +20,9 @@ import firebase from "firebase";
 
 
 
+=======
+import exampleImage from "../img/test-image.jpg";
+>>>>>>> Made stuff
 const styles = theme => ({
     root: {
       backgroundColor: "#2F3136",
@@ -76,7 +80,13 @@ const styles = theme => ({
                   </Button>
                 </>
               }
+<<<<<<< HEAD
             >
+=======
+            > 
+              <img src={exampleImage} />
+              
+>>>>>>> Made stuff
             </Card>
           </Grid>
         </Grid>
