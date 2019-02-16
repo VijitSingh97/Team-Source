@@ -14,6 +14,8 @@ import InputLabel from '@material-ui/core/InputLabel';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
+import firebase from "firebase";
+
 const styles = theme => ({
     main: {
       width: 'auto',
@@ -54,8 +56,29 @@ class SignIn extends React.Component{
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
         this.handlePass = this.handlePass.bind(this);
+    
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
+            authDomain: "team-source.firebaseapp.com",
+            databaseURL: "https://team-source.firebaseio.com",
+            projectId: "team-source",
+            storageBucket: "team-source.appspot.com",
+            messagingSenderId: "79140289819"
+        };        
+        firebase.initializeApp(config);
+    
     }
     handleSubmit(event) {
+
+        firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log('An error was recieved: ' + errorCode + ': ' + errorMessage);
+            // ...
+        });
+
         console.log('A email was submitted: ' + this.state.email);
         console.log('A pass was submitted: ' + this.state.pass);
         event.preventDefault();
