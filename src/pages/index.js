@@ -12,13 +12,15 @@ import Avatar from "@material-ui/core/Avatar";
 import { Gift } from "mdi-material-ui";
 import { withStyles } from "@material-ui/core/styles";
 import withRoot from "../utils/withRoot";
+import Chip from "@material-ui/core/Chip";
+import { Robot } from "mdi-material-ui";
 
 import firebase from "firebase";
 
 
 const styles = theme => ({
     root: {
-      backgroundColor: "#9c27b0",
+      backgroundColor: "#2F3136",
     },
   }),
   Home = props => {
@@ -38,7 +40,7 @@ const styles = theme => ({
     }
     const products = props.data.allMarkdownRemark.edges;
     return (
-      <Page title="Gatsby Material UI Business Starter">
+      <Page title="TeamSource">
         <SEO title="Home">
           <meta
             name="description"
@@ -46,7 +48,7 @@ const styles = theme => ({
           />
         </SEO>
 
-        <HomeFeatures />
+        { <HomeFeatures /> }
         <Grid
           spacing={24}
           container
@@ -74,7 +76,6 @@ const styles = theme => ({
                 </>
               }
             >
-              <Carousel items={products} />
             </Card>
           </Grid>
         </Grid>
