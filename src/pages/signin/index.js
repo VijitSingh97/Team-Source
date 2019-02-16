@@ -1,6 +1,7 @@
 import React from "react";
 import Page from "../../components/Page";import { graphql } from "gatsby";
 
+import { Link } from "gatsby";
 import withRoot from "../../utils/withRoot";
 import PropTypes from 'prop-types';
 import Avatar from '@material-ui/core/Avatar';
@@ -128,6 +129,14 @@ class SignIn extends React.Component{
         </form>
       </Paper>
 </main>
+<Link to="/signup">
+    <Button
+      variant="contained"
+      color="secondary"
+    >
+      Sign Up
+    </Button>
+  </Link>
         </Page>
         
     )
