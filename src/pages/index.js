@@ -13,12 +13,29 @@ import { Gift } from "mdi-material-ui";
 import { withStyles } from "@material-ui/core/styles";
 import withRoot from "../utils/withRoot";
 
+import firebase from "firebase";
+
+
 const styles = theme => ({
     root: {
       backgroundColor: "#9c27b0",
     },
   }),
   Home = props => {
+
+    if(!firebase.app.length){
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
+        authDomain: "team-source.firebaseapp.com",
+        databaseURL: "https://team-source.firebaseio.com",
+        projectId: "team-source",
+        storageBucket: "team-source.appspot.com",
+        messagingSenderId: "79140289819"
+      };        
+
+      firebase.initializeApp(config);
+    }
     const products = props.data.allMarkdownRemark.edges;
     return (
       <Page title="Gatsby Material UI Business Starter">

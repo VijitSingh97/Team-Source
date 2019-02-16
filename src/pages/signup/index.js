@@ -59,17 +59,19 @@ class SignUp extends React.Component{
         this.handlePass = this.handlePass.bind(this);
         this.handleRetypePass = this.handleRetypePass.bind(this);
     
-        // Initialize Firebase
-        var config = {
+        if(!firebase.apps.length){
+          // Initialize Firebase
+          var config = {
             apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
             authDomain: "team-source.firebaseapp.com",
             databaseURL: "https://team-source.firebaseio.com",
             projectId: "team-source",
             storageBucket: "team-source.appspot.com",
             messagingSenderId: "79140289819"
-        };        
-        firebase.initializeApp(config);
-    
+          };        
+
+          firebase.initializeApp(config);
+        }
     }
     handleSubmit(event) {
       if(this.state.email === this.state.retype_email && this.state.pass === this.state.retype_pass){
@@ -123,7 +125,7 @@ class SignUp extends React.Component{
           </FormControl>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="retype_email">Retype Email Address</InputLabel>
-            <Input id="retype_email" name="retype_email" autoComplete="retype_email" autoFocus onChange={this.handleRetypeEmail} />
+            <Input id="retype_email" name="retype_email" autoComplete="retype_email" onChange={this.handleRetypeEmail} />
           </FormControl>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="password">Password</InputLabel>

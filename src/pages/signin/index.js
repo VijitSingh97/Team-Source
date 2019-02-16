@@ -56,18 +56,20 @@ class SignIn extends React.Component{
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
         this.handlePass = this.handlePass.bind(this);
-    
-        // Initialize Firebase
-        var config = {
+
+        if(!firebase.app.length){
+          // Initialize Firebase
+          var config = {
             apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
             authDomain: "team-source.firebaseapp.com",
             databaseURL: "https://team-source.firebaseio.com",
             projectId: "team-source",
             storageBucket: "team-source.appspot.com",
             messagingSenderId: "79140289819"
-        };        
-        firebase.initializeApp(config);
-    
+          };        
+
+          firebase.initializeApp(config);
+        }
     }
     handleSubmit(event) {
 
