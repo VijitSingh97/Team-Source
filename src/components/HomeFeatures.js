@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
 import { withStyles } from "@material-ui/core/styles";
 import { Robot } from "mdi-material-ui";
+import challenge from "../images/challenge.png"
 
 const styles = theme => ({
     featureChip: {
@@ -33,21 +34,10 @@ const styles = theme => ({
         justify="center"
         className={props.classes.featureGrid}
       >
-        <Grid item xs={6}>
-          <Chip
-            className={props.classes.featureChipRight}
-            avatar={
-              <Avatar
-                className={props.classes.avi}
-                style={{ backgroundColor: props.theme.palette.secondary.light }}
-              >
-                <Robot />
-              </Avatar>
-            }
-            label="Uses Material UI"
-          />
+        <Grid item s={6}>
+          <img className={styles.img} alt="challenge" src={challenge} />
         </Grid>
-        <Grid item xs={6}>
+        {/* <Grid item xs={6}>
           <Chip
             className={props.classes.featureChip}
             avatar={
@@ -60,7 +50,7 @@ const styles = theme => ({
             }
             label="Uses Material Icons"
           />
-        </Grid>
+        </Grid> */}
       </Grid>
     );
   };

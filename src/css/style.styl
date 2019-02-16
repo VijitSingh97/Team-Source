@@ -3,19 +3,12 @@ body
   // because we otherwise get FOUT when hard-refreshing a page with
   // markdown->html set via `dangerouslySetInnerHtml` (e.g., one of the
   // product or team pages.
-  color rgba(0, 0, 0, 0.87)
+  background-color black
   font-size 0.875rem
   font-family "Roboto", "Helvetica", "Arial", sans-serif
   font-weight 400
   line-height 1.5
   letter-spacing: 0.01071em
-  #logo
-    background-color #fff
-    &:hover
-      background-color #eee
-    #logoIcon
-      background-color #f00
-      color #fff
 
   a
     text-decoration none
@@ -26,3 +19,10 @@ body
 
   footer
     text-align center
+  header
+    img
+      width 10 rem
+      height auto
+
+MuiAppBar-colorPrimary-24
+  background-color #6188F3
