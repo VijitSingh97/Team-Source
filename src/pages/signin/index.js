@@ -46,11 +46,31 @@ const styles = theme => ({
     },
   });
 
-const SignIn = props => {
-    const classes = styles;
-    return(
+class SignIn extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {email: '', pass:''};
+
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleEmail = this.handleEmail.bind(this);
+        this.handlePass = this.handlePass.bind(this);
+    }
+    handleSubmit(event) {
+        console.log('A email was submitted: ' + this.state.email);
+        console.log('A pass was submitted: ' + this.state.pass);
+        event.preventDefault();
+    }
+    handleEmail(event) {
+        this.setState({email: event.target.value});
+    }  
+    handlePass(event) {
+        this.setState({pass: event.target.value});
+    }  
+    render() {
+        const classes = styles;
+        return (
         <Page> 
-            <main className={classes.main}>
+            <main className={classes.main} >
       <CssBaseline />classes
       <Paper className={classes.paper}>
         <Avatar className={classes.avatar}>
@@ -58,14 +78,14 @@ const SignIn = props => {
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
-        <form className={classes.form}>
+        <form className={classes.form} onSubmit={this.handleSubmit}>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="email">Email Address</InputLabel>
-            <Input id="email" name="email" autoComplete="email" autoFocus />
+            <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail} />
           </FormControl>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="password">Password</InputLabel>
-            <Input name="password" type="password" id="password" autoComplete="current-password" />
+            <Input name="password" type="password" id="password" autoComplete="current-password" onChange={this.handlePass}/>
           </FormControl>
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
@@ -85,6 +105,7 @@ const SignIn = props => {
 </main>
         </Page>
         
-    );
+    )
+}
 }
 export default withRoot(SignIn);
