@@ -9,20 +9,6 @@ import Icon from '@material-ui/core/Icon';
 import Link from '@material-ui/core/Link'
 import firebase from 'firebase'
 
-if(!firebase.apps.length){
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
-      authDomain: "team-source.firebaseapp.com",
-      databaseURL: "https://team-source.firebaseio.com",
-      projectId: "team-source",
-      storageBucket: "team-source.appspot.com",
-      messagingSenderId: "79140289819"
-    };        
-
-    firebase.initializeApp(config);
-}
-
 const styles = theme => ({
   container: {
     display: 'flex',
@@ -77,15 +63,15 @@ const currencies = [
 
 class OutlinedTextFields extends React.Component {
 
-constructor(props) {
-    super(props);
-    this.state = {idea: '', bench1: '', bench2:'', bench3: ''};
+    constructor(props) {
+        super(props);
+        this.state = {idea: '', bench1: '', bench2:'', bench3: ''};
 
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleIdea = this.handleIdea.bind(this);
-    this.handleBench1 = this.handleBench1.bind(this);
-    this.handleBench2 = this.handleBench2.bind(this);
-    this.handleBench3 = this.handleBench3.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleIdea = this.handleIdea.bind(this);
+        this.handleBench1 = this.handleBench1.bind(this);
+        this.handleBench2 = this.handleBench2.bind(this);
+        this.handleBench3 = this.handleBench3.bind(this);
 
     if(!firebase.apps.length){
         // Initialize Firebase
@@ -103,21 +89,23 @@ constructor(props) {
 }
 
     handleSubmit(event) {
-        firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
-    });
+        var inputs = [this.state['idea'],this.state['bench1'],this.state['bench2'],this.state['bench3']]
+        var cs = firebase.firestore().collection("Challenges").get()
+        console.log("cs")
+        console.log(cs);
     }
 
     handleIdea(event) {
         this.setState({idea: event.target.value});
     }  
     handleBench1(event) {
-        this.setState({retype_email: event.target.value});
+        this.setState({bench1: event.target.value});
     }  
     handleBench2(event) {
-        this.setState({pass: event.target.value});
+        this.setState({bench2: event.target.value});
     }  
     handleBench3(event) {
-        this.setState({retype_pass: event.target.value});
+        this.setState({bench3: event.target.value});
     }
 
   render() {
