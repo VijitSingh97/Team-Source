@@ -1,13 +1,21 @@
 Arguments: 
+<<<<<<< HEAD
   /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js run deploy
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+=======
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @material-ui/icon
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\acagaanan\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\acagaanan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\PHP7;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\acagaanan\AppData\Local\Microsoft\WindowsApps;C:\Users\acagaanan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\acagaanan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\acagaanan\AppData\Roaming\Composer\vendor\bin;C:\Users\acagaanan\AppData\Local\Yarn\bin
+>>>>>>> b5505daa00c460126100ea5e73d61418ea3982fc
 
 Yarn version: 
   1.13.0
 
 Node version: 
+<<<<<<< HEAD
   10.15.1
 
 Platform: 
@@ -20,6 +28,25 @@ Trace:
       at Generator.next (<anonymous>)
       at step (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:304:30)
       at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:315:13
+=======
+  8.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui%2ficon: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65364:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:129397:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130369:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130291:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+>>>>>>> b5505daa00c460126100ea5e73d61418ea3982fc
 
 npm manifest: 
   {
@@ -39,7 +66,10 @@ npm manifest:
     },
     "dependencies": {
       "@material-ui/core": "^3.9.2",
+<<<<<<< HEAD
       "@material-ui/icons": "^3.0.2",
+=======
+>>>>>>> b5505daa00c460126100ea5e73d61418ea3982fc
       "child_process": "^1.0.2",
       "core-js": "^2.6.5",
       "firebase": "^5.8.3",
@@ -66,9 +96,12 @@ npm manifest:
       "react-swipeable-views": "^0.13.1",
       "react-swipeable-views-utils": "^0.13.1",
       "tls": "^0.0.1"
+<<<<<<< HEAD
     },
     "devDependencies": {
       "gh-pages": "^2.0.1"
+=======
+>>>>>>> b5505daa00c460126100ea5e73d61418ea3982fc
     }
   }
 
