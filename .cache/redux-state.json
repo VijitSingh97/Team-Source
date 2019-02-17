@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ea640dfb1def98b1279ceecb45e0afff",
+        "contentDigest": "776030f1acb6adc1ac097e1d65338d40",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "416c4a6af5f0a1958f3affa3bfcba767",
+        "contentDigest": "d56db4eb5c95f54bcedda6c99784bfc8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f00e5904f724fd45d894a979f3ce0f25",
+        "contentDigest": "d2ec9243e9057af1f736744e9a6a692b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f864c4bdfcb8aa8b96c5af6dfbf5bac3",
+        "contentDigest": "3d7d82dce05d1f0a245c1b59287824e5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7e99e7c599684a99d4f9a687473a9e2a",
+        "contentDigest": "aeebfc0fe96e7183302217ef84fcc9d3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8cdf0cb789b0e0bdf2f963eb8a37af30",
+        "contentDigest": "4d27cb7d05c0e78aecf308262176852a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
       "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
@@ -209,7 +209,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
         "name": "webpack-theme-component-shadowing",
         "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
@@ -226,13 +226,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e7caec7bac9530a363b56444742b121d",
+        "contentDigest": "3939d5924d9122d731fd06fad9cec82b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-transformer-remark",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-transformer-remark",
       "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
       "name": "gatsby-transformer-remark",
       "version": "2.2.5",
@@ -245,7 +245,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -256,7 +256,10 @@
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -366,13 +369,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d8979f8989b9fee799eaa90dcef5897e",
+        "contentDigest": "5c9e9f404d0b94f95cfb2f92cddb573e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.6",
@@ -384,7 +387,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -406,7 +409,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -448,13 +454,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "374c7a208c54939256573ab346203b81",
+        "contentDigest": "bbc33f5f61df829455d09d8a2e60254e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "4e799dde-4158-5da0-877a-6aabf170dc2d": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-stylus",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-stylus",
       "id": "4e799dde-4158-5da0-877a-6aabf170dc2d",
       "name": "gatsby-plugin-stylus",
       "version": "2.0.6",
@@ -466,7 +472,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-stylus",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-stylus",
       "packageJson": {
         "name": "gatsby-plugin-stylus",
         "description": "Gatsby support for Stylus",
@@ -477,7 +483,10 @@
           "gatsby-plugin",
           "stylus"
         ],
-        "author": "Ian Sinnott <ian@iansinnott.com>",
+        "author": {
+          "name": "Ian Sinnott",
+          "email": "ian@iansinnott.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -523,13 +532,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9f372150112db17ff9ea727371d78ee5",
+        "contentDigest": "3b020da627600c007ee344184a3a3168",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1752fc95-4f8f-51db-8a85-515590b7f462": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-remove-serviceworker",
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-remove-serviceworker",
       "id": "1752fc95-4f8f-51db-8a85-515590b7f462",
       "name": "gatsby-plugin-remove-serviceworker",
       "version": "1.0.0",
@@ -541,10 +550,10 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-remove-serviceworker",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-remove-serviceworker",
       "packageJson": {
         "name": "gatsby-plugin-remove-serviceworker",
-        "description": "",
+        "description": "Helps with ServiceWorker removal from your website. [For more details](https://medium.com/@nekrtemplar/self-destroying-serviceworker-73d62921d717)",
         "version": "1.0.0",
         "main": "index.js",
         "keywords": [],
@@ -559,19 +568,19 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ad4fc7159ee4adf70c6a66fd218c3084",
+        "contentDigest": "4628469ebcb862dca4cfc3c5855f3330",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1bbd4d83-b3c2-50fc-a972-b181b73e648b": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-source-filesystem",
-      "id": "1bbd4d83-b3c2-50fc-a972-b181b73e648b",
+    "434653af-4381-5b7c-bede-930ffeb0e5b2": {
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-source-filesystem",
+      "id": "434653af-4381-5b7c-bede-930ffeb0e5b2",
       "name": "gatsby-source-filesystem",
       "version": "2.0.20",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+        "path": "/home/vijit/Documents/projects/Team-Source/src/pages",
         "name": "pages"
       },
       "nodeAPIs": [
@@ -580,7 +589,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -589,7 +598,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -683,13 +695,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fe1f5435b5193e7aeae954758713d86a",
+        "contentDigest": "1e4de908d42062b848e09a57d16a9526",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source",
+      "resolve": "/home/vijit/Documents/projects/Team-Source",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "ba0a273da6e25d557e5858263c075fd3",
@@ -705,7 +717,7 @@
       "ssrAPIs": [
         "replaceRenderer"
       ],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source",
       "packageJson": {
         "name": "gatsby-material-ui-business-starter",
         "description": "Beautiful Gatsby Material Design Business Starter",
@@ -834,19 +846,19 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ea2b351c033cd64296e542ecf58f93bd",
+        "contentDigest": "963df47d468a2462c53060aa8ada3975",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "de99c09a-ba65-5234-a31c-a1d91167f019": {
-      "resolve": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-page-creator",
-      "id": "de99c09a-ba65-5234-a31c-a1d91167f019",
+    "4168579a-7763-51cf-906a-0ceaa06a3ff7": {
+      "resolve": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-page-creator",
+      "id": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+        "path": "/home/vijit/Documents/projects/Team-Source/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -854,7 +866,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/colbystauss/Documents/hackDFW/Team-Source/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/home/vijit/Documents/projects/Team-Source/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -864,7 +876,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -934,7 +949,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b08033a3662ba3c8ff7672bfa0a4ecad",
+        "contentDigest": "4a838d0677e7850938297c8b4d690812",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -969,328 +984,282 @@
       "host": "localhost",
       "pathPrefix": "/gatsby-material-ui-business-starter",
       "polyfill": true,
-      "buildTime": "2019-02-17T01:00:05.466Z",
+      "buildTime": "2019-02-17T02:04:10.986Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5b6755454dd1a06750e8892907440083",
+        "contentDigest": "2ae989b7815e484f8dc345ae33a97404",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "59827baf-57e7-560f-b091-5bf72aea7918": {
-      "id": "59827baf-57e7-560f-b091-5bf72aea7918",
+    "35b3af40-2505-550c-bd6c-f170222e27ac": {
+      "id": "35b3af40-2505-550c-bd6c-f170222e27ac",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "4bceddbb31e48fe7887378408fa79b18",
+        "contentDigest": "288f289f6523ea57fa31155df934fac1",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2019-02-17T01:11:57.000Z",
-      "accessTime": "2019-02-17T01:12:35.296Z",
-      "changeTime": "2019-02-17T01:12:35.284Z",
-      "birthTime": "2019-02-16T18:05:43.000Z",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-17T01:30:11.059Z",
+      "accessTime": "2019-02-17T01:30:11.063Z",
+      "changeTime": "2019-02-17T01:30:11.059Z",
+      "birthTime": "2019-02-17T01:30:11.059Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src",
       "base": "pages",
       "ext": "",
       "name": "pages",
       "relativeDirectory": "..",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 16877,
-      "nlink": 9,
-      "uid": 501,
-      "gid": 20,
+      "nlink": 7,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497647,
-      "blocks": 0,
-      "atimeMs": 1550365955296.3525,
-      "mtimeMs": 1550365917000,
-      "ctimeMs": 1550365955283.8752,
-      "birthtimeMs": 1550340343000,
-      "atime": "2019-02-17T01:12:35.296Z",
-      "mtime": "2019-02-17T01:11:57.000Z",
-      "ctime": "2019-02-17T01:12:35.284Z",
-      "birthtime": "2019-02-16T18:05:43.000Z"
+      "ino": 2523170,
+      "blocks": 8,
+      "atimeMs": 1550367011062.6365,
+      "mtimeMs": 1550367011058.6362,
+      "ctimeMs": 1550367011058.6362,
+      "birthtimeMs": 1550367011058.6362,
+      "atime": "2019-02-17T01:30:11.063Z",
+      "mtime": "2019-02-17T01:30:11.059Z",
+      "ctime": "2019-02-17T01:30:11.059Z",
+      "birthtime": "2019-02-17T01:30:11.059Z"
     },
-    "83bf88bc-715d-5de2-8e54-19b7301b69f6": {
-      "id": "83bf88bc-715d-5de2-8e54-19b7301b69f6",
+    "0f614068-27c5-54e5-aeb4-57032afdd7a6": {
+      "id": "0f614068-27c5-54e5-aeb4-57032afdd7a6",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ca300385f5e3aa83c2c382a885048dbb",
+        "contentDigest": "2334e7edeb55860c234cedc8833dd948",
         "type": "Directory",
         "description": "Directory \"src/pages/products\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
       "relativePath": "products",
       "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2019-02-16T19:25:27.000Z",
-      "accessTime": "2019-02-17T01:00:10.330Z",
-      "changeTime": "2019-02-16T19:25:27.516Z",
-      "birthTime": "2019-02-16T18:05:43.000Z",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:31:37.154Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "base": "products",
       "ext": "",
       "name": "products",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 16877,
-      "nlink": 9,
-      "uid": 501,
-      "gid": 20,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497648,
-      "blocks": 0,
-      "atimeMs": 1550365210329.986,
-      "mtimeMs": 1550345127000,
-      "ctimeMs": 1550345127515.6667,
-      "birthtimeMs": 1550340343000,
-      "atime": "2019-02-17T01:00:10.330Z",
-      "mtime": "2019-02-16T19:25:27.000Z",
-      "ctime": "2019-02-16T19:25:27.516Z",
-      "birthtime": "2019-02-16T18:05:43.000Z"
+      "ino": 2523171,
+      "blocks": 8,
+      "atimeMs": 1550341897153.5286,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:31:37.154Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "102f9e0e-6d87-5017-bd0a-90fea4c0a2cf": {
-      "id": "102f9e0e-6d87-5017-bd0a-90fea4c0a2cf",
+    "dbd8deae-3b91-5d11-b2a5-34b1f5175337": {
+      "id": "dbd8deae-3b91-5d11-b2a5-34b1f5175337",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1c485c10d3b8ec38061315f05e82caed",
+        "contentDigest": "244f787d8766f4fcac46bc0b36cec41e",
         "type": "Directory",
         "description": "Directory \"src/pages/signin\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/signin",
       "relativePath": "signin",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-02-16T22:33:15.000Z",
-      "accessTime": "2019-02-17T01:00:10.330Z",
-      "changeTime": "2019-02-16T22:33:15.658Z",
-      "birthTime": "2019-02-16T22:32:56.000Z",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-17T01:29:47.041Z",
+      "accessTime": "2019-02-17T01:29:47.045Z",
+      "changeTime": "2019-02-17T01:29:47.041Z",
+      "birthTime": "2019-02-17T01:29:47.041Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "base": "signin",
       "ext": "",
       "name": "signin",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3559806,
-      "blocks": 0,
-      "atimeMs": 1550365210329.9668,
-      "mtimeMs": 1550356395000,
-      "ctimeMs": 1550356395658.162,
-      "birthtimeMs": 1550356376000,
-      "atime": "2019-02-17T01:00:10.330Z",
-      "mtime": "2019-02-16T22:33:15.000Z",
-      "ctime": "2019-02-16T22:33:15.658Z",
-      "birthtime": "2019-02-16T22:32:56.000Z"
+      "ino": 2523230,
+      "blocks": 8,
+      "atimeMs": 1550366987044.6338,
+      "mtimeMs": 1550366987040.6335,
+      "ctimeMs": 1550366987040.6335,
+      "birthtimeMs": 1550366987040.6335,
+      "atime": "2019-02-17T01:29:47.045Z",
+      "mtime": "2019-02-17T01:29:47.041Z",
+      "ctime": "2019-02-17T01:29:47.041Z",
+      "birthtime": "2019-02-17T01:29:47.041Z"
     },
-    "de6f1d70-631f-529a-855e-b33b42437fcd": {
-      "id": "de6f1d70-631f-529a-855e-b33b42437fcd",
+    "15fde44d-068a-5964-9874-93a095214d9c": {
+      "id": "15fde44d-068a-5964-9874-93a095214d9c",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ada9a4221e8772ae722e2fd060659c31",
+        "contentDigest": "ca82255d18faf4b148792c7d6635663c",
         "type": "Directory",
         "description": "Directory \"src/pages/signup\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup",
       "relativePath": "signup",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-02-16T22:33:15.000Z",
-      "accessTime": "2019-02-17T01:00:10.330Z",
-      "changeTime": "2019-02-16T22:33:15.657Z",
-      "birthTime": "2019-02-16T22:32:56.000Z",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T20:54:44.926Z",
+      "accessTime": "2019-02-16T20:54:44.930Z",
+      "changeTime": "2019-02-16T20:54:44.926Z",
+      "birthTime": "2019-02-16T20:54:44.926Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "base": "signup",
       "ext": "",
       "name": "signup",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3559808,
-      "blocks": 0,
-      "atimeMs": 1550365210330.0046,
-      "mtimeMs": 1550356395000,
-      "ctimeMs": 1550356395656.6077,
-      "birthtimeMs": 1550356376000,
-      "atime": "2019-02-17T01:00:10.330Z",
-      "mtime": "2019-02-16T22:33:15.000Z",
-      "ctime": "2019-02-16T22:33:15.657Z",
-      "birthtime": "2019-02-16T22:32:56.000Z"
+      "ino": 2523178,
+      "blocks": 8,
+      "atimeMs": 1550350484929.844,
+      "mtimeMs": 1550350484925.844,
+      "ctimeMs": 1550350484925.844,
+      "birthtimeMs": 1550350484925.844,
+      "atime": "2019-02-16T20:54:44.930Z",
+      "mtime": "2019-02-16T20:54:44.926Z",
+      "ctime": "2019-02-16T20:54:44.926Z",
+      "birthtime": "2019-02-16T20:54:44.926Z"
     },
-    "e5d5bd0b-6b79-5f18-a5e6-a44cf86de742": {
-      "id": "e5d5bd0b-6b79-5f18-a5e6-a44cf86de742",
+    "be9219aa-f94c-5446-9936-bf225580e018": {
+      "id": "be9219aa-f94c-5446-9936-bf225580e018",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7b9cfbc817aacd106c1f1398729d29ec",
+        "contentDigest": "0b43a875d5afbb38d0cf8fb48183b790",
         "type": "Directory",
         "description": "Directory \"src/pages/team\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team",
       "relativePath": "team",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2019-02-16T19:23:26.000Z",
-      "accessTime": "2019-02-17T01:00:10.330Z",
-      "changeTime": "2019-02-16T19:23:26.736Z",
-      "birthTime": "2019-02-16T18:05:43.000Z",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-17T01:29:47.045Z",
+      "accessTime": "2019-02-17T01:29:47.081Z",
+      "changeTime": "2019-02-17T01:29:47.045Z",
+      "birthTime": "2019-02-17T01:29:47.045Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "base": "team",
       "ext": "",
       "name": "team",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 16877,
-      "nlink": 6,
-      "uid": 501,
-      "gid": 20,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497658,
-      "blocks": 0,
-      "atimeMs": 1550365210330.024,
-      "mtimeMs": 1550345006000,
-      "ctimeMs": 1550345006736.385,
-      "birthtimeMs": 1550340343000,
-      "atime": "2019-02-17T01:00:10.330Z",
-      "mtime": "2019-02-16T19:23:26.000Z",
-      "ctime": "2019-02-16T19:23:26.736Z",
-      "birthtime": "2019-02-16T18:05:43.000Z"
-    },
-    "6e06e33b-7491-51fc-856c-557ab8aff1ff": {
-      "id": "6e06e33b-7491-51fc-856c-557ab8aff1ff",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0f8caf8f533cad76eaefb89335441f42",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/signin/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin/index.js",
-      "relativePath": "signin/index.js",
-      "extension": "js",
-      "size": 4680,
-      "prettySize": "4.68 kB",
-      "modifiedTime": "2019-02-16T22:32:56.056Z",
-      "accessTime": "2019-02-17T00:25:23.032Z",
-      "changeTime": "2019-02-16T22:32:57.746Z",
-      "birthTime": "2019-02-16T22:32:56.056Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "signin",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3559807,
-      "blocks": 16,
-      "atimeMs": 1550363123032.4702,
-      "mtimeMs": 1550356376055.9333,
-      "ctimeMs": 1550356377745.5493,
-      "birthtimeMs": 1550356376055.8704,
-      "atime": "2019-02-17T00:25:23.032Z",
-      "mtime": "2019-02-16T22:32:56.056Z",
-      "ctime": "2019-02-16T22:32:57.746Z",
-      "birthtime": "2019-02-16T22:32:56.056Z"
-    },
-    "866ee059-978f-5ae5-b04f-22b467adf2c7": {
-      "id": "866ee059-978f-5ae5-b04f-22b467adf2c7",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "e32bfac4d3e7b6a82222d052af4589b5",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/pages/index.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.css",
-      "relativePath": "index.css",
-      "extension": "css",
-      "size": 51,
-      "prettySize": "51 B",
-      "modifiedTime": "2019-02-16T23:39:11.361Z",
-      "accessTime": "2019-02-17T00:25:22.652Z",
-      "changeTime": "2019-02-16T23:39:11.361Z",
-      "birthTime": "2019-02-16T23:32:08.848Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
-      "base": "index.css",
-      "ext": ".css",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3579453,
+      "ino": 2523172,
       "blocks": 8,
-      "atimeMs": 1550363122652.3794,
-      "mtimeMs": 1550360351361.4622,
-      "ctimeMs": 1550360351361.4622,
-      "birthtimeMs": 1550359928847.7146,
-      "atime": "2019-02-17T00:25:22.652Z",
-      "mtime": "2019-02-16T23:39:11.361Z",
-      "ctime": "2019-02-16T23:39:11.361Z",
-      "birthtime": "2019-02-16T23:32:08.848Z"
+      "atimeMs": 1550366987080.6367,
+      "mtimeMs": 1550366987044.6338,
+      "ctimeMs": 1550366987044.6338,
+      "birthtimeMs": 1550366987044.6338,
+      "atime": "2019-02-17T01:29:47.081Z",
+      "mtime": "2019-02-17T01:29:47.045Z",
+      "ctime": "2019-02-17T01:29:47.045Z",
+      "birthtime": "2019-02-17T01:29:47.045Z"
     },
-    "c1de4840-3d86-5084-af28-326a958c6f65": {
-      "id": "c1de4840-3d86-5084-af28-326a958c6f65",
+    "590d4121-33da-5ec2-b7f6-16ebb5745506": {
+      "id": "590d4121-33da-5ec2-b7f6-16ebb5745506",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1df5b108ad2e426af0327bd0d7bbff93",
+        "type": "Directory",
+        "description": "Directory \"src/pages/user\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/user",
+      "relativePath": "user",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T23:36:29.871Z",
+      "accessTime": "2019-02-16T23:36:29.875Z",
+      "changeTime": "2019-02-16T23:36:29.871Z",
+      "birthTime": "2019-02-16T23:36:29.871Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
+      "base": "user",
+      "ext": "",
+      "name": "user",
+      "relativeDirectory": "",
+      "dev": 2054,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2523281,
+      "blocks": 8,
+      "atimeMs": 1550360189874.9043,
+      "mtimeMs": 1550360189870.9043,
+      "ctimeMs": 1550360189870.9043,
+      "birthtimeMs": 1550360189870.9043,
+      "atime": "2019-02-16T23:36:29.875Z",
+      "mtime": "2019-02-16T23:36:29.871Z",
+      "ctime": "2019-02-16T23:36:29.871Z",
+      "birthtime": "2019-02-16T23:36:29.871Z"
+    },
+    "323eef25-c52a-5740-9c2a-a7c6e6352abd": {
+      "id": "323eef25-c52a-5740-9c2a-a7c6e6352abd",
       "children": [],
       "parent": null,
       "internal": {
@@ -1301,180 +1270,133 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/404.js",
       "relativePath": "404.js",
       "extension": "js",
       "size": 340,
       "prettySize": "340 B",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-17T00:25:23.032Z",
-      "changeTime": "2019-02-16T18:16:33.023Z",
-      "birthTime": "2019-02-16T18:05:43.324Z",
+      "modifiedTime": "2019-02-16T18:25:33.497Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.497Z",
+      "birthTime": "2019-02-16T18:25:33.497Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "base": "404.js",
       "ext": ".js",
       "name": "404",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497656,
+      "ino": 2503057,
       "blocks": 8,
-      "atimeMs": 1550363123032.3142,
-      "mtimeMs": 1550340343324.5378,
-      "ctimeMs": 1550340993023.0989,
-      "birthtimeMs": 1550340343324.4963,
-      "atime": "2019-02-17T00:25:23.032Z",
-      "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.023Z",
-      "birthtime": "2019-02-16T18:05:43.324Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533496.995,
+      "ctimeMs": 1550341533496.995,
+      "birthtimeMs": 1550341533496.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.497Z",
+      "ctime": "2019-02-16T18:25:33.497Z",
+      "birthtime": "2019-02-16T18:25:33.497Z"
     },
-    "075381bf-c2dd-54cf-9881-f53e9a27a708": {
-      "id": "075381bf-c2dd-54cf-9881-f53e9a27a708",
+    "a173f363-e674-50c4-b9e0-8ea1e69fa3ea": {
+      "id": "a173f363-e674-50c4-b9e0-8ea1e69fa3ea",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "86319fbcbd7319c61dea8dfae9b9be16",
+        "contentDigest": "e32bfac4d3e7b6a82222d052af4589b5",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src/pages/index.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/index.css",
+      "relativePath": "index.css",
+      "extension": "css",
+      "size": 51,
+      "prettySize": "51 B",
+      "modifiedTime": "2019-02-17T01:30:11.059Z",
+      "accessTime": "2019-02-17T01:30:11.103Z",
+      "changeTime": "2019-02-17T01:30:11.059Z",
+      "birthTime": "2019-02-17T01:30:11.059Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
+      "base": "index.css",
+      "ext": ".css",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 2054,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2503229,
+      "blocks": 8,
+      "atimeMs": 1550367011102.6396,
+      "mtimeMs": 1550367011058.6362,
+      "ctimeMs": 1550367011058.6362,
+      "birthtimeMs": 1550367011058.6362,
+      "atime": "2019-02-17T01:30:11.103Z",
+      "mtime": "2019-02-17T01:30:11.059Z",
+      "ctime": "2019-02-17T01:30:11.059Z",
+      "birthtime": "2019-02-17T01:30:11.059Z"
+    },
+    "0d27af92-97ac-598d-9da3-bb9645bd6685": {
+      "id": "0d27af92-97ac-598d-9da3-bb9645bd6685",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a46fec38cbdc3f6c349a66dadb863415",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 3799,
-      "prettySize": "3.8 kB",
-      "modifiedTime": "2019-02-17T01:28:02.231Z",
-      "accessTime": "2019-02-17T01:28:02.231Z",
-      "changeTime": "2019-02-17T01:28:02.231Z",
-      "birthTime": "2019-02-16T23:28:06.484Z",
+      "size": 3792,
+      "prettySize": "3.79 kB",
+      "modifiedTime": "2019-02-17T01:31:13.996Z",
+      "accessTime": "2019-02-17T01:31:14.000Z",
+      "changeTime": "2019-02-17T01:31:13.996Z",
+      "birthTime": "2019-02-17T01:31:13.996Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
       "relativeDirectory": "",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3578376,
+      "ino": 2503058,
       "blocks": 8,
-      "atimeMs": 1550366882230.949,
-      "mtimeMs": 1550366882231.3499,
-      "ctimeMs": 1550366882231.3499,
-      "birthtimeMs": 1550359686483.7236,
-      "atime": "2019-02-17T01:28:02.231Z",
-      "mtime": "2019-02-17T01:28:02.231Z",
-      "ctime": "2019-02-17T01:28:02.231Z",
-      "birthtime": "2019-02-16T23:28:06.484Z"
+      "atimeMs": 1550367073999.7324,
+      "mtimeMs": 1550367073995.7322,
+      "ctimeMs": 1550367073995.7322,
+      "birthtimeMs": 1550367073995.7322,
+      "atime": "2019-02-17T01:31:14.000Z",
+      "mtime": "2019-02-17T01:31:13.996Z",
+      "ctime": "2019-02-17T01:31:13.996Z",
+      "birthtime": "2019-02-17T01:31:13.996Z"
     },
-    "bef3ed08-6c7f-5678-84c9-bf4671df0261": {
-      "id": "bef3ed08-6c7f-5678-84c9-bf4671df0261",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7bfcd98e35e8fe8ecda80ba24c28da24",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/signup/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js",
-      "relativePath": "signup/index.js",
-      "extension": "js",
-      "size": 6001,
-      "prettySize": "6 kB",
-      "modifiedTime": "2019-02-17T01:00:23.364Z",
-      "accessTime": "2019-02-17T01:00:23.363Z",
-      "changeTime": "2019-02-17T01:00:23.364Z",
-      "birthTime": "2019-02-16T22:32:56.056Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "signup",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3559809,
-      "blocks": 16,
-      "atimeMs": 1550365223363.1553,
-      "mtimeMs": 1550365223363.6025,
-      "ctimeMs": 1550365223363.6025,
-      "birthtimeMs": 1550356376056.1133,
-      "atime": "2019-02-17T01:00:23.363Z",
-      "mtime": "2019-02-17T01:00:23.364Z",
-      "ctime": "2019-02-17T01:00:23.364Z",
-      "birthtime": "2019-02-16T22:32:56.056Z"
-    },
-    "3dc1b13c-eae4-58fc-854b-87e72341de3c": {
-      "id": "3dc1b13c-eae4-58fc-854b-87e72341de3c",
+    "de979cbd-a79d-5a83-ad1d-2f2cd69efe2e": {
+      "id": "de979cbd-a79d-5a83-ad1d-2f2cd69efe2e",
       "children": [
-        "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "102d13d6e6f2726af67d4aa019b7a5ac",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/products/bug.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/bug.md",
-      "relativePath": "products/bug.md",
-      "extension": "md",
-      "size": 2870,
-      "prettySize": "2.87 kB",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-17T00:25:22.654Z",
-      "changeTime": "2019-02-16T18:16:33.031Z",
-      "birthTime": "2019-02-16T18:05:43.325Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
-      "base": "bug.md",
-      "ext": ".md",
-      "name": "bug",
-      "relativeDirectory": "products",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3497654,
-      "blocks": 8,
-      "atimeMs": 1550363122653.9521,
-      "mtimeMs": 1550340343325.139,
-      "ctimeMs": 1550340993031.2468,
-      "birthtimeMs": 1550340343325.076,
-      "atime": "2019-02-17T00:25:22.654Z",
-      "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.031Z",
-      "birthtime": "2019-02-16T18:05:43.325Z"
-    },
-    "6ab78f7b-2b9e-54ec-8f98-e62956c6785e": {
-      "id": "6ab78f7b-2b9e-54ec-8f98-e62956c6785e",
-      "children": [
-        "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1"
+        "47693078-88fa-526a-9b7a-e0edec983523"
       ],
       "parent": null,
       "internal": {
@@ -1485,90 +1407,90 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/backpack.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/backpack.md",
       "relativePath": "products/backpack.md",
       "extension": "md",
       "size": 2292,
       "prettySize": "2.29 kB",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-17T00:25:22.654Z",
-      "changeTime": "2019-02-16T18:16:33.029Z",
-      "birthTime": "2019-02-16T18:05:43.325Z",
+      "modifiedTime": "2019-02-16T18:25:33.497Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.497Z",
+      "birthTime": "2019-02-16T18:25:33.497Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
       "base": "backpack.md",
       "ext": ".md",
       "name": "backpack",
       "relativeDirectory": "products",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497649,
+      "ino": 2503059,
       "blocks": 8,
-      "atimeMs": 1550363122653.8652,
-      "mtimeMs": 1550340343324.9453,
-      "ctimeMs": 1550340993028.8057,
-      "birthtimeMs": 1550340343324.8757,
-      "atime": "2019-02-17T00:25:22.654Z",
-      "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.029Z",
-      "birthtime": "2019-02-16T18:05:43.325Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533496.995,
+      "ctimeMs": 1550341533496.995,
+      "birthtimeMs": 1550341533496.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.497Z",
+      "ctime": "2019-02-16T18:25:33.497Z",
+      "birthtime": "2019-02-16T18:25:33.497Z"
     },
-    "c622074d-8063-5b1b-8fb4-7f785ca0bde8": {
-      "id": "c622074d-8063-5b1b-8fb4-7f785ca0bde8",
+    "3dd2ad8d-4361-5714-962e-491ef2151e17": {
+      "id": "3dd2ad8d-4361-5714-962e-491ef2151e17",
       "children": [
-        "11e515d6-0d7c-5ed6-8c2a-221fce407d23"
+        "24e53e2c-5af4-5d1a-926b-aa61cce2c390"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "9ae3eec3d27ef78669055f0e57675504",
+        "contentDigest": "102d13d6e6f2726af67d4aa019b7a5ac",
         "type": "File",
         "mediaType": "text/markdown",
-        "description": "File \"src/pages/products/headphones.md\"",
+        "description": "File \"src/pages/products/bug.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/headphones.md",
-      "relativePath": "products/headphones.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/bug.md",
+      "relativePath": "products/bug.md",
       "extension": "md",
-      "size": 2783,
-      "prettySize": "2.78 kB",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-17T00:25:22.654Z",
-      "changeTime": "2019-02-16T18:16:33.037Z",
-      "birthTime": "2019-02-16T18:05:43.325Z",
+      "size": 2870,
+      "prettySize": "2.87 kB",
+      "modifiedTime": "2019-02-16T18:25:33.497Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.497Z",
+      "birthTime": "2019-02-16T18:25:33.497Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
-      "base": "headphones.md",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
+      "base": "bug.md",
       "ext": ".md",
-      "name": "headphones",
+      "name": "bug",
       "relativeDirectory": "products",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497652,
+      "ino": 2503060,
       "blocks": 8,
-      "atimeMs": 1550363122654.108,
-      "mtimeMs": 1550340343325.3691,
-      "ctimeMs": 1550340993036.902,
-      "birthtimeMs": 1550340343325.3154,
-      "atime": "2019-02-17T00:25:22.654Z",
-      "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.037Z",
-      "birthtime": "2019-02-16T18:05:43.325Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533496.995,
+      "ctimeMs": 1550341533496.995,
+      "birthtimeMs": 1550341533496.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.497Z",
+      "ctime": "2019-02-16T18:25:33.497Z",
+      "birthtime": "2019-02-16T18:25:33.497Z"
     },
-    "62e7724f-7ee1-5aab-b345-8639bcae82aa": {
-      "id": "62e7724f-7ee1-5aab-b345-8639bcae82aa",
+    "b7e0e4d8-0361-51d1-86be-9c8da6a56880": {
+      "id": "b7e0e4d8-0361-51d1-86be-9c8da6a56880",
       "children": [
-        "feab1063-6411-5361-86ea-f1b762ae47d6"
+        "283c6823-c9a0-5c6d-a381-d45e2da2d38a"
       ],
       "parent": null,
       "internal": {
@@ -1579,88 +1501,88 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/camera.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/camera.md",
       "relativePath": "products/camera.md",
       "extension": "md",
       "size": 2865,
       "prettySize": "2.87 kB",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-17T00:25:22.654Z",
-      "changeTime": "2019-02-16T18:16:33.034Z",
-      "birthTime": "2019-02-16T18:05:43.325Z",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
       "base": "camera.md",
       "ext": ".md",
       "name": "camera",
       "relativeDirectory": "products",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497651,
+      "ino": 2503061,
       "blocks": 8,
-      "atimeMs": 1550363122654.019,
-      "mtimeMs": 1550340343325.2546,
-      "ctimeMs": 1550340993033.5737,
-      "birthtimeMs": 1550340343325.2075,
-      "atime": "2019-02-17T00:25:22.654Z",
-      "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.034Z",
-      "birthtime": "2019-02-16T18:05:43.325Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "f9df161c-9a3e-5c95-bc8f-e720ce0055e2": {
-      "id": "f9df161c-9a3e-5c95-bc8f-e720ce0055e2",
+    "b3baec7f-e487-5e19-8618-220131514571": {
+      "id": "b3baec7f-e487-5e19-8618-220131514571",
       "children": [
-        "50477df5-0031-506c-9dea-90bfaee84b93"
+        "33d4e6db-30c2-54e7-8bcc-d4f5ec601b22"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "b23f48fa9ff88cf25e0169e95dec7eac",
+        "contentDigest": "9ae3eec3d27ef78669055f0e57675504",
         "type": "File",
         "mediaType": "text/markdown",
-        "description": "File \"src/pages/products/plant.md\"",
+        "description": "File \"src/pages/products/headphones.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/plant.md",
-      "relativePath": "products/plant.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/headphones.md",
+      "relativePath": "products/headphones.md",
       "extension": "md",
-      "size": 2938,
-      "prettySize": "2.94 kB",
-      "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-17T00:25:22.654Z",
-      "changeTime": "2019-02-16T18:16:33.043Z",
-      "birthTime": "2019-02-16T18:05:43.326Z",
+      "size": 2783,
+      "prettySize": "2.78 kB",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
-      "base": "plant.md",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
+      "base": "headphones.md",
       "ext": ".md",
-      "name": "plant",
+      "name": "headphones",
       "relativeDirectory": "products",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497655,
+      "ino": 2503062,
       "blocks": 8,
-      "atimeMs": 1550363122654.2275,
-      "mtimeMs": 1550340343325.6448,
-      "ctimeMs": 1550340993042.6125,
-      "birthtimeMs": 1550340343325.5945,
-      "atime": "2019-02-17T00:25:22.654Z",
-      "mtime": "2019-02-16T18:05:43.326Z",
-      "ctime": "2019-02-16T18:16:33.043Z",
-      "birthtime": "2019-02-16T18:05:43.326Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "43d164b9-21ed-5bbe-95a2-b5ada0a185cc": {
-      "id": "43d164b9-21ed-5bbe-95a2-b5ada0a185cc",
+    "7040c7df-02b3-5b30-90aa-fbce485ecb52": {
+      "id": "7040c7df-02b3-5b30-90aa-fbce485ecb52",
       "children": [],
       "parent": null,
       "internal": {
@@ -1671,43 +1593,90 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js",
       "relativePath": "products/index.js",
       "extension": "js",
       "size": 843,
       "prettySize": "843 B",
-      "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-17T00:25:23.032Z",
-      "changeTime": "2019-02-16T18:16:33.040Z",
-      "birthTime": "2019-02-16T18:05:43.325Z",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
       "relativeDirectory": "products",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497653,
+      "ino": 2503063,
       "blocks": 8,
-      "atimeMs": 1550363123032.4185,
-      "mtimeMs": 1550340343325.5154,
-      "ctimeMs": 1550340993040.2947,
-      "birthtimeMs": 1550340343325.4272,
-      "atime": "2019-02-17T00:25:23.032Z",
-      "mtime": "2019-02-16T18:05:43.326Z",
-      "ctime": "2019-02-16T18:16:33.040Z",
-      "birthtime": "2019-02-16T18:05:43.325Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "f3d1ee7d-1112-5d84-b1c8-534312917856": {
-      "id": "f3d1ee7d-1112-5d84-b1c8-534312917856",
+    "14587a86-6baf-5d0e-ba38-84efc33b4aca": {
+      "id": "14587a86-6baf-5d0e-ba38-84efc33b4aca",
       "children": [
-        "8971d6ca-03e1-5c18-9304-557388fee65d"
+        "4dc8075d-1ea1-56e0-b871-81a49d22409b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b23f48fa9ff88cf25e0169e95dec7eac",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/products/plant.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/plant.md",
+      "relativePath": "products/plant.md",
+      "extension": "md",
+      "size": 2938,
+      "prettySize": "2.94 kB",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
+      "base": "plant.md",
+      "ext": ".md",
+      "name": "plant",
+      "relativeDirectory": "products",
+      "dev": 2054,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2503064,
+      "blocks": 8,
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
+    },
+    "e84e414f-f03c-5b3d-885a-0ea328c1cae4": {
+      "id": "e84e414f-f03c-5b3d-885a-0ea328c1cae4",
+      "children": [
+        "ec215535-f0a9-53de-b7e1-246710ca685c"
       ],
       "parent": null,
       "internal": {
@@ -1718,43 +1687,133 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/sneakers.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/sneakers.md",
       "relativePath": "products/sneakers.md",
       "extension": "md",
       "size": 2806,
       "prettySize": "2.81 kB",
-      "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-17T00:25:22.654Z",
-      "changeTime": "2019-02-16T18:16:33.045Z",
-      "birthTime": "2019-02-16T18:05:43.326Z",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/products",
       "base": "sneakers.md",
       "ext": ".md",
       "name": "sneakers",
       "relativeDirectory": "products",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497650,
+      "ino": 2503065,
       "blocks": 8,
-      "atimeMs": 1550363122654.2954,
-      "mtimeMs": 1550340343325.7856,
-      "ctimeMs": 1550340993045.4548,
-      "birthtimeMs": 1550340343325.7288,
-      "atime": "2019-02-17T00:25:22.654Z",
-      "mtime": "2019-02-16T18:05:43.326Z",
-      "ctime": "2019-02-16T18:16:33.045Z",
-      "birthtime": "2019-02-16T18:05:43.326Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "e9e6a156-e200-542e-8197-f6b881228eab": {
-      "id": "e9e6a156-e200-542e-8197-f6b881228eab",
+    "18e88742-3f97-5b33-939a-c69c00dc17ef": {
+      "id": "18e88742-3f97-5b33-939a-c69c00dc17ef",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e33de1af3459fd074b330c2ec1b36735",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/signin/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js",
+      "relativePath": "signin/index.js",
+      "extension": "js",
+      "size": 4681,
+      "prettySize": "4.68 kB",
+      "modifiedTime": "2019-02-17T01:30:27.548Z",
+      "accessTime": "2019-02-17T01:30:27.556Z",
+      "changeTime": "2019-02-17T01:30:27.548Z",
+      "birthTime": "2019-02-17T01:30:27.548Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/signin",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "signin",
+      "dev": 2054,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2493921,
+      "blocks": 16,
+      "atimeMs": 1550367027555.992,
+      "mtimeMs": 1550367027547.9915,
+      "ctimeMs": 1550367027547.9915,
+      "birthtimeMs": 1550367027547.9915,
+      "atime": "2019-02-17T01:30:27.556Z",
+      "mtime": "2019-02-17T01:30:27.548Z",
+      "ctime": "2019-02-17T01:30:27.548Z",
+      "birthtime": "2019-02-17T01:30:27.548Z"
+    },
+    "6577298c-e2f0-5775-a95c-3a08ceea4f42": {
+      "id": "6577298c-e2f0-5775-a95c-3a08ceea4f42",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7bfcd98e35e8fe8ecda80ba24c28da24",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/signup/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js",
+      "relativePath": "signup/index.js",
+      "extension": "js",
+      "size": 6001,
+      "prettySize": "6 kB",
+      "modifiedTime": "2019-02-16T21:59:24.889Z",
+      "accessTime": "2019-02-16T21:59:24.893Z",
+      "changeTime": "2019-02-16T21:59:24.889Z",
+      "birthTime": "2019-02-16T21:59:24.889Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/signup",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "signup",
+      "dev": 2054,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2503087,
+      "blocks": 16,
+      "atimeMs": 1550354364893.1455,
+      "mtimeMs": 1550354364889.1455,
+      "ctimeMs": 1550354364889.1455,
+      "birthtimeMs": 1550354364889.1455,
+      "atime": "2019-02-16T21:59:24.893Z",
+      "mtime": "2019-02-16T21:59:24.889Z",
+      "ctime": "2019-02-16T21:59:24.889Z",
+      "birthtime": "2019-02-16T21:59:24.889Z"
+    },
+    "1be51cf8-e7e7-5da8-ab60-6a753cd864bb": {
+      "id": "1be51cf8-e7e7-5da8-ab60-6a753cd864bb",
       "children": [
-        "0040f83f-0763-51fb-984c-5b26dedc29ee"
+        "8935b8ee-8f25-5f81-8c86-28d91ef72a38"
       ],
       "parent": null,
       "internal": {
@@ -1765,43 +1824,43 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/dolly-burperlous.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/dolly-burperlous.md",
       "relativePath": "team/dolly-burperlous.md",
       "extension": "md",
       "size": 1252,
       "prettySize": "1.25 kB",
-      "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-17T00:25:22.656Z",
-      "changeTime": "2019-02-16T18:16:33.049Z",
-      "birthTime": "2019-02-16T18:05:43.326Z",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/team",
       "base": "dolly-burperlous.md",
       "ext": ".md",
       "name": "dolly-burperlous",
       "relativeDirectory": "team",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497659,
+      "ino": 2503066,
       "blocks": 8,
-      "atimeMs": 1550363122656.1484,
-      "mtimeMs": 1550340343326.2756,
-      "ctimeMs": 1550340993049.3184,
-      "birthtimeMs": 1550340343326.1252,
-      "atime": "2019-02-17T00:25:22.656Z",
-      "mtime": "2019-02-16T18:05:43.326Z",
-      "ctime": "2019-02-16T18:16:33.049Z",
-      "birthtime": "2019-02-16T18:05:43.326Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "22f1d050-6b9b-5097-a0fe-edd7ad7db451": {
-      "id": "22f1d050-6b9b-5097-a0fe-edd7ad7db451",
+    "3b197c84-d925-533e-8fef-0544d5d394ed": {
+      "id": "3b197c84-d925-533e-8fef-0544d5d394ed",
       "children": [
-        "a92e05c1-eae2-5a7b-9c74-694963453faa"
+        "f9c249e6-4747-59ce-85d5-79e44cece164"
       ],
       "parent": null,
       "internal": {
@@ -1812,41 +1871,41 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/george-geppetto.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/george-geppetto.md",
       "relativePath": "team/george-geppetto.md",
       "extension": "md",
       "size": 1257,
       "prettySize": "1.26 kB",
-      "modifiedTime": "2019-02-16T18:05:43.327Z",
-      "accessTime": "2019-02-17T00:25:22.656Z",
-      "changeTime": "2019-02-16T18:16:33.055Z",
-      "birthTime": "2019-02-16T18:05:43.327Z",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/team",
       "base": "george-geppetto.md",
       "ext": ".md",
       "name": "george-geppetto",
       "relativeDirectory": "team",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497661,
+      "ino": 2503067,
       "blocks": 8,
-      "atimeMs": 1550363122656.2017,
-      "mtimeMs": 1550340343326.6714,
-      "ctimeMs": 1550340993055.2456,
-      "birthtimeMs": 1550340343326.6025,
-      "atime": "2019-02-17T00:25:22.656Z",
-      "mtime": "2019-02-16T18:05:43.327Z",
-      "ctime": "2019-02-16T18:16:33.055Z",
-      "birthtime": "2019-02-16T18:05:43.327Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "79c81e2a-840e-59c5-aa3c-060f4e949ced": {
-      "id": "79c81e2a-840e-59c5-aa3c-060f4e949ced",
+    "5be59bc9-9e28-52e1-8d06-7d1a8e86c64d": {
+      "id": "5be59bc9-9e28-52e1-8d06-7d1a8e86c64d",
       "children": [],
       "parent": null,
       "internal": {
@@ -1857,43 +1916,43 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/index.js",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js",
       "relativePath": "team/index.js",
       "extension": "js",
       "size": 2485,
       "prettySize": "2.48 kB",
-      "modifiedTime": "2019-02-16T18:05:43.327Z",
-      "accessTime": "2019-02-17T00:25:23.033Z",
-      "changeTime": "2019-02-16T18:16:33.059Z",
-      "birthTime": "2019-02-16T18:05:43.327Z",
+      "modifiedTime": "2019-02-17T01:29:47.045Z",
+      "accessTime": "2019-02-17T01:29:47.049Z",
+      "changeTime": "2019-02-17T01:29:47.045Z",
+      "birthTime": "2019-02-17T01:29:47.045Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/team",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
       "relativeDirectory": "team",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497660,
+      "ino": 2503068,
       "blocks": 8,
-      "atimeMs": 1550363123032.5732,
-      "mtimeMs": 1550340343326.8647,
-      "ctimeMs": 1550340993058.5425,
-      "birthtimeMs": 1550340343326.792,
-      "atime": "2019-02-17T00:25:23.033Z",
-      "mtime": "2019-02-16T18:05:43.327Z",
-      "ctime": "2019-02-16T18:16:33.059Z",
-      "birthtime": "2019-02-16T18:05:43.327Z"
+      "atimeMs": 1550366987048.634,
+      "mtimeMs": 1550366987044.6338,
+      "ctimeMs": 1550366987044.6338,
+      "birthtimeMs": 1550366987044.6338,
+      "atime": "2019-02-17T01:29:47.049Z",
+      "mtime": "2019-02-17T01:29:47.045Z",
+      "ctime": "2019-02-17T01:29:47.045Z",
+      "birthtime": "2019-02-17T01:29:47.045Z"
     },
-    "df782b9c-ed79-5bfb-8142-12502758af3d": {
-      "id": "df782b9c-ed79-5bfb-8142-12502758af3d",
+    "1b1b9fc3-6c7c-5908-89a7-848125aeea08": {
+      "id": "1b1b9fc3-6c7c-5908-89a7-848125aeea08",
       "children": [
-        "dfb0268d-dc13-5750-85d9-4bebd6822670"
+        "03ccdde3-ef98-578b-8f39-0c5ac37e0ceb"
       ],
       "parent": null,
       "internal": {
@@ -1904,67 +1963,92 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/teddy-von-tumpletumple.md",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/teddy-von-tumpletumple.md",
       "relativePath": "team/teddy-von-tumpletumple.md",
       "extension": "md",
       "size": 1262,
       "prettySize": "1.26 kB",
-      "modifiedTime": "2019-02-16T18:05:43.327Z",
-      "accessTime": "2019-02-17T00:25:22.657Z",
-      "changeTime": "2019-02-16T18:16:33.061Z",
-      "birthTime": "2019-02-16T18:05:43.327Z",
+      "modifiedTime": "2019-02-16T18:25:33.501Z",
+      "accessTime": "2019-02-16T18:25:33.513Z",
+      "changeTime": "2019-02-16T18:25:33.501Z",
+      "birthTime": "2019-02-16T18:25:33.501Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/team",
       "base": "teddy-von-tumpletumple.md",
       "ext": ".md",
       "name": "teddy-von-tumpletumple",
       "relativeDirectory": "team",
-      "dev": 16777220,
+      "dev": 2054,
       "mode": 33188,
       "nlink": 1,
-      "uid": 501,
-      "gid": 20,
+      "uid": 1000,
+      "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497662,
+      "ino": 2503069,
       "blocks": 8,
-      "atimeMs": 1550363122656.5544,
-      "mtimeMs": 1550340343327.02,
-      "ctimeMs": 1550340993061.0137,
-      "birthtimeMs": 1550340343326.9556,
-      "atime": "2019-02-17T00:25:22.657Z",
-      "mtime": "2019-02-16T18:05:43.327Z",
-      "ctime": "2019-02-16T18:16:33.061Z",
-      "birthtime": "2019-02-16T18:05:43.327Z"
+      "atimeMs": 1550341533512.995,
+      "mtimeMs": 1550341533500.995,
+      "ctimeMs": 1550341533500.995,
+      "birthtimeMs": 1550341533500.995,
+      "atime": "2019-02-16T18:25:33.513Z",
+      "mtime": "2019-02-16T18:25:33.501Z",
+      "ctime": "2019-02-16T18:25:33.501Z",
+      "birthtime": "2019-02-16T18:25:33.501Z"
     },
-    "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8": {
-      "id": "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8",
+    "6704a99b-3f09-5531-ada6-9a85ff3c080f": {
+      "id": "6704a99b-3f09-5531-ada6-9a85ff3c080f",
       "children": [],
-      "parent": "3dc1b13c-eae4-58fc-854b-87e72341de3c",
+      "parent": null,
       "internal": {
-        "content": "\nChambray offal wayfarers hoodie everyday carry photo booth, narwhal schlitz put\na bird on it tumblr. Art party mustache williamsburg laborum roof party anim,\ngluten-free meh authentic. Tempor selvage craft beer vice occupy migas offal\nchambray fanny pack unicorn authentic cray.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "fc9968036de9a992bc4ce53e6e23b29f",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/user/index.js\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Bumbling Bug",
-        "path": "/products/bug",
-        "date": "2018-11-18T02:33:46.000Z",
-        "image": "products/mink-mingle-424587-unsplash.jpg"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nChambray offal wayfarers hoodie everyday carry photo booth, narwhal schlitz put\na bird on it tumblr. Art party mustache williamsburg laborum roof party anim,\ngluten-free meh authentic. Tempor selvage craft beer vice occupy migas offal\nchambray fanny pack unicorn authentic cray.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/bug.md"
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/user/index.js",
+      "relativePath": "user/index.js",
+      "extension": "js",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-17T02:33:23.159Z",
+      "accessTime": "2019-02-17T02:33:21.299Z",
+      "changeTime": "2019-02-17T02:33:23.159Z",
+      "birthTime": "2019-02-17T02:33:23.159Z",
+      "root": "/",
+      "dir": "/home/vijit/Documents/projects/Team-Source/src/pages/user",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "user",
+      "dev": 2054,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2503949,
+      "blocks": 0,
+      "atimeMs": 1550370801298.6165,
+      "mtimeMs": 1550370803158.5881,
+      "ctimeMs": 1550370803158.5881,
+      "birthtimeMs": 1550370803158.5881,
+      "atime": "2019-02-17T02:33:21.299Z",
+      "mtime": "2019-02-17T02:33:23.159Z",
+      "ctime": "2019-02-17T02:33:23.159Z",
+      "birthtime": "2019-02-17T02:33:23.159Z"
     },
-    "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1": {
-      "id": "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1",
+    "47693078-88fa-526a-9b7a-e0edec983523": {
+      "id": "47693078-88fa-526a-9b7a-e0edec983523",
       "children": [],
-      "parent": "6ab78f7b-2b9e-54ec-8f98-e62956c6785e",
+      "parent": "de979cbd-a79d-5a83-ad1d-2f2cd69efe2e",
       "internal": {
         "content": "\nWolf incididunt authentic fam kale chips kitsch. Consectetur blog schlitz\nlive-edge elit helvetica man bun cliche kombucha mixtape semiotics.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "2028f4b68cae373d34316b3046218d93",
+        "contentDigest": "d3f6999d57d6cda76e1d41139acdff45",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -1975,16 +2059,36 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nWolf incididunt authentic fam kale chips kitsch. Consectetur blog schlitz\nlive-edge elit helvetica man bun cliche kombucha mixtape semiotics.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/backpack.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/backpack.md"
     },
-    "feab1063-6411-5361-86ea-f1b762ae47d6": {
-      "id": "feab1063-6411-5361-86ea-f1b762ae47d6",
+    "24e53e2c-5af4-5d1a-926b-aa61cce2c390": {
+      "id": "24e53e2c-5af4-5d1a-926b-aa61cce2c390",
       "children": [],
-      "parent": "62e7724f-7ee1-5aab-b345-8639bcae82aa",
+      "parent": "3dd2ad8d-4361-5714-962e-491ef2151e17",
+      "internal": {
+        "content": "\nChambray offal wayfarers hoodie everyday carry photo booth, narwhal schlitz put\na bird on it tumblr. Art party mustache williamsburg laborum roof party anim,\ngluten-free meh authentic. Tempor selvage craft beer vice occupy migas offal\nchambray fanny pack unicorn authentic cray.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a8e8eba0f873bfcd6d1a96d64f715cc0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Bumbling Bug",
+        "path": "/products/bug",
+        "date": "2018-11-18T02:33:46.000Z",
+        "image": "products/mink-mingle-424587-unsplash.jpg"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nChambray offal wayfarers hoodie everyday carry photo booth, narwhal schlitz put\na bird on it tumblr. Art party mustache williamsburg laborum roof party anim,\ngluten-free meh authentic. Tempor selvage craft beer vice occupy migas offal\nchambray fanny pack unicorn authentic cray.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/bug.md"
+    },
+    "283c6823-c9a0-5c6d-a381-d45e2da2d38a": {
+      "id": "283c6823-c9a0-5c6d-a381-d45e2da2d38a",
+      "children": [],
+      "parent": "b7e0e4d8-0361-51d1-86be-9c8da6a56880",
       "internal": {
         "content": "\nDisrupt air plant pop-up, lo-fi ugh tilde man bun tumblr pinterest forage man\nbraid tote bag jianbing. Aliqua in direct trade, bicycle rights chambray\nkinfolk cardigan kickstarter hot chicken post-ironic taxidermy irony. Id plaid\nthundercats sustainable jean shorts.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "b0b4b1d858ad7c38063c5dd3d6face16",
+        "contentDigest": "642a39610c23285786cce369ce4bce7d",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -1995,16 +2099,16 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nDisrupt air plant pop-up, lo-fi ugh tilde man bun tumblr pinterest forage man\nbraid tote bag jianbing. Aliqua in direct trade, bicycle rights chambray\nkinfolk cardigan kickstarter hot chicken post-ironic taxidermy irony. Id plaid\nthundercats sustainable jean shorts.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/camera.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/camera.md"
     },
-    "11e515d6-0d7c-5ed6-8c2a-221fce407d23": {
-      "id": "11e515d6-0d7c-5ed6-8c2a-221fce407d23",
+    "33d4e6db-30c2-54e7-8bcc-d4f5ec601b22": {
+      "id": "33d4e6db-30c2-54e7-8bcc-d4f5ec601b22",
       "children": [],
-      "parent": "c622074d-8063-5b1b-8fb4-7f785ca0bde8",
+      "parent": "b3baec7f-e487-5e19-8618-220131514571",
       "internal": {
         "content": "\nDreamcatcher hoodie fashion axe quis helvetica tilde. Id meditation try-hard\npaleo distillery dolore laboris hell of af biodiesel iPhone subway tile green\njuice truffaut.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "d34532fa5d606f129a6c9284625b5311",
+        "contentDigest": "539fb78ec66ccf0e3caac78159945ee4",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -2015,16 +2119,16 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nDreamcatcher hoodie fashion axe quis helvetica tilde. Id meditation try-hard\npaleo distillery dolore laboris hell of af biodiesel iPhone subway tile green\njuice truffaut.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/headphones.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/headphones.md"
     },
-    "50477df5-0031-506c-9dea-90bfaee84b93": {
-      "id": "50477df5-0031-506c-9dea-90bfaee84b93",
+    "4dc8075d-1ea1-56e0-b871-81a49d22409b": {
+      "id": "4dc8075d-1ea1-56e0-b871-81a49d22409b",
       "children": [],
-      "parent": "f9df161c-9a3e-5c95-bc8f-e720ce0055e2",
+      "parent": "14587a86-6baf-5d0e-ba38-84efc33b4aca",
       "internal": {
         "content": "\nEsse tofu scenester, aliquip sunt franzen squid keffiyeh poke excepteur eu\nbiodiesel venmo dreamcatcher. Ut tempor commodo aute. VHS copper mug unicorn\nlorem, sustainable taiyaki normcore plaid migas. Street art put a bird on it\ncupidatat gentrify pariatur cillum sriracha. Locavore tbh mixtape, gochujang\nproident chambray selfies poutine.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "93c6eb88432fce7a65d14ce92c81c880",
+        "contentDigest": "53e03a0ee259b30e08f83c28f603f4cf",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -2035,16 +2139,16 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nEsse tofu scenester, aliquip sunt franzen squid keffiyeh poke excepteur eu\nbiodiesel venmo dreamcatcher. Ut tempor commodo aute. VHS copper mug unicorn\nlorem, sustainable taiyaki normcore plaid migas. Street art put a bird on it\ncupidatat gentrify pariatur cillum sriracha. Locavore tbh mixtape, gochujang\nproident chambray selfies poutine.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/plant.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/plant.md"
     },
-    "8971d6ca-03e1-5c18-9304-557388fee65d": {
-      "id": "8971d6ca-03e1-5c18-9304-557388fee65d",
+    "ec215535-f0a9-53de-b7e1-246710ca685c": {
+      "id": "ec215535-f0a9-53de-b7e1-246710ca685c",
       "children": [],
-      "parent": "f3d1ee7d-1112-5d84-b1c8-534312917856",
+      "parent": "e84e414f-f03c-5b3d-885a-0ea328c1cae4",
       "internal": {
         "content": "\nOffal dolor et portland cillum succulents occaecat gluten-free keffiyeh jean\nshorts sartorial. Sint occaecat proident, etsy plaid salvia quinoa hella fam\nheirloom distillery man braid intelligentsia.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "1e074a932995ba52479ab1d2eb1cb82c",
+        "contentDigest": "daa613b555f46d69da0858cdf566037b",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -2055,16 +2159,16 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nOffal dolor et portland cillum succulents occaecat gluten-free keffiyeh jean\nshorts sartorial. Sint occaecat proident, etsy plaid salvia quinoa hella fam\nheirloom distillery man braid intelligentsia.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/sneakers.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/sneakers.md"
     },
-    "0040f83f-0763-51fb-984c-5b26dedc29ee": {
-      "id": "0040f83f-0763-51fb-984c-5b26dedc29ee",
+    "8935b8ee-8f25-5f81-8c86-28d91ef72a38": {
+      "id": "8935b8ee-8f25-5f81-8c86-28d91ef72a38",
       "children": [],
-      "parent": "e9e6a156-e200-542e-8197-f6b881228eab",
+      "parent": "1be51cf8-e7e7-5da8-ab60-6a753cd864bb",
       "internal": {
         "content": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "0bf44a09a0e2117bc93783357792d736",
+        "contentDigest": "5f96d1726171dd3b212cc456388aa644",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -2078,16 +2182,16 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/dolly-burperlous.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/dolly-burperlous.md"
     },
-    "a92e05c1-eae2-5a7b-9c74-694963453faa": {
-      "id": "a92e05c1-eae2-5a7b-9c74-694963453faa",
+    "f9c249e6-4747-59ce-85d5-79e44cece164": {
+      "id": "f9c249e6-4747-59ce-85d5-79e44cece164",
       "children": [],
-      "parent": "22f1d050-6b9b-5097-a0fe-edd7ad7db451",
+      "parent": "3b197c84-d925-533e-8fef-0544d5d394ed",
       "internal": {
         "content": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "740cb50ee66f031eeeb6fa1a486e2f5a",
+        "contentDigest": "a2010638fd495b2ac82e4d0d63b573e9",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -2101,16 +2205,16 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/george-geppetto.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/george-geppetto.md"
     },
-    "dfb0268d-dc13-5750-85d9-4bebd6822670": {
-      "id": "dfb0268d-dc13-5750-85d9-4bebd6822670",
+    "03ccdde3-ef98-578b-8f39-0c5ac37e0ceb": {
+      "id": "03ccdde3-ef98-578b-8f39-0c5ac37e0ceb",
       "children": [],
-      "parent": "df782b9c-ed79-5bfb-8142-12502758af3d",
+      "parent": "1b1b9fc3-6c7c-5908-89a7-848125aeea08",
       "internal": {
         "content": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "e69f5e62b5e0879f676e03b25055752a",
+        "contentDigest": "b08d48a6e6be2f9dc8dc8b1e72df6b3f",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -2124,26 +2228,26 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/teddy-von-tumpletumple.md"
+      "fileAbsolutePath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/teddy-von-tumpletumple.md"
     },
     "SitePage /team/dolly-burperlous": {
       "jsonName": "team-dolly-burperlous-9ef",
       "internalComponentName": "ComponentTeamDollyBurperlous",
       "path": "/team/dolly-burperlous",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js",
       "componentChunkName": "component---src-templates-team-js",
       "context": {
-        "id": "0040f83f-0763-51fb-984c-5b26dedc29ee"
+        "id": "8935b8ee-8f25-5f81-8c86-28d91ef72a38"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js",
       "id": "SitePage /team/dolly-burperlous",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0b1ed12027481093abb2996e332170ed",
+        "contentDigest": "6b16f087f1487572c9c6e89125907026",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2152,20 +2256,20 @@
       "jsonName": "team-george-geppetto-31f",
       "internalComponentName": "ComponentTeamGeorgeGeppetto",
       "path": "/team/george-geppetto",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js",
       "componentChunkName": "component---src-templates-team-js",
       "context": {
-        "id": "a92e05c1-eae2-5a7b-9c74-694963453faa"
+        "id": "f9c249e6-4747-59ce-85d5-79e44cece164"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js",
       "id": "SitePage /team/george-geppetto",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9bcd8119ed50ad765751240d25c58a03",
+        "contentDigest": "b23f4835df8332c49bdd2293d4872037",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2174,42 +2278,20 @@
       "jsonName": "team-teddy-von-tumpletumple-52e",
       "internalComponentName": "ComponentTeamTeddyVonTumpletumple",
       "path": "/team/teddy-von-tumpletumple",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js",
       "componentChunkName": "component---src-templates-team-js",
       "context": {
-        "id": "dfb0268d-dc13-5750-85d9-4bebd6822670"
+        "id": "03ccdde3-ef98-578b-8f39-0c5ac37e0ceb"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js",
       "id": "SitePage /team/teddy-von-tumpletumple",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c2d871b5664cf6cddd36c0722012acc8",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /products/bug": {
-      "jsonName": "products-bug-442",
-      "internalComponentName": "ComponentProductsBug",
-      "path": "/products/bug",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
-      "componentChunkName": "component---src-templates-general-js",
-      "context": {
-        "id": "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
-      "id": "SitePage /products/bug",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "97e0e5b8271a1e9e52010bf3ae82d57b",
+        "contentDigest": "aa2b5cf8b02c287e2a49c9409a0cb33c",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2218,20 +2300,42 @@
       "jsonName": "products-backpack-659",
       "internalComponentName": "ComponentProductsBackpack",
       "path": "/products/backpack",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "componentChunkName": "component---src-templates-general-js",
       "context": {
-        "id": "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1"
+        "id": "47693078-88fa-526a-9b7a-e0edec983523"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "id": "SitePage /products/backpack",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dde2ca4ebe56eef811f12b7f8dbf5c28",
+        "contentDigest": "f973b31daa74e69c3c4b170312f5ccb0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/bug": {
+      "jsonName": "products-bug-442",
+      "internalComponentName": "ComponentProductsBug",
+      "path": "/products/bug",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
+      "componentChunkName": "component---src-templates-general-js",
+      "context": {
+        "id": "24e53e2c-5af4-5d1a-926b-aa61cce2c390"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
+      "id": "SitePage /products/bug",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f164f7e85033966e3d7d4fa890ef15fe",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2240,20 +2344,20 @@
       "jsonName": "products-camera-6e4",
       "internalComponentName": "ComponentProductsCamera",
       "path": "/products/camera",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "componentChunkName": "component---src-templates-general-js",
       "context": {
-        "id": "feab1063-6411-5361-86ea-f1b762ae47d6"
+        "id": "283c6823-c9a0-5c6d-a381-d45e2da2d38a"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "id": "SitePage /products/camera",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3c4c07411ac834729c931ba63d10f023",
+        "contentDigest": "c4d81f7717667f19e5f92a855d1e4b47",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2262,20 +2366,20 @@
       "jsonName": "products-headphones-226",
       "internalComponentName": "ComponentProductsHeadphones",
       "path": "/products/headphones",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "componentChunkName": "component---src-templates-general-js",
       "context": {
-        "id": "11e515d6-0d7c-5ed6-8c2a-221fce407d23"
+        "id": "33d4e6db-30c2-54e7-8bcc-d4f5ec601b22"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "id": "SitePage /products/headphones",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "95b1469be953198df898b7174b48cb4b",
+        "contentDigest": "1ab7ca15dca5643d7cf7a17c5fb23a66",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2284,20 +2388,20 @@
       "jsonName": "products-plant-db8",
       "internalComponentName": "ComponentProductsPlant",
       "path": "/products/plant",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "componentChunkName": "component---src-templates-general-js",
       "context": {
-        "id": "50477df5-0031-506c-9dea-90bfaee84b93"
+        "id": "4dc8075d-1ea1-56e0-b871-81a49d22409b"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "id": "SitePage /products/plant",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5cd6275959213210cfe50eb95e790407",
+        "contentDigest": "97ce1f4de3d450df43f40189aa23af68",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2306,20 +2410,20 @@
       "jsonName": "products-sneakers-258",
       "internalComponentName": "ComponentProductsSneakers",
       "path": "/products/sneakers",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "componentChunkName": "component---src-templates-general-js",
       "context": {
-        "id": "8971d6ca-03e1-5c18-9304-557388fee65d"
+        "id": "ec215535-f0a9-53de-b7e1-246710ca685c"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js",
       "id": "SitePage /products/sneakers",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "91236ab284a84f9bdf595b2e53c690bb",
+        "contentDigest": "99a9cca472a9ed7e78489573ab7d5739",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2328,19 +2432,19 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "pluginCreatorId": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4b01760bdbb028cb7510ebffc441d533",
-        "description": "de99c09a-ba65-5234-a31c-a1d91167f019",
+        "contentDigest": "7d38678e0207e856cfefdf0a0a049fbd",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
         "owner": "internal-data-bridge"
       }
     },
@@ -2348,19 +2452,19 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "pluginCreatorId": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js",
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/index.js",
       "id": "SitePage /",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "11d437fe648f96cf8264ec057b1bf39a",
-        "description": "de99c09a-ba65-5234-a31c-a1d91167f019",
+        "contentDigest": "a390077ffe8773c36eb8c8b4b787fe1f",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
         "owner": "internal-data-bridge"
       }
     },
@@ -2368,19 +2472,19 @@
       "jsonName": "products-6ef",
       "internalComponentName": "ComponentProducts",
       "path": "/products/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js",
       "componentChunkName": "component---src-pages-products-index-js",
       "context": {},
-      "pluginCreator___NODE": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "pluginCreatorId": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js",
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js",
       "id": "SitePage /products/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5ec2199a1fc1660523ce08a481cacf9",
-        "description": "de99c09a-ba65-5234-a31c-a1d91167f019",
+        "contentDigest": "e6317b5cc0dbd2e372e564203eb828c6",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
         "owner": "internal-data-bridge"
       }
     },
@@ -2388,19 +2492,19 @@
       "jsonName": "signin-59f",
       "internalComponentName": "ComponentSignin",
       "path": "/signin/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin/index.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js",
       "componentChunkName": "component---src-pages-signin-index-js",
       "context": {},
-      "pluginCreator___NODE": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "pluginCreatorId": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin/index.js",
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js",
       "id": "SitePage /signin/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3f591e95e6da7b1eb89cfd282621f59e",
-        "description": "de99c09a-ba65-5234-a31c-a1d91167f019",
+        "contentDigest": "58bc49395b03f221f62269b69a591d70",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
         "owner": "internal-data-bridge"
       }
     },
@@ -2408,19 +2512,19 @@
       "jsonName": "signup-371",
       "internalComponentName": "ComponentSignup",
       "path": "/signup/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js",
       "componentChunkName": "component---src-pages-signup-index-js",
       "context": {},
-      "pluginCreator___NODE": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "pluginCreatorId": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js",
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js",
       "id": "SitePage /signup/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9d903788c3c7ac723b586951be9e109c",
-        "description": "de99c09a-ba65-5234-a31c-a1d91167f019",
+        "contentDigest": "ddc7f76a9d8f58f66d9c7fede77e88cc",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
         "owner": "internal-data-bridge"
       }
     },
@@ -2428,19 +2532,39 @@
       "jsonName": "team-a07",
       "internalComponentName": "ComponentTeam",
       "path": "/team/",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/index.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js",
       "componentChunkName": "component---src-pages-team-index-js",
       "context": {},
-      "pluginCreator___NODE": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "pluginCreatorId": "de99c09a-ba65-5234-a31c-a1d91167f019",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/index.js",
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js",
       "id": "SitePage /team/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b98e164b04db306b7e09fdb8a50a0d6e",
-        "description": "de99c09a-ba65-5234-a31c-a1d91167f019",
+        "contentDigest": "3cca64afa802254b85e95bc90ef9deaa",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /user/": {
+      "jsonName": "user-00d",
+      "internalComponentName": "ComponentUser",
+      "path": "/user/",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/user/index.js",
+      "componentChunkName": "component---src-pages-user-index-js",
+      "context": {},
+      "pluginCreator___NODE": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "pluginCreatorId": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/user/index.js",
+      "id": "SitePage /user/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e7fbc581237bb09e4597507cbd72c1bb",
+        "description": "4168579a-7763-51cf-906a-0ceaa06a3ff7",
         "owner": "internal-data-bridge"
       }
     },
@@ -2448,18 +2572,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
+      "component": "/home/vijit/Documents/projects/Team-Source/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "79c8fa883dfbd7fd3220f55ac1d92f18",
+        "contentDigest": "f006d3f30535186e1796813926e1573f",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
@@ -2477,126 +2601,131 @@
         "sq--src-components-menu-mobile-js",
         "sq--src-components-seo-js"
       ],
-      "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8": [
-        "/products/bug"
-      ],
-      "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1": [
+      "47693078-88fa-526a-9b7a-e0edec983523": [
         "/products/backpack"
       ],
-      "feab1063-6411-5361-86ea-f1b762ae47d6": [
+      "24e53e2c-5af4-5d1a-926b-aa61cce2c390": [
+        "/products/bug"
+      ],
+      "283c6823-c9a0-5c6d-a381-d45e2da2d38a": [
         "/products/camera"
       ],
-      "11e515d6-0d7c-5ed6-8c2a-221fce407d23": [
+      "33d4e6db-30c2-54e7-8bcc-d4f5ec601b22": [
         "/products/headphones"
       ],
-      "50477df5-0031-506c-9dea-90bfaee84b93": [
+      "4dc8075d-1ea1-56e0-b871-81a49d22409b": [
         "/products/plant"
       ],
-      "8971d6ca-03e1-5c18-9304-557388fee65d": [
+      "ec215535-f0a9-53de-b7e1-246710ca685c": [
         "/products/sneakers"
       ],
-      "0040f83f-0763-51fb-984c-5b26dedc29ee": [
+      "8935b8ee-8f25-5f81-8c86-28d91ef72a38": [
         "/team/dolly-burperlous"
       ],
-      "a92e05c1-eae2-5a7b-9c74-694963453faa": [
+      "f9c249e6-4747-59ce-85d5-79e44cece164": [
         "/team/george-geppetto"
       ],
-      "dfb0268d-dc13-5750-85d9-4bebd6822670": [
+      "03ccdde3-ef98-578b-8f39-0c5ac37e0ceb": [
         "/team/teddy-von-tumpletumple"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         null,
+        "/",
         "/products/",
         "/team/",
-        null,
-        "/"
+        null
       ]
     }
   },
   "jsonDataPaths": {
     "sq--src-components-header-js": 4102418190,
-    "sq--src-components-menu-js": 240237662,
-    "sq--src-components-seo-js": 1175772,
     "sq--src-components-menu-mobile-js": 709782962,
-    "products-6ef": "453/path---products-6-ef-42b-oqJDsJnYOoCdZ8l2O6dYIo2ozt4",
-    "index": "659/path---index-6a9-fy0pgIaZNCsbS9vnfVyA4caBk7c",
+    "sq--src-components-seo-js": 1175772,
+    "sq--src-components-menu-js": 240237662,
+    "index": "543/path---index-6a9-DQ55owaYTOBI2xV3kFBYISfze8",
+    "products-6ef": "304/path---products-6-ef-42b-3rCtF1ZhafsMueIRWviOZSVtZA",
     "team-a07": "994/path---team-a-07-82c-fVVANITw7sph1wtGrcJ9AcgKTIo",
-    "products-backpack-659": "813/path---products-backpack-659-34a-KXue0ZjmHGVUueMfbDL3fut5Bk",
-    "products-bug-442": "211/path---products-bug-442-169-StUASOiA89j29yjnZDYQcc1b6I",
-    "products-camera-6e4": "573/path---products-camera-6-e-4-159-oQO2ZJjNdq4JCgeCVvtCnzqbRGQ",
-    "products-plant-db8": "494/path---products-plant-db-8-e1e-bxWpMuwIoENhhmO3ZjAb1SCWM",
-    "products-headphones-226": "460/path---products-headphones-226-0bb-kqI3JEO371oETUUGsEBN5agJRo",
-    "team-dolly-burperlous-9ef": "912/path---team-dolly-burperlous-9-ef-8f8-M1dMxRrzDcYorG9d5te3LCx2w",
-    "products-sneakers-258": "951/path---products-sneakers-258-a19-tuThWHuWunHDmjut9aOnQUDfJyI",
+    "team-dolly-burperlous-9ef": "43/path---team-dolly-burperlous-9-ef-8f8-GjgbylkIfeWsdrqgY5hNsegH8",
+    "team-george-geppetto-31f": "641/path---team-george-geppetto-31-f-c66-bZMCO4W7Zloo4LrIGpbbihaGJmU",
+    "team-teddy-von-tumpletumple-52e": "651/path---team-teddy-von-tumpletumple-52-e-c43-uWKDbw9FwUkJxC8z3SclyhQznuY",
+    "products-bug-442": "344/path---products-bug-442-169-EF7yXoq8GFpBHbeKY4wZLce4m40",
+    "products-backpack-659": "46/path---products-backpack-659-34a-9GyCiNpZZy3PIN9GFqoSo15KAdI",
+    "products-camera-6e4": "20/path---products-camera-6-e-4-159-4VC6pBoB26AaYMcY80jzwERavw",
+    "products-headphones-226": "315/path---products-headphones-226-0bb-0TkGJeUrO0vZFoIKjZLk47gW3kg",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "team-teddy-von-tumpletumple-52e": "336/path---team-teddy-von-tumpletumple-52-e-c43-yyHRMxE1V2CSFJWPac0Ax3wAMs",
-    "team-george-geppetto-31f": "336/path---team-george-geppetto-31-f-c66-NtSIsm955ttwMWQjdiNeCVh2C4",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sign-up-684": "939/path---sign-up-684-533-NZuapzHg3X9TaN1iIixfv1W23E",
+    "products-sneakers-258": "476/path---products-sneakers-258-a19-VYgqHdKVzNkdZOcvKRpbF7XFTJY",
+    "products-plant-db8": "656/path---products-plant-db-8-e1e-UawSIykTbXAaMTs4bRKg5IABqDk",
     "signin-59f": "701/path---signin-59-f-ae5-NZuapzHg3X9TaN1iIixfv1W23E",
-    "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E"
+    "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "user-00d": "430/path---user-00-d-0c4-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-footer-js": 4102418190
   },
   "components": {
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js": {
-      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcTemplatesGeneralJs382641756(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    frontmatter {\n      title\n      path\n      image\n    }\n    html\n  }\n}\n",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js"
+    "/home/vijit/Documents/projects/Team-Source/src/templates/general.js": {
+      "query": "query homeVijitDocumentsProjectsTeamSourceSrcTemplatesGeneralJs382641756(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    frontmatter {\n      title\n      path\n      image\n    }\n    html\n  }\n}\n",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/general.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js": {
-      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcTemplatesTeamJs2412733283(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    frontmatter {\n      title\n      path\n      image\n      jobtitle\n    }\n    html\n  }\n}\n",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js"
+    "/home/vijit/Documents/projects/Team-Source/src/templates/team.js": {
+      "query": "query homeVijitDocumentsProjectsTeamSourceSrcTemplatesTeamJs2412733283(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    frontmatter {\n      title\n      path\n      image\n      jobtitle\n    }\n    html\n  }\n}\n",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/templates/team.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js": {
+    "/home/vijit/Documents/projects/Team-Source/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js"
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/.cache/dev-404-page.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js": {
+    "/home/vijit/Documents/projects/Team-Source/src/pages/404.js": {
       "query": "",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js"
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/404.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js": {
-      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcPagesIndexJs1090688908 {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/products/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        id\n        frontmatter {\n          path\n          title\n          date(formatString: \"DD MMMM YYYY\")\n          image\n        }\n        excerpt\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js"
+    "/home/vijit/Documents/projects/Team-Source/src/pages/index.js": {
+      "query": "query homeVijitDocumentsProjectsTeamSourceSrcPagesIndexJs1090688908 {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/products/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        id\n        frontmatter {\n          path\n          title\n          date(formatString: \"DD MMMM YYYY\")\n          image\n        }\n        excerpt\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/index.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js": {
+    "/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js": {
       "query": "query ProductsQuery {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/products/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          title\n          path\n          image\n        }\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js"
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin/index.js": {
+    "/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js": {
       "query": "",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin/index.js"
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js": {
+    "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js": {
       "query": "",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js"
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js"
     },
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/index.js": {
+    "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js": {
       "query": "query TeamQuery {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/team/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        html\n        frontmatter {\n          title\n          path\n          image\n          jobtitle\n        }\n      }\n    }\n  }\n}\n",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/index.js"
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js"
+    },
+    "/home/vijit/Documents/projects/Team-Source/src/pages/user/index.js": {
+      "query": "",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/pages/user/index.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-footer-js": {
-      "name": "usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsFooterJs4102418190",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/Footer.js",
+      "name": "homeVijitDocumentsProjectsTeamSourceSrcComponentsFooterJs4102418190",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/components/Footer.js",
       "id": "sq--src-components-footer-js",
       "jsonName": "sq--src-components-footer-js",
-      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsFooterJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
+      "query": "query homeVijitDocumentsProjectsTeamSourceSrcComponentsFooterJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
       "hash": 4102418190
     },
     "sq--src-components-header-js": {
-      "name": "usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsHeaderJs4102418190",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/Header.js",
+      "name": "homeVijitDocumentsProjectsTeamSourceSrcComponentsHeaderJs4102418190",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/components/Header.js",
       "id": "sq--src-components-header-js",
       "jsonName": "sq--src-components-header-js",
-      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsHeaderJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
+      "query": "query homeVijitDocumentsProjectsTeamSourceSrcComponentsHeaderJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
       "hash": 4102418190
     },
     "sq--src-components-menu-js": {
       "name": "SiteTitleQuery",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/Menu.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/components/Menu.js",
       "id": "sq--src-components-menu-js",
       "jsonName": "sq--src-components-menu-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
@@ -2604,7 +2733,7 @@
     },
     "sq--src-components-menu-mobile-js": {
       "name": "MenuMobileQuery",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/MenuMobile.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/components/MenuMobile.js",
       "id": "sq--src-components-menu-mobile-js",
       "jsonName": "sq--src-components-menu-mobile-js",
       "query": "query MenuMobileQuery {\n  site {\n    siteMetadata {\n      menuLinks {\n        name\n        link\n      }\n    }\n  }\n}\n",
@@ -2612,7 +2741,7 @@
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/SEO.js",
+      "componentPath": "/home/vijit/Documents/projects/Team-Source/src/components/SEO.js",
       "id": "sq--src-components-seo-js",
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",

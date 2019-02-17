@@ -39,7 +39,6 @@ class Home extends React.Component{
         firebase.initializeApp(config);
       }
       
-      
       const snapshot = await firebase.firestore().collection('Challenges').get()
       const challenges = snapshot.docs.map(doc=> doc.data());
       console.log("challenges");

@@ -83,5 +83,10 @@
         "componentChunkName": "component---src-templates-team-js",
         "jsonName": "team-teddy-von-tumpletumple-52e",
         "path": "/team/teddy-von-tumpletumple"
+    },
+    {
+        "componentChunkName": "component---src-pages-user-index-js",
+        "jsonName": "user-00d",
+        "path": "/user/"
     }
 ]

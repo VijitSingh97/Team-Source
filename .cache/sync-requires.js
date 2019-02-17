@@ -5,14 +5,15 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---src-templates-team-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js"))),
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js"))),
-  "component---src-templates-general-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js"))),
-  "component---src-pages-404-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js"))),
-  "component---src-pages-products-index-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js"))),
-  "component---src-pages-signin-index-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signin/index.js"))),
-  "component---src-pages-signup-index-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js"))),
-  "component---src-pages-team-index-js": hot(preferDefault(require("/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/index.js")))
+  "component---src-templates-team-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/templates/team.js"))),
+  "component---src-templates-general-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/templates/general.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/.cache/dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/404.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/index.js"))),
+  "component---src-pages-products-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/products/index.js"))),
+  "component---src-pages-signin-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/signin/index.js"))),
+  "component---src-pages-signup-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/signup/index.js"))),
+  "component---src-pages-team-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/team/index.js"))),
+  "component---src-pages-user-index-js": hot(preferDefault(require("/home/vijit/Documents/projects/Team-Source/src/pages/user/index.js")))
 }
 
