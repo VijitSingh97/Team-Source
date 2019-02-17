@@ -97,6 +97,7 @@ class SignUp extends React.Component{
       if(createdUser){
         console.log("User Created!");
         if(firebase.auth().currentUser == null){
+          firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
           firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
             // Handle Errors here.
             var errorCode = error.code;
@@ -112,7 +113,7 @@ class SignUp extends React.Component{
           name: this.state.name,
           prof_pic_url: ''
         }
-        firebase.firestore().collection("Users").doc(this.state.name).set(user_conf)
+        firebase.firestore().collection("Users").doc(user_token.uid).set(user_conf)
         .then(function() {
           console.log("Document successfully written!");
           window.location.assign("../");

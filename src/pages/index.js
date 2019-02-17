@@ -78,6 +78,13 @@ class Home extends React.Component{
 
     render() {
 
+
+      var user = firebase.auth().currentUser;
+      if(user) {
+        // console.log("user_token");
+        //console.log(user.uid);
+      }
+
       const challenges = this.state.challenges;
       console.log("render challenges");
       console.log(challenges);

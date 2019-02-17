@@ -76,7 +76,9 @@ class SignIn extends React.Component{
     handleSubmit(event) {
 
       var signedup = true;
-        firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
+      firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+
+      firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
             // Handle Errors here.
             var errorCode = error.code;
             var errorMessage = error.message;
@@ -133,11 +135,6 @@ class SignIn extends React.Component{
             <InputLabel htmlFor="password">Password</InputLabel>
             <Input name="password" type="password" id="password" autoComplete="current-password" onChange={this.handlePass}/>
           </FormControl>
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Remember me"
-            style={{color: '#6188F3'}}
-          />
           <Button
             type="submit"
             fullWidth
