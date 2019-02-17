@@ -34,5 +34,8 @@
     "react-jss": "^8.6.1",
     "react-swipeable-views": "^0.13.1",
     "react-swipeable-views-utils": "^0.13.1"
+  },
+  "devDependencies": {
+    "radium": "^0.25.1"
   }
 }

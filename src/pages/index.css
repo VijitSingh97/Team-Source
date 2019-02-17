@@ -1,3 +1,12 @@
 body {
     background-color: #2f3136 !important;
+    font-family: 'Saira Extra Condensed' !important;
+}
+
+form input:focus {
+    border-bottom: 1px solid #6188F3 !important;
+}
+
+footer {
+    color: #6188F3 !important;
 }

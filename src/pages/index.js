@@ -16,6 +16,7 @@ import Chip from "@material-ui/core/Chip";
 import { Robot } from "mdi-material-ui";
 import "./index.css";
 import firebase from "firebase";
+import capitalFactoryLogo from '../images/Capital Factory Logo.png'
 
 
 
@@ -59,21 +60,14 @@ const styles = theme => ({
         >
           <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
             <Card
-              title="Our Products"
+              title="Capital Factory"
               avatar={
                 <Avatar>
-                  <Gift />
+                  <img src={capitalFactoryLogo} style={{height: '40px', width: '40px'}} />
                 </Avatar>
               }
               action={
                 <>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    className={props.classes.root}
-                  >
-                    <Link to="/products">View All Products</Link>
-                  </Button>
                 </>
               }
             >

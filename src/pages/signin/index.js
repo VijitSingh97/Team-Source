@@ -14,6 +14,7 @@ import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import lockIcon from '../../images/Lock Icon.png'
 
 import firebase from "firebase";
 
@@ -95,19 +96,27 @@ class SignIn extends React.Component{
     render() {
         const classes = styles;
         return (
-        <Page> 
-            <main className={classes.main} >
-      <CssBaseline />classes
-      <Paper className={classes.paper}>
-        <Avatar className={classes.avatar}>
-        </Avatar>
-        <Typography component="h1" variant="h5">
-          Sign in
-        </Typography>
-        <form className={classes.form} onSubmit={this.handleSubmit}>
+      <Page> 
+            <main className={classes.main}>
+      <CssBaseline />
+      <Paper className={classes.paper} style={{
+        width: '475px', 
+        height: '475px', 
+        margin: '0 auto', 
+        paddingTop: '40px', 
+        marginTop: '50px',
+        borderRadius: '15px',
+        boxShadow: '0 0 20px white'}}>
+          <Avatar className={classes.avatar} style={{margin: '0 auto', marginBottom: '10px', width: '60px', height: '60px'}}>
+            <img src={lockIcon} style={{width: '60px', height: '60px'}}/>
+          </Avatar>
+          <Typography component="h1" variant="h4" style={{textAlign: 'center'}}>
+            Sign in
+          </Typography>
+        <form className={classes.form} onSubmit={this.handleSubmit} style={{padding: '20px', width: '450px', margin: '0 auto'}}>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="email">Email Address</InputLabel>
-            <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail} />
+            <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail}/>
           </FormControl>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="password">Password</InputLabel>
@@ -116,6 +125,7 @@ class SignIn extends React.Component{
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
+            style={{color: '#6188F3'}}
           />
           <Button
             type="submit"
@@ -123,20 +133,13 @@ class SignIn extends React.Component{
             variant="contained"
             color="primary"
             className={classes.submit}
+            style={{marginTop: '40px', height: '40px', backgroundColor: '#6188F3'}}
           >
             Sign in
           </Button>
         </form>
       </Paper>
 </main>
-<Link to="/signup">
-    <Button
-      variant="contained"
-      color="secondary"
-    >
-      Sign Up
-    </Button>
-  </Link>
         </Page>
         
     )

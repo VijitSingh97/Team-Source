@@ -10,7 +10,11 @@ const Menu = props => {
     <>
       {menuLinks.map(link => (
         <Link key={link.name} to={link.link}>
-          <Button style={{ color: "#fff" }}>{link.name}</Button>
+          <Button style={{ 
+            color: "#fff",
+            fontFamily: 'Saira Extra Condensed',
+            fontSize: '1.2rem'
+          }}>{link.name}</Button>
         </Link>
       ))}
       <a

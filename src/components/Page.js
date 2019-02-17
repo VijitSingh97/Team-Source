@@ -18,13 +18,19 @@ class Page extends React.Component {
                 <Typography
                   variant="h2"
                   gutterBottom
-                  style={{ textAlign: "center" }}
+                  style={{
+                    fontFamily: 'Saira Extra Condensed',
+                    textTransform: 'uppercase',
+                    letterSpacing: '5.52px',
+                    fontWeight: 'bold',
+                    textAlign: "center",
+                    color: "#fff"
+                  }}
                 >
                   {title}
                 </Typography>
               ) : null}
               {children}
-              <Footer />
             </Col>
           </Row>
         </Grid>
