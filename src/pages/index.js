@@ -88,9 +88,7 @@ class Home extends React.Component{
                     title={challenge.company_name}
                     subheader={challenge.created_on.toDate().toDateString()}
                     avatar={
-                      <Avatar>
-                        <Gift />
-                      </Avatar>
+                      <Avatar src={challenge.logo}/>
                     }
                     imageSrc={challenge.image_url}
                     style={{marginBottom: "100px"}}
