@@ -101,7 +101,7 @@ class Home extends React.Component{
                           style={{backgroundColor: '#6188F3'}}
                           className={this.props.classes.root}
                         >
-                          <Link to="/products">Accept the Challenge</Link>
+                          <Link to="/">Accept the Challenge</Link>
                         </Button>
                       </>
                     }

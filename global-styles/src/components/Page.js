@@ -18,7 +18,7 @@ class Page extends React.Component {
                 <Typography
                   variant="h2"
                   gutterBottom
-                  style={{ textAlign: "center" color: 'white'}}
+                  style={{ textAlign: "center", color: 'white'}}
                 >
                   {title}
                 </Typography>
