@@ -15,8 +15,8 @@ class User extends React.Component{
         name: "",
         prof_pic_url: ""  
       },
-      currentChallenges: [],
-      pastChallenges: []
+      currentChallenges: {},
+      pastChallenges: {}
 
     }
   }
@@ -34,17 +34,17 @@ class User extends React.Component{
     };        
     
     firebase.initializeApp(config);
-  }
+    }
 
-  console.log("propspsdadasdfasdfrinting ");
+  //console.log("propspsdadasdfasdfrinting ");
 
   var user_id = this.props.location.search.substring(4);
-  console.log(user_id)
+  //console.log(user_id)
   var self = this;
 
   await firebase.firestore().collection('Users').doc(user_id).onSnapshot((snapshot) => {
-    console.log("snapshot");
-    console.log(snapshot);
+    //console.log("snapshot");
+    //console.log(snapshot);
     self.setState({
       user: snapshot.data()
     })
@@ -64,13 +64,23 @@ class User extends React.Component{
   });
 }
   render() {
-    console.log("state");
+    // console.log("state");
     console.log(this.state)
+
+    for(var i = 0; i < this.state.currentChallenges.length; i++){
+      console.log(this.state.currentChallenges[i]);
+     //DocumentReference userRef = db.document(this.state.currentChallenges[i]);
+    }
+
+    for (var key in this.state.currentChallenges) {
+      console.log("Key: " + key);
+      console.log("Value: " + this.state.currentChallenges[key]);
+    }
     
+
     return (
-      <Page title="User">
-        <SEO title="User" />
-        Check out my <Link to="/user?id=43249328jsdfashd">blog</Link>!
+      <Page title={this.state.user.name}>
+        <SEO title={this.state.user.name} />
         <Typography paragraph>
           We are here to help! Let us know what we can do. And we're of course
           always interested to find new recruits to join our amazing team. We are
