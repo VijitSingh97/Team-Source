@@ -8,7 +8,7 @@ import withRoot from "../../utils/withRoot";
 import firebase from "firebase";
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
-import Card from "../../components/Card";
+import Card from "../../components/CardUser";
 import { Gift } from "mdi-material-ui";
 import Button from "@material-ui/core/Button";
 
@@ -83,13 +83,16 @@ class User extends React.Component{
       // console.log(currentSnapshot);
       const currentChallengesDescription = currentSnapshot.data();
       // console.log(currentChallengesDescription);
-      const currentChallengesDescriptions = this.state.currentChallengesDescriptions;
-      currentChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
-      currentChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
-      currentChallengesDescriptions.push(currentChallengesDescription)
-      this.setState({
-        currentChallengesDescriptions
-      });
+      if(currentChallengesDescription !== undefined){
+        const currentChallengesDescriptions = this.state.currentChallengesDescriptions;
+        currentChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
+        currentChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
+        currentChallengesDescriptions.push(currentChallengesDescription)
+        this.setState({
+          currentChallengesDescriptions
+
+        });
+      }
     });
 
     pastChallenges.forEach(async(challenge) => {
@@ -100,15 +103,17 @@ class User extends React.Component{
       console.log(pastChallengesDescription);
       const pastChallengesDescription = currentSnapshot.data();
       console.log(pastChallengesDescription);
-      const pastChallengesDescriptions = this.state.pastChallengesDescriptions;
-      pastChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
-      pastChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
-      pastChallengesDescriptions.push(pastChallengesDescription)
-      this.setState({
-        pastChallengesDescriptions
-      });
+      if(pastChallengesDescription != undefined)
+      {
+        const pastChallengesDescriptions = this.state.pastChallengesDescriptions;
+        pastChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
+        pastChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
+        pastChallengesDescriptions.push(pastChallengesDescription)
+        this.setState({
+          pastChallengesDescriptions
+        });    
+      }
     });
-    
 }
   render() {
     //console.log("state");
@@ -139,7 +144,16 @@ class User extends React.Component{
     return (
       <Page title={this.state.user.name}>
         <SEO title={this.state.user.name} />
-        <Typography>
+        <hr/>
+        <Typography style={{
+        fontFamily: 'Saira Extra Condensed', 
+        textAlign: 'center', 
+        fontSize: '2rem', 
+        color: 'white', 
+        fontWeight: '700', 
+        margin: '30px 0 15px 0',
+        textTransform: 'uppercase',
+        letterSpacing: '4.67px'}}>
           Current Projects
         </Typography>
         <Grid
@@ -149,7 +163,7 @@ class User extends React.Component{
             alignItems="flex-start"
             justify="center"
           >
-            <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
+            <Grid item xs={12} md={10} style={{ minHeight: "523px", fontFamily: 'SF Compact Display', fontSize: '1.2rem' }}>
               
               {
                 challenges.map((challenge) => {
@@ -162,7 +176,7 @@ class User extends React.Component{
                       </Avatar>
                     }
                     style={{marginBottom: "100px"}}
-                    children={"Equity Award: " + challenge.equity_award + "\nCash Award: " + challenge.cash_award + "\nChallenge Description: " + challenge.description}
+                    children={"Equity Award: " + challenge.equity_award + " Cash Award: " + challenge.cash_award + " Challenge Description: " + challenge.description}
             
                   >
                   </Card>
@@ -174,7 +188,15 @@ class User extends React.Component{
           </Grid>
         
 
-        <Typography>
+        <Typography style={{
+          fontFamily: 'Saira Extra Condensed', 
+          textAlign: 'center', 
+          fontSize: '2rem', 
+          color: 'white', 
+          fontWeight: '700', 
+          margin: '30px 0 15px 0',
+          textTransform: 'uppercase',
+          letterSpacing: '4.67px'}}>
           Past Projects
         </Typography>
         <Grid
@@ -184,7 +206,7 @@ class User extends React.Component{
             alignItems="flex-start"
             justify="center"
           >
-            <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
+            <Grid item xs={12} md={10} style={{ minHeight: "523px", fontFamily: 'SF Compact Display', fontSize: '1.2rem' }}>
               
               {
                 pchallenges.map((challenge) => {

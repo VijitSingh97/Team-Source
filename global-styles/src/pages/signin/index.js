@@ -129,7 +129,10 @@ class SignIn extends React.Component{
         </form>
       </Paper>
 </main>
-<Link to="/signup">
+<Link to="/signup"
+    style={{
+      textAlign: 'center'
+    }}>
     <Button
       variant="contained"
       color="secondary"

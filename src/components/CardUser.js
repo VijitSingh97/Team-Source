@@ -24,7 +24,7 @@ class MyCard extends React.Component {
   };
 
   render(){
-    const { children, title, imageSrc, subheader, avatar, action, style={}, benchmarks } = this.props
+    const { children, title, imageSrc, subheader, avatar, action, style = {} } = this.props
     return (
       <Card style={style}>
         <CardHeader
@@ -33,7 +33,7 @@ class MyCard extends React.Component {
           subheader={subheader ? subheader : null}
         />
         <CardMedia image={imageSrc} style={{height: "500px"}}/>
-        <CardContent style={{fontFamily: 'SF Compact Display'}}>{children}</CardContent>
+        <CardContent>{children}</CardContent>
         <CardActions>
         <IconButton
           onClick={this.handleExpandClick}
@@ -44,22 +44,9 @@ class MyCard extends React.Component {
           <ExpandMoreIcon />
         </IconButton>
         </CardActions>
-        <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-              <List dense={true}>
-                {
-                  benchmarks.map((benchmark) => {
-                    return (<ListItem>
-                      <ListItemText
-                        primary={benchmark.id}
-                      />
-                    </ListItem>)
-                  })
-                }
-              </List>
-          </CardContent>
-        </Collapse>
         <CardActions style={{ float: "right" }}>{action}</CardActions>
+        
+        
       </Card>
     )
   }

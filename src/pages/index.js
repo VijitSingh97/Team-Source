@@ -16,6 +16,7 @@ import Chip from "@material-ui/core/Chip";
 import { Robot } from "mdi-material-ui";
 import "./index.css";
 import firebase from "firebase";
+import capitalFactoryLogo from '../images/Capital Factory Logo.png'
 
 
 const styles = theme => ({

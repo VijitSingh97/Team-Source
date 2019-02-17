@@ -127,7 +127,7 @@ class SignIn extends React.Component{
         <form className={classes.form} onSubmit={this.handleSubmit}>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="email">Email Address</InputLabel>
-            <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail} />
+            <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail}/>
           </FormControl>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="password">Password</InputLabel>
@@ -136,6 +136,7 @@ class SignIn extends React.Component{
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
+            style={{color: '#6188F3'}}
           />
           <Button
             type="submit"
