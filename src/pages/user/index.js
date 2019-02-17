@@ -67,7 +67,7 @@ class User extends React.Component{
       currentChallenges: currentChallenges
     });
 
-    const pastSnapshot = await firebase.firestore().collection('Users').doc(user_id).collection("past_challenges").get();
+    const pastSnapshot = await firebase.firestore().collection('Users').doc(user_id).collection("previous_challenges").get();
     const pastChallenges = pastSnapshot.docs.map(doc=> doc.data());
     this.setState({
       pastChallenges: pastChallenges
@@ -84,9 +84,28 @@ class User extends React.Component{
       const currentChallengesDescription = currentSnapshot.data();
       // console.log(currentChallengesDescription);
       const currentChallengesDescriptions = this.state.currentChallengesDescriptions;
+      currentChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
+      currentChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
       currentChallengesDescriptions.push(currentChallengesDescription)
       this.setState({
         currentChallengesDescriptions
+      });
+    });
+
+    pastChallenges.forEach(async(challenge) => {
+      console.log("pchallenge description up top")
+      console.log(Object.values(challenge)[0])
+      const currentSnapshot = await firebase.firestore().doc(Object.values(challenge)[0]).get();
+      console.log("pcurrentSnapshot");
+      console.log(pastChallengesDescription);
+      const pastChallengesDescription = currentSnapshot.data();
+      console.log(pastChallengesDescription);
+      const pastChallengesDescriptions = this.state.pastChallengesDescriptions;
+      pastChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
+      pastChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
+      pastChallengesDescriptions.push(pastChallengesDescription)
+      this.setState({
+        pastChallengesDescriptions
       });
     });
     
@@ -98,11 +117,11 @@ class User extends React.Component{
 
     //DocumentReference userRef = db.document(this.state.currentChallenges[i]);
     
-    console.log("currentChallenges")
-    console.log(this.state.currentChallenges)
+    // console.log("currentChallenges")
+    // console.log(this.state.currentChallenges)
 
-    console.log("currentChallengesDescriptions");
-    console.log(this.state.currentChallengesDescriptions);
+    //console.log("currentChallengesDescriptions");
+    //console.log(this.state.currentChallengesDescriptions);
 
     // for (var key in this.state.currentChallenges) {
     // /   console.log("Key: " + key);
@@ -110,11 +129,19 @@ class User extends React.Component{
     // // }
     
     const challenges = this.state.currentChallengesDescriptions;
+    const pchallenges = this.state.pastChallengesDescriptions;
+    console.log("challenge descriptions");
+    console.log(challenges)
 
+    console.log("pchallenge descriptions");
+    console.log(pchallenges)
+    
     return (
       <Page title={this.state.user.name}>
         <SEO title={this.state.user.name} />
-
+        <Typography>
+          Current Projects
+        </Typography>
         <Grid
             spacing={24}
             container
@@ -127,16 +154,16 @@ class User extends React.Component{
               {
                 challenges.map((challenge) => {
                   return   (<Card
-                    title={challenge.company_name}
-                    subheader={challenge.time_limit.toDate().toDateString()}
+                    title={challenge.company_name + ": " + challenge.task}
+                    subheader={"Due: " + challenge.time_limit.toDate().toDateString()}
                     avatar={
                       <Avatar>
                         <Gift />
                       </Avatar>
                     }
                     style={{marginBottom: "100px"}}
-                    children={challenge.challenge_description}
-                    
+                    children={"Equity Award: " + challenge.equity_award + "\nCash Award: " + challenge.cash_award + "\nChallenge Description: " + challenge.description}
+            
                   >
                   </Card>
                    )
@@ -146,6 +173,41 @@ class User extends React.Component{
             </Grid>
           </Grid>
         
+
+        <Typography>
+          Past Projects
+        </Typography>
+        <Grid
+            spacing={24}
+            container
+            direction="row"
+            alignItems="flex-start"
+            justify="center"
+          >
+            <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
+              
+              {
+                pchallenges.map((challenge) => {
+                  return   (<Card
+                    title={challenge.company_name + ": " + challenge.task}
+                    subheader={"Due: " + challenge.time_limit.toDate().toDateString()}
+                    avatar={
+                      <Avatar>
+                        <Gift />
+                      </Avatar>
+                    }
+                    style={{marginBottom: "100px"}}
+                    children={"Equity Award: " + challenge.equity_award + "\nCash Award: " + challenge.cash_award + "\nChallenge Description: " + challenge.description}
+            
+                  >
+                  </Card>
+                   )
+                })
+              }
+              
+            </Grid>
+          </Grid>
+
       </Page>
     );
   }

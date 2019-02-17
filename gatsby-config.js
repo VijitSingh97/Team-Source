@@ -1,5 +1,6 @@
 module.exports = {
   pathPrefix: "/",
+
   siteMetadata: {
     title: "TeamSource",
     contact: {

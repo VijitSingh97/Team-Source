@@ -46,14 +46,26 @@ class Home extends React.Component{
       }
       
       const snapshot = await firebase.firestore().collection('Challenges').get()
-      const challenges = snapshot.docs.map(doc=> doc.data());
-      console.log("challenges");
-      console.log(challenges);
+      let challenges = snapshot.docs.map(doc=> { return {...doc.data(), ...{id: doc.id, benchMarks: []}}});
 
-
+      challenges.forEach(async(challenge) => {
+        let currentSnapshot = await firebase.firestore().collection("Challenges/"+challenge.id+"/Benchmark").get();
+        let benchMarks = currentSnapshot.docs.map(doc => { return {...doc.data(), ...{id: doc.id}}});
+        let updatedChallenges = this.state.challenges.map((currentChallenge) => {
+          if(challenge.id === currentChallenge.id){
+            return {...currentChallenge, ...{benchMarks}}
+          }
+          return currentChallenge
+        })
+        this.setState({
+          challenges: updatedChallenges
+        });
+      });
+    
       this.setState({
         challenges: challenges
       });
+
     }
     
  
@@ -62,6 +74,8 @@ class Home extends React.Component{
     render() {
 
       const challenges = this.state.challenges;
+      console.log("render challenges");
+      console.log(challenges);
       
       return (
         <Page title="TeamSource">
@@ -92,6 +106,7 @@ class Home extends React.Component{
                     }
                     imageSrc={challenge.image_url}
                     style={{marginBottom: "100px"}}
+                    benchmarks={challenge.benchMarks}
                     children={challenge.challenge_description}
                     action={
                       <>
