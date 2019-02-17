@@ -110,10 +110,6 @@ c            />
                     imageSrc={challenge.image_url}
                     style={{marginBottom: "100px", fontSize: '1.2rem'}}
                     benchmarks={challenge.benchMarks}
-                    cash_award={challenge.benchMarks.cash_award}
-                    equity_award={challenge.benchMarks.equity_award}
-                    description={challenge.benchMarks.description}
-                    time_limit={challenge.benchMarks.time_limit}
                     children={challenge.challenge_description}
                     action={
                       <>

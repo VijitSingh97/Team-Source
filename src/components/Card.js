@@ -51,7 +51,9 @@ class MyCard extends React.Component {
                   benchmarks.map((benchmark) => {
                     return (<ListItem>
                       <ListItemText
-                        primary={benchmark.id}
+                        inset = {true}
+                        primary={benchmark.id + ' || Due By: ' + benchmark.time_limit.toDate().toDateString() + ' || Equity Award: ' + benchmark.equity_award + ' || Cash Award: ' + benchmark.cash_award}
+                        secondary={benchmark.description}
                       />
                     </ListItem>)
                   })
