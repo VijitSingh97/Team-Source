@@ -51,6 +51,8 @@ class Home extends React.Component{
       challenges.forEach(async(challenge) => {
         let currentSnapshot = await firebase.firestore().collection("Challenges/"+challenge.id+"/Benchmark").get();
         let benchMarks = currentSnapshot.docs.map(doc => { return {...doc.data(), ...{id: doc.id}}});
+        console.log("benchMarks");
+        console.log(benchMarks);
         let updatedChallenges = this.state.challenges.map((currentChallenge) => {
           if(challenge.id === currentChallenge.id){
             return {...currentChallenge, ...{benchMarks}}
@@ -84,8 +86,7 @@ class Home extends React.Component{
           <SEO title="Home">
             <meta
               name="description"
-              content="Beautiful Gatsby Material UI Business Starter. Tiny code. Well organized. Ready to customize and go."
-            />
+c            />
           </SEO>
 
           { <HomeFeatures /> }
@@ -109,6 +110,10 @@ class Home extends React.Component{
                     imageSrc={challenge.image_url}
                     style={{marginBottom: "100px", fontSize: '1.2rem'}}
                     benchmarks={challenge.benchMarks}
+                    cash_award={challenge.benchMarks.cash_award}
+                    equity_award={challenge.benchMarks.equity_award}
+                    description={challenge.benchMarks.description}
+                    time_limit={challenge.benchMarks.time_limit}
                     children={challenge.challenge_description}
                     action={
                       <>

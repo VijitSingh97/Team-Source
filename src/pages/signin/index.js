@@ -75,16 +75,21 @@ class SignIn extends React.Component{
     }
     handleSubmit(event) {
 
+      var signedup = true;
         firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
             // Handle Errors here.
             var errorCode = error.code;
             var errorMessage = error.message;
+            signedup = false;
             console.log('An error was recieved: ' + errorCode + ': ' + errorMessage);
             // ...
-        });
-
-        console.log('A email was submitted: ' + this.state.email);
-        console.log('A pass was submitted: ' + this.state.pass);
+        }); 
+        if(signedup){
+          console.log('A email was submitted: ' + this.state.email);
+          console.log('A pass was submitted: ' + this.state.pass);
+          window.location.assign("../");
+        }
+        
         event.preventDefault();
     }
     handleEmail(event) {
