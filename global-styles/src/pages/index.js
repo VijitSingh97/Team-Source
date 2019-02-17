@@ -62,6 +62,7 @@ const styles = theme => ({
                   <Gift />
                 </Avatar>
               }
+              img
               action={
                 <>
                   <Button

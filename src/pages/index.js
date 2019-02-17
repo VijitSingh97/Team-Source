@@ -92,6 +92,7 @@ class Home extends React.Component{
                         <Gift />
                       </Avatar>
                     }
+                    imageSrc={challenge.image_url}
                     style={{marginBottom: "100px"}}
                     children={challenge.challenge_description}
                     action={
