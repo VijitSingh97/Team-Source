@@ -24,6 +24,12 @@ const styles = theme => ({
     },
   });
 class Home extends React.Component{
+    constructor(props) {
+      super(props);
+      this.state = {
+        challenges: []
+      }
+    }
     async componentDidMount() {
       if(!firebase.apps.length){
         // Initialize Firebase
@@ -45,28 +51,19 @@ class Home extends React.Component{
       console.log("challenges");
       console.log(challenges);
 
-      
 
-
-
-      // var getDoc = challenges.get()
-      //   .then(doc => {
-      //     if (!doc.exists) {
-      //       console.log('No such document!');
-      //     } else {
-      //       console.log('Document data:', doc.data());
-      //     }
-      //   })
-      //   .catch(err => {
-      //     console.log('Error getting document', err);
-      //   });
+      this.setState({
+        challenges: challenges
+      });
     }
     
  
 
     
-    render(props) {
-      const products = this.props.data.allMarkdownRemark.edges;
+    render() {
+
+      const challenges = this.state.challenges;
+      
       return (
         <Page title="TeamSource">
           <SEO title="Home">
@@ -85,26 +82,36 @@ class Home extends React.Component{
             justify="center"
           >
             <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
-              <Card
-                title="Our Products"
-                avatar={
-                  <Avatar>
-                    <Gift />
-                  </Avatar>
-                }
-                action={
-                  <>
-                    <Button
-                      variant="contained"
-                      color="secondary"
-                      className={this.props.classes.root}
-                    >
-                      <Link to="/products">View All Products</Link>
-                    </Button>
-                  </>
-                }
-              >
-              </Card>
+              
+              {
+                challenges.map((challenge) => {
+                  return   (<Card
+                    title={challenge.company_name}
+                    subheader={challenge.created_on.toDate().toDateString()}
+                    avatar={
+                      <Avatar>
+                        <Gift />
+                      </Avatar>
+                    }
+                    style={{marginBottom: "100px"}}
+                    children={challenge.challenge_description}
+                    action={
+                      <>
+                        <Button
+                          variant="contained"
+                          color="secondary"
+                          className={this.props.classes.root}
+                        >
+                          <Link to="/products">Accept the Challenge</Link>
+                        </Button>
+                      </>
+                    }
+                  >
+                  </Card>
+                   )
+                })
+              }
+              
             </Grid>
           </Grid>
         </Page>
