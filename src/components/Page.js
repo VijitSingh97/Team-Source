@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import Typography from "@material-ui/core/Typography";
 import "../css/style.styl";
@@ -19,12 +18,12 @@ class Page extends React.Component {
                   variant="h2"
                   gutterBottom
                   style={{
-                    fontFamily: 'Saira Extra Condensed',
+                    textAlign: 'center',
                     textTransform: 'uppercase',
-                    letterSpacing: '5.52px',
-                    fontWeight: 'bold',
-                    textAlign: "center",
-                    color: "#fff"
+                    fontFamily: 'Saira Extra Condensed',
+                    color: 'white',
+                    fontWeight: '600',
+                    letterSpacing: '5.52px'
                   }}
                 >
                   {title}

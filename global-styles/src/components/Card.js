@@ -4,13 +4,16 @@ import CardHeader from "@material-ui/core/CardHeader";
 import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
 
-const MyCard = ({ children, title, subheader, avatar, action, style = {} }) => (
+const MyCard = ({ children, imageSrc, title, subheader, avatar, action, style = {} }) => (
   <Card style={style}>
     <CardHeader
       avatar={avatar ? avatar : null}
       title={title}
       subheader={subheader ? subheader : null}
     />
+    <CardMedia
+          image={imageSrc}
+        />
     <CardContent>{children}</CardContent>
     <CardActions style={{ float: "right" }}>{action}</CardActions>
   </Card>

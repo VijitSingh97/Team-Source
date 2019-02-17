@@ -36,6 +36,11 @@ const styles = theme => ({
 
       firebase.initializeApp(config);
     }
+
+    handleSubmit(event) {
+      localStorage.setItem("company",challenge;
+    }
+
     const products = props.data.allMarkdownRemark.edges;
     return (
       <Page title="Gatsby Material UI Business Starter">
@@ -62,6 +67,7 @@ const styles = theme => ({
                   <Gift />
                 </Avatar>
               }
+              img
               action={
                 <>
                   <Button

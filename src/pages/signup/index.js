@@ -1,7 +1,6 @@
 import React from "react";
 import Page from "../../components/Page";import { graphql } from "gatsby";
 
-import { Link } from "gatsby";
 import withRoot from "../../utils/withRoot";
 import PropTypes from 'prop-types';
 import Avatar from '@material-ui/core/Avatar';
@@ -14,8 +13,10 @@ import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import lockIcon from '../../images/lockIcon.png';
 
 import firebase from "firebase";
+import user from "../user";
 
 const styles = theme => ({
     main: {
@@ -52,9 +53,10 @@ const styles = theme => ({
 class SignUp extends React.Component{
     constructor(props) {
         super(props);
-        this.state = {email: '', retype_email: '', pass:'', retype_pass: ''};
+        this.state = {name: '', email: '', retype_email: '', pass:'', retype_pass: ''};
 
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleName = this.handleName.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
         this.handleRetypeEmail = this.handleRetypeEmail.bind(this);
         this.handlePass = this.handlePass.bind(this);
@@ -75,10 +77,12 @@ class SignUp extends React.Component{
         }
     }
     handleSubmit(event) {
+      var createdUser = true;
       if(this.state.email === this.state.retype_email && this.state.pass === this.state.retype_pass){
         console.log('Matching emails and passes');
         firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
           // Handle Errors here.
+          createdUser = false;
           var errorCode = error.code;
           var errorMessage = error.message;
           console.log('An error was recieved: ' + errorCode + ': ' + errorMessage);
@@ -87,13 +91,46 @@ class SignUp extends React.Component{
       }
       else{
         console.log('Emails and passes do NOT match');
+        createdUser = false;
       }
+
+      if(createdUser){
+        console.log("User Created!");
+        if(firebase.auth().currentUser == null){
+          firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log('An error was recieved: ' + errorCode + ': ' + errorMessage);
+            // ...
+          });
+        }
+        var user_token = firebase.auth().currentUser;
+        console.log("user_token");
+        console.log(user_token.uid);
+        var user_conf = {
+          name: this.state.name,
+          prof_pic_url: ''
+        }
+        firebase.firestore().collection("Users").doc(this.state.name).set(user_conf)
+        .then(function() {
+          console.log("Document successfully written!");
+          window.location.assign("../");
+        })
+        .catch(function(error) {
+          console.error("Error writing document: ", error);
+      });
+
+    }
 
       console.log('A email was submitted: ' + this.state.email);
       console.log('Your retyped email was: ' + this.state.retype_email);
       console.log('A pass was submitted: ' + this.state.pass);
       console.log('Your retyped pass was: ' + this.state.retype_pass);
       event.preventDefault();
+    }
+    handleName(event) {
+      this.setState({name: event.target.value});
     }
     handleEmail(event) {
         this.setState({email: event.target.value});
@@ -112,20 +149,38 @@ class SignUp extends React.Component{
         return (
         <Page> 
             <main className={classes.main} >
-      <CssBaseline />classes
-      <Paper className={classes.paper}>
-        <Avatar className={classes.avatar}>
+      <CssBaseline />
+      <Paper className={classes.paper}
+        style={{
+          margin: '25px auto 0 auto',
+          width: '475px',
+          height: '580px',
+          padding: '30px',
+          borderRadius: '15px',
+          boxShadow: '0 0 15px white',
+          fontFamily: 'Saira Extra Condensed !important'
+        }}>
+        <Avatar className={classes.avatar} style={{
+          margin: '0 auto',
+          width: '60px',
+          height: '60px'
+        }}>
+          <img src={lockIcon} style={{width: '60px', height: '60px'}}/>
         </Avatar>
-        <Typography component="h1" variant="h5">
+        <Typography component="h1" variant="h4" style={{textAlign: 'center', paddingTop: '10px'}}>
           Sign up
         </Typography>
         <form className={classes.form} onSubmit={this.handleSubmit}>
           <FormControl margin="normal" required fullWidth>
-            <InputLabel htmlFor="email">Email Address</InputLabel>
-            <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail} />
+            <InputLabel htmlFor="name">Name</InputLabel>
+            <Input id="name" name="name" autoComplete="name" autoFocus onChange={this.handleName} />
           </FormControl>
           <FormControl margin="normal" required fullWidth>
-            <InputLabel htmlFor="retype_email">Retype Email Address</InputLabel>
+            <InputLabel htmlFor="email">Email Address</InputLabel>
+            <Input id="email" name="email" autoComplete="email" onChange={this.handleEmail} />
+          </FormControl>
+          <FormControl margin="normal" required fullWidth>
+            <InputLabel htmlFor="retype_email">Confirm Email Address</InputLabel>
             <Input id="retype_email" name="retype_email" autoComplete="retype_email" onChange={this.handleRetypeEmail} />
           </FormControl>
           <FormControl margin="normal" required fullWidth>
@@ -133,19 +188,19 @@ class SignUp extends React.Component{
             <Input name="password" type="password" id="password" autoComplete="current-password" onChange={this.handlePass}/>
           </FormControl>
           <FormControl margin="normal" required fullWidth>
-            <InputLabel htmlFor="retype_pass">Password</InputLabel>
+            <InputLabel htmlFor="retype_pass">Confirm Password</InputLabel>
             <Input name="retype_password" type="password" id="retype_password" autoComplete="current-password" onChange={this.handleRetypePass}/>
           </FormControl>
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Remember me"
-          />
           <Button
             type="submit"
             fullWidth
             variant="contained"
             color="primary"
             className={classes.submit}
+            style={{
+              margin: '30px 0',
+              backgroundColor: '#6188F3'
+            }}
           >
             Sign Up
           </Button>
@@ -154,14 +209,6 @@ class SignUp extends React.Component{
         
       </Paper>
 </main>
-  <Link to="/signin">
-    <Button
-      variant="contained"
-      color="secondary"
-    >
-      Sign In
-    </Button>
-  </Link>
 
 </Page> 
     )

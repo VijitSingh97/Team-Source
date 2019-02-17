@@ -14,7 +14,7 @@ import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import lockIcon from '../../images/Lock Icon.png'
+import lockIcon from '../../images/lockIcon.png';
 
 import firebase from "firebase";
 
@@ -75,16 +75,21 @@ class SignIn extends React.Component{
     }
     handleSubmit(event) {
 
+      var signedup = true;
         firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.pass).catch(function(error) {
             // Handle Errors here.
             var errorCode = error.code;
             var errorMessage = error.message;
+            signedup = false;
             console.log('An error was recieved: ' + errorCode + ': ' + errorMessage);
             // ...
-        });
-
-        console.log('A email was submitted: ' + this.state.email);
-        console.log('A pass was submitted: ' + this.state.pass);
+        }); 
+        if(signedup){
+          console.log('A email was submitted: ' + this.state.email);
+          console.log('A pass was submitted: ' + this.state.pass);
+          window.location.assign("../");
+        }
+        
         event.preventDefault();
     }
     handleEmail(event) {
@@ -96,24 +101,30 @@ class SignIn extends React.Component{
     render() {
         const classes = styles;
         return (
-      <Page> 
-            <main className={classes.main}>
+        <Page> 
+            <main className={classes.main} >
       <CssBaseline />
-      <Paper className={classes.paper} style={{
-        width: '475px', 
-        height: '475px', 
-        margin: '0 auto', 
-        paddingTop: '40px', 
-        marginTop: '50px',
+      <Paper className={classes.paper}
+      style={{
+        margin: '50px auto 0 auto',
+        width: '475px',
+        height: '430px',
+        padding: '30px',
         borderRadius: '15px',
-        boxShadow: '0 0 20px white'}}>
-          <Avatar className={classes.avatar} style={{margin: '0 auto', marginBottom: '10px', width: '60px', height: '60px'}}>
-            <img src={lockIcon} style={{width: '60px', height: '60px'}}/>
-          </Avatar>
-          <Typography component="h1" variant="h4" style={{textAlign: 'center'}}>
-            Sign in
-          </Typography>
-        <form className={classes.form} onSubmit={this.handleSubmit} style={{padding: '20px', width: '450px', margin: '0 auto'}}>
+        boxShadow: '0 0 15px white',
+        fontFamily: 'Saira Extra Condensed !important'
+      }}>
+        <Avatar className={classes.avatar} style={{
+          margin: '0 auto',
+          width: '60px',
+          height: '60px'
+        }}>
+          <img src={lockIcon} style={{width: '60px', height: '60px'}}/>
+        </Avatar>
+        <Typography component="h1" variant="h4" style={{textAlign: 'center', paddingTop: '10px'}}>
+          Sign in
+        </Typography>
+        <form className={classes.form} onSubmit={this.handleSubmit}>
           <FormControl margin="normal" required fullWidth>
             <InputLabel htmlFor="email">Email Address</InputLabel>
             <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail}/>
@@ -133,7 +144,10 @@ class SignIn extends React.Component{
             variant="contained"
             color="primary"
             className={classes.submit}
-            style={{marginTop: '40px', height: '40px', backgroundColor: '#6188F3'}}
+            style={{
+              margin: '30px 0',
+              backgroundColor: '#6188F3'
+            }}
           >
             Sign in
           </Button>

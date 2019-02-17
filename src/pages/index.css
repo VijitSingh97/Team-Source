@@ -3,10 +3,7 @@ body {
     font-family: 'Saira Extra Condensed' !important;
 }
 
-form input:focus {
-    border-bottom: 1px solid #6188F3 !important;
-}
-
-footer {
-    color: #6188F3 !important;
+button:hover {
+    background-color: #4D68B2 !important;
+    color: white !important;
 }

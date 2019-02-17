@@ -23,13 +23,14 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 const Header = props => {
   return (
-    <AppBar id="appBar" style={{background: '#6188F3'}}>
+    <AppBar id="appBar" style={{background: '#6188F3', height: '75px'}}>
       <Toolbar>
         <Grid
           container
           justify="space-between"
           alignItems="center"
           spacing={16}
+          style={{marginTop: '2px'}}
         >
           <Grid item>
           < Link to=""><img className={Header.img} alt="logo" src={logo} /></Link>
@@ -37,7 +38,7 @@ const Header = props => {
           <Grid item>
             <Hidden smDown>
               <Typography
-                style={{ color: "#efefef", flex: 1 }}
+                style={{ color: "#efefef", flex: 1, fontFamily: 'Saira Extra Condensed' }}
                 component="span"
                 variant="caption"
               >

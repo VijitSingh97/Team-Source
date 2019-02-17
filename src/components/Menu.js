@@ -13,12 +13,12 @@ const Menu = props => {
           <Button style={{ 
             color: "#fff",
             fontFamily: 'Saira Extra Condensed',
-            fontSize: '1.2rem'
-          }}>{link.name}</Button>
+            fontSize: '1.5rem'
+           }}>{link.name}</Button>
         </Link>
       ))}
       <a
-        href="https://github.com/bluepeter/gatsby-material-ui-business-starter"
+        href="https://github.com/VijitSingh97/Team-Source"
         target="_blank"
         rel="noopener noreferrer"
       >

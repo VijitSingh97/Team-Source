@@ -1,4 +1,4 @@
-# Gatsby Material UI Business Starter
+# TeamSource
 
 **[Check out the demo.](https://bluepeter.github.io/gatsby-material-ui-business-starter/)**
 

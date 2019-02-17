@@ -25,6 +25,12 @@ const styles = theme => ({
     },
   });
 class Home extends React.Component{
+    constructor(props) {
+      super(props);
+      this.state = {
+        challenges: []
+      }
+    }
     async componentDidMount() {
       if(!firebase.apps.length){
         // Initialize Firebase
@@ -41,63 +47,95 @@ class Home extends React.Component{
       }
       
       const snapshot = await firebase.firestore().collection('Challenges').get()
-      const challenges = snapshot.docs.map(doc=> doc.data());
-      console.log("challenges");
+      let challenges = snapshot.docs.map(doc=> { return {...doc.data(), ...{id: doc.id, benchMarks: []}}});
+
+      challenges.forEach(async(challenge) => {
+        let currentSnapshot = await firebase.firestore().collection("Challenges/"+challenge.id+"/Benchmark").get();
+        let benchMarks = currentSnapshot.docs.map(doc => { return {...doc.data(), ...{id: doc.id}}});
+        console.log("benchMarks");
+        console.log(benchMarks);
+        let updatedChallenges = this.state.challenges.map((currentChallenge) => {
+          if(challenge.id === currentChallenge.id){
+            return {...currentChallenge, ...{benchMarks}}
+          }
+          return currentChallenge
+        })
+        this.setState({
+          challenges: updatedChallenges
+        });
+      });
+    
+      this.setState({
+        challenges: challenges
+      });
+
+    }
+
+    handleSubmit(event) {
+      const challenges = this.state.challenges
+      localStorage.setItem("company",challenges.company.toString());
+    }
+
+    render() {
+
+      const challenges = this.state.challenges;
+      console.log("render challenges");
       console.log(challenges);
 
-      
-
-
-
-      // var getDoc = challenges.get()
-      //   .then(doc => {
-      //     if (!doc.exists) {
-      //       console.log('No such document!');
-      //     } else {
-      //       console.log('Document data:', doc.data());
-      //     }
-      //   })
-      //   .catch(err => {
-      //     console.log('Error getting document', err);
-      //   });
-    }
-    
- 
-
-    
-    render(props) {
-      const products = this.props.data.allMarkdownRemark.edges;
       return (
         <Page title="TeamSource">
           <SEO title="Home">
             <meta
               name="description"
-              content="Beautiful Gatsby Material UI Business Starter. Tiny code. Well organized. Ready to customize and go."
-            />
+c            />
           </SEO>
 
-        { <HomeFeatures /> }
-        <Grid
-          spacing={24}
-          container
-          direction="row"
-          alignItems="flex-start"
-          justify="center"
-        >
-          <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
-            <Card
-              title="Capital Factory"
-              avatar={
-                <Avatar>
-                  <img src={capitalFactoryLogo} style={{height: '40px', width: '40px'}} />
-                </Avatar>
+          { <HomeFeatures /> }
+          <Grid
+            spacing={24}
+            container
+            direction="row"
+            alignItems="flex-start"
+            justify="center"
+          >
+            <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
+              
+              {
+                challenges.map((challenge) => {
+                  return   (<Card
+                    title={challenge.company_name}
+                    subheader={challenge.created_on.toDate().toDateString()}
+                    avatar={
+                      <Avatar src={challenge.logo}/>
+                    }
+                    imageSrc={challenge.image_url}
+                    style={{marginBottom: "100px", fontSize: '1.2rem'}}
+                    benchmarks={challenge.benchMarks}
+                    cash_award={challenge.benchMarks.cash_award}
+                    equity_award={challenge.benchMarks.equity_award}
+                    description={challenge.benchMarks.description}
+                    time_limit={challenge.benchMarks.time_limit}
+                    children={challenge.challenge_description}
+                    action={
+                      <>
+                        <Button
+                          type="submit"
+                          variant="contained"
+                          color="secondary"
+                          style={{backgroundColor: '#6188F3'}}
+                          className={this.props.classes.root}
+                        >
+                          <Link to="/response" component={challenge.company}>Accept the Challenge</Link>
+                        </Button>
+                      </>
+                    }
+                  >
+                  </Card>
+                   )
+                })
               }
-              action={
-                <>
-                </>
-              }
-            >
-            </Card>
+              
+            </Grid>
           </Grid>
         </Page>
       )

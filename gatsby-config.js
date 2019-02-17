@@ -1,5 +1,6 @@
 module.exports = {
-  pathPrefix: "/gatsby-material-ui-business-starter",
+  pathPrefix: "/Team-Source",
+
   siteMetadata: {
     title: "TeamSource",
     contact: {
