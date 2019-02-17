@@ -67,16 +67,18 @@ class Home extends React.Component{
       });
 
     }
-    
- 
 
-    
+    handleSubmit(event) {
+      const challenges = this.state.challenges
+      localStorage.setItem("company",challenges.company.toString());
+    }
+
     render() {
 
       const challenges = this.state.challenges;
       console.log("render challenges");
       console.log(challenges);
-      
+
       return (
         <Page title="TeamSource">
           <SEO title="Home">
@@ -105,18 +107,19 @@ class Home extends React.Component{
                       <Avatar src={challenge.logo}/>
                     }
                     imageSrc={challenge.image_url}
-                    style={{marginBottom: "100px"}}
+                    style={{marginBottom: "100px", fontSize: '1.2rem'}}
                     benchmarks={challenge.benchMarks}
                     children={challenge.challenge_description}
                     action={
                       <>
                         <Button
+                          type="submit"
                           variant="contained"
                           color="secondary"
                           style={{backgroundColor: '#6188F3'}}
                           className={this.props.classes.root}
                         >
-                          <Link to="/">Accept the Challenge</Link>
+                          <Link to="/response" component={challenge.company}>Accept the Challenge</Link>
                         </Button>
                       </>
                     }
