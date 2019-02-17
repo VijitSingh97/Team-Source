@@ -59,7 +59,7 @@ class SignIn extends React.Component{
         this.handleEmail = this.handleEmail.bind(this);
         this.handlePass = this.handlePass.bind(this);
 
-        if(!firebase.app.length){
+        if(!firebase.apps.length){
           // Initialize Firebase
           var config = {
             apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",

@@ -19,36 +19,62 @@ import firebase from "firebase";
 import capitalFactoryLogo from '../images/Capital Factory Logo.png'
 
 
-
 const styles = theme => ({
     root: {
       backgroundColor: "#2F3136",
     },
-  }),
-  Home = props => {
+  });
+class Home extends React.Component{
+    async componentDidMount() {
+      if(!firebase.apps.length){
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
+          authDomain: "team-source.firebaseapp.com",
+          databaseURL: "https://team-source.firebaseio.com",
+          projectId: "team-source",
+          storageBucket: "team-source.appspot.com",
+          messagingSenderId: "79140289819"
+        };        
+  
+        firebase.initializeApp(config);
+      }
+      
+      const snapshot = await firebase.firestore().collection('Challenges').get()
+      const challenges = snapshot.docs.map(doc=> doc.data());
+      console.log("challenges");
+      console.log(challenges);
 
-    if(!firebase.app.length){
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
-        authDomain: "team-source.firebaseapp.com",
-        databaseURL: "https://team-source.firebaseio.com",
-        projectId: "team-source",
-        storageBucket: "team-source.appspot.com",
-        messagingSenderId: "79140289819"
-      };        
+      
 
-      firebase.initializeApp(config);
+
+
+      // var getDoc = challenges.get()
+      //   .then(doc => {
+      //     if (!doc.exists) {
+      //       console.log('No such document!');
+      //     } else {
+      //       console.log('Document data:', doc.data());
+      //     }
+      //   })
+      //   .catch(err => {
+      //     console.log('Error getting document', err);
+      //   });
     }
-    const products = props.data.allMarkdownRemark.edges;
-    return (
-      <Page title="TeamSource">
-        <SEO title="Home">
-          <meta
-            name="description"
-            content="Beautiful Gatsby Material UI Business Starter. Tiny code. Well organized. Ready to customize and go."
-          />
-        </SEO>
+    
+ 
+
+    
+    render(props) {
+      const products = this.props.data.allMarkdownRemark.edges;
+      return (
+        <Page title="TeamSource">
+          <SEO title="Home">
+            <meta
+              name="description"
+              content="Beautiful Gatsby Material UI Business Starter. Tiny code. Well organized. Ready to customize and go."
+            />
+          </SEO>
 
         { <HomeFeatures /> }
         <Grid
@@ -73,9 +99,9 @@ const styles = theme => ({
             >
             </Card>
           </Grid>
-        </Grid>
-      </Page>
-    );
+        </Page>
+      )
+    }
   };
 
 export const query = graphql`

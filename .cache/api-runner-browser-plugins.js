@@ -1,4 +1,4 @@
 module.exports = [{
-      plugin: require('C:/Users/Kelby/Desktop/Team-Source/gatsby-browser.js'),
+      plugin: require('/home/vijit/Documents/projects/Team-Source/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
