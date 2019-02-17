@@ -13,7 +13,7 @@ const Footer = props => {
     <>
       <Divider style={{ marginTop: "48px", marginBottom: "24px" }} />
       <footer
-        style={{ marginBottom: "24px", whiteSpace: "nowrap" }}
+        style={{ marginBottom: "24px", whiteSpace: "nowrap", color: '#6188F3' }}
         id="footer"
       >
         <span>

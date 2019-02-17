@@ -18,7 +18,7 @@ import firebase from "firebase";
 
 const styles = theme => ({
     root: {
-      backgroundColor: "#9c27b0",
+      backgroundColor: "#6188F3",
     },
   }),
   Home = props => {
