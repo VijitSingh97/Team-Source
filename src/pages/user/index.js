@@ -144,7 +144,16 @@ class User extends React.Component{
     return (
       <Page title={this.state.user.name}>
         <SEO title={this.state.user.name} />
-        <Typography>
+        <hr/>
+        <Typography style={{
+        fontFamily: 'Saira Extra Condensed', 
+        textAlign: 'center', 
+        fontSize: '2rem', 
+        color: 'white', 
+        fontWeight: '700', 
+        margin: '30px 0 15px 0',
+        textTransform: 'uppercase',
+        letterSpacing: '4.67px'}}>
           Current Projects
         </Typography>
         <Grid
@@ -154,7 +163,7 @@ class User extends React.Component{
             alignItems="flex-start"
             justify="center"
           >
-            <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
+            <Grid item xs={12} md={10} style={{ minHeight: "523px", fontFamily: 'SF Compact Display', fontSize: '1.2rem' }}>
               
               {
                 challenges.map((challenge) => {
@@ -179,7 +188,15 @@ class User extends React.Component{
           </Grid>
         
 
-        <Typography>
+        <Typography style={{
+          fontFamily: 'Saira Extra Condensed', 
+          textAlign: 'center', 
+          fontSize: '2rem', 
+          color: 'white', 
+          fontWeight: '700', 
+          margin: '30px 0 15px 0',
+          textTransform: 'uppercase',
+          letterSpacing: '4.67px'}}>
           Past Projects
         </Typography>
         <Grid
@@ -189,7 +206,7 @@ class User extends React.Component{
             alignItems="flex-start"
             justify="center"
           >
-            <Grid item xs={12} md={10} style={{ minHeight: "523px" }}>
+            <Grid item xs={12} md={10} style={{ minHeight: "523px", fontFamily: 'SF Compact Display', fontSize: '1.2rem' }}>
               
               {
                 pchallenges.map((challenge) => {

@@ -24,7 +24,7 @@ class MyCard extends React.Component {
   };
 
   render(){
-    const { children, title, imageSrc, subheader, avatar, action, style = {}, benchmarks } = this.props
+    const { children, title, imageSrc, subheader, avatar, action, style={}, benchmarks } = this.props
     return (
       <Card style={style}>
         <CardHeader
@@ -33,7 +33,7 @@ class MyCard extends React.Component {
           subheader={subheader ? subheader : null}
         />
         <CardMedia image={imageSrc} style={{height: "500px"}}/>
-        <CardContent>{children}</CardContent>
+        <CardContent style={{fontFamily: 'SF Compact Display'}}>{children}</CardContent>
         <CardActions>
         <IconButton
           onClick={this.handleExpandClick}
@@ -51,9 +51,7 @@ class MyCard extends React.Component {
                   benchmarks.map((benchmark) => {
                     return (<ListItem>
                       <ListItemText
-                        inset = {true}
-                        primary={benchmark.id + ' || Due By: ' + benchmark.time_limit.toDate().toDateString() + ' || Equity Award: ' + benchmark.equity_award + ' || Cash Award: ' + benchmark.cash_award}
-                        secondary={benchmark.description}
+                        primary={benchmark.id}
                       />
                     </ListItem>)
                   })
@@ -62,8 +60,6 @@ class MyCard extends React.Component {
           </CardContent>
         </Collapse>
         <CardActions style={{ float: "right" }}>{action}</CardActions>
-        
-        
       </Card>
     )
   }
