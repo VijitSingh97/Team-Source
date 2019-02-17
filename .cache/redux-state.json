@@ -718,12 +718,24 @@
             "version": "^3.9.2"
           },
           {
+            "name": "child_process",
+            "version": "^1.0.2"
+          },
+          {
             "name": "core-js",
             "version": "^2.6.5"
           },
           {
             "name": "firebase",
             "version": "^5.8.3"
+          },
+          {
+            "name": "firebase-admin",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs",
+            "version": "^0.0.1-security"
           },
           {
             "name": "gatsby",
@@ -762,12 +774,20 @@
             "version": "^4.3.2"
           },
           {
+            "name": "http2",
+            "version": "^3.3.7"
+          },
+          {
             "name": "jss",
             "version": "^9.8.7"
           },
           {
             "name": "mdi-material-ui",
             "version": "^5.9.0"
+          },
+          {
+            "name": "net",
+            "version": "^1.0.2"
           },
           {
             "name": "prop-types",
@@ -800,6 +820,10 @@
           {
             "name": "react-swipeable-views-utils",
             "version": "^0.13.1"
+          },
+          {
+            "name": "tls",
+            "version": "^0.0.1"
           }
         ],
         "devDependencies": [],
@@ -945,12 +969,12 @@
       "host": "localhost",
       "pathPrefix": "/gatsby-material-ui-business-starter",
       "polyfill": true,
-      "buildTime": "2019-02-16T23:32:42.769Z",
+      "buildTime": "2019-02-17T01:00:05.466Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e3c196d2efe82edec7f3782cef6c6705",
+        "contentDigest": "5b6755454dd1a06750e8892907440083",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -960,7 +984,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c2802df6f8422ad5821cc0b71b7c5120",
+        "contentDigest": "4bceddbb31e48fe7887378408fa79b18",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -971,9 +995,9 @@
       "extension": "",
       "size": 288,
       "prettySize": "288 B",
-      "modifiedTime": "2019-02-16T23:41:16.000Z",
-      "accessTime": "2019-02-16T23:41:16.000Z",
-      "changeTime": "2019-02-16T23:41:16.865Z",
+      "modifiedTime": "2019-02-17T01:11:57.000Z",
+      "accessTime": "2019-02-17T01:12:35.296Z",
+      "changeTime": "2019-02-17T01:12:35.284Z",
       "birthTime": "2019-02-16T18:05:43.000Z",
       "root": "/",
       "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src",
@@ -990,13 +1014,13 @@
       "blksize": 4096,
       "ino": 3497647,
       "blocks": 0,
-      "atimeMs": 1550360476000,
-      "mtimeMs": 1550360476000,
-      "ctimeMs": 1550360476865.3572,
+      "atimeMs": 1550365955296.3525,
+      "mtimeMs": 1550365917000,
+      "ctimeMs": 1550365955283.8752,
       "birthtimeMs": 1550340343000,
-      "atime": "2019-02-16T23:41:16.000Z",
-      "mtime": "2019-02-16T23:41:16.000Z",
-      "ctime": "2019-02-16T23:41:16.865Z",
+      "atime": "2019-02-17T01:12:35.296Z",
+      "mtime": "2019-02-17T01:11:57.000Z",
+      "ctime": "2019-02-17T01:12:35.284Z",
       "birthtime": "2019-02-16T18:05:43.000Z"
     },
     "83bf88bc-715d-5de2-8e54-19b7301b69f6": {
@@ -1004,7 +1028,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e61fca3207f866d53d581eab04984de4",
+        "contentDigest": "ca300385f5e3aa83c2c382a885048dbb",
         "type": "Directory",
         "description": "Directory \"src/pages/products\"",
         "owner": "gatsby-source-filesystem"
@@ -1016,7 +1040,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2019-02-16T19:25:27.000Z",
-      "accessTime": "2019-02-16T23:32:45.082Z",
+      "accessTime": "2019-02-17T01:00:10.330Z",
       "changeTime": "2019-02-16T19:25:27.516Z",
       "birthTime": "2019-02-16T18:05:43.000Z",
       "root": "/",
@@ -1034,11 +1058,11 @@
       "blksize": 4096,
       "ino": 3497648,
       "blocks": 0,
-      "atimeMs": 1550359965081.896,
+      "atimeMs": 1550365210329.986,
       "mtimeMs": 1550345127000,
       "ctimeMs": 1550345127515.6667,
       "birthtimeMs": 1550340343000,
-      "atime": "2019-02-16T23:32:45.082Z",
+      "atime": "2019-02-17T01:00:10.330Z",
       "mtime": "2019-02-16T19:25:27.000Z",
       "ctime": "2019-02-16T19:25:27.516Z",
       "birthtime": "2019-02-16T18:05:43.000Z"
@@ -1048,7 +1072,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "81cb5e175b2ca1e1632b2f4f61078d69",
+        "contentDigest": "1c485c10d3b8ec38061315f05e82caed",
         "type": "Directory",
         "description": "Directory \"src/pages/signin\"",
         "owner": "gatsby-source-filesystem"
@@ -1060,7 +1084,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-16T22:33:15.000Z",
-      "accessTime": "2019-02-16T23:32:45.082Z",
+      "accessTime": "2019-02-17T01:00:10.330Z",
       "changeTime": "2019-02-16T22:33:15.658Z",
       "birthTime": "2019-02-16T22:32:56.000Z",
       "root": "/",
@@ -1078,11 +1102,11 @@
       "blksize": 4096,
       "ino": 3559806,
       "blocks": 0,
-      "atimeMs": 1550359965081.8596,
+      "atimeMs": 1550365210329.9668,
       "mtimeMs": 1550356395000,
       "ctimeMs": 1550356395658.162,
       "birthtimeMs": 1550356376000,
-      "atime": "2019-02-16T23:32:45.082Z",
+      "atime": "2019-02-17T01:00:10.330Z",
       "mtime": "2019-02-16T22:33:15.000Z",
       "ctime": "2019-02-16T22:33:15.658Z",
       "birthtime": "2019-02-16T22:32:56.000Z"
@@ -1092,7 +1116,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d7ab7e9040c32955e3624f0f8a00c7a8",
+        "contentDigest": "ada9a4221e8772ae722e2fd060659c31",
         "type": "Directory",
         "description": "Directory \"src/pages/signup\"",
         "owner": "gatsby-source-filesystem"
@@ -1104,7 +1128,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-16T22:33:15.000Z",
-      "accessTime": "2019-02-16T23:32:45.082Z",
+      "accessTime": "2019-02-17T01:00:10.330Z",
       "changeTime": "2019-02-16T22:33:15.657Z",
       "birthTime": "2019-02-16T22:32:56.000Z",
       "root": "/",
@@ -1122,11 +1146,11 @@
       "blksize": 4096,
       "ino": 3559808,
       "blocks": 0,
-      "atimeMs": 1550359965081.9336,
+      "atimeMs": 1550365210330.0046,
       "mtimeMs": 1550356395000,
       "ctimeMs": 1550356395656.6077,
       "birthtimeMs": 1550356376000,
-      "atime": "2019-02-16T23:32:45.082Z",
+      "atime": "2019-02-17T01:00:10.330Z",
       "mtime": "2019-02-16T22:33:15.000Z",
       "ctime": "2019-02-16T22:33:15.657Z",
       "birthtime": "2019-02-16T22:32:56.000Z"
@@ -1136,7 +1160,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "fcf085352cdc35f1bd20939f737484d7",
+        "contentDigest": "7b9cfbc817aacd106c1f1398729d29ec",
         "type": "Directory",
         "description": "Directory \"src/pages/team\"",
         "owner": "gatsby-source-filesystem"
@@ -1148,7 +1172,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-02-16T19:23:26.000Z",
-      "accessTime": "2019-02-16T23:32:45.082Z",
+      "accessTime": "2019-02-17T01:00:10.330Z",
       "changeTime": "2019-02-16T19:23:26.736Z",
       "birthTime": "2019-02-16T18:05:43.000Z",
       "root": "/",
@@ -1166,149 +1190,14 @@
       "blksize": 4096,
       "ino": 3497658,
       "blocks": 0,
-      "atimeMs": 1550359965081.9873,
+      "atimeMs": 1550365210330.024,
       "mtimeMs": 1550345006000,
       "ctimeMs": 1550345006736.385,
       "birthtimeMs": 1550340343000,
-      "atime": "2019-02-16T23:32:45.082Z",
+      "atime": "2019-02-17T01:00:10.330Z",
       "mtime": "2019-02-16T19:23:26.000Z",
       "ctime": "2019-02-16T19:23:26.736Z",
       "birthtime": "2019-02-16T18:05:43.000Z"
-    },
-    "c1de4840-3d86-5084-af28-326a958c6f65": {
-      "id": "c1de4840-3d86-5084-af28-326a958c6f65",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "5a7727203d856c846dcf09a6a49f95b9",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/404.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
-      "relativePath": "404.js",
-      "extension": "js",
-      "size": 340,
-      "prettySize": "340 B",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-16T23:30:44.132Z",
-      "changeTime": "2019-02-16T18:16:33.023Z",
-      "birthTime": "2019-02-16T18:05:43.324Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
-      "base": "404.js",
-      "ext": ".js",
-      "name": "404",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3497656,
-      "blocks": 8,
-      "atimeMs": 1550359844131.5037,
-      "mtimeMs": 1550340343324.5378,
-      "ctimeMs": 1550340993023.0989,
-      "birthtimeMs": 1550340343324.4963,
-      "atime": "2019-02-16T23:30:44.132Z",
-      "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.023Z",
-      "birthtime": "2019-02-16T18:05:43.324Z"
-    },
-    "866ee059-978f-5ae5-b04f-22b467adf2c7": {
-      "id": "866ee059-978f-5ae5-b04f-22b467adf2c7",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "e32bfac4d3e7b6a82222d052af4589b5",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/pages/index.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.css",
-      "relativePath": "index.css",
-      "extension": "css",
-      "size": 51,
-      "prettySize": "51 B",
-      "modifiedTime": "2019-02-16T23:39:11.361Z",
-      "accessTime": "2019-02-16T23:39:11.445Z",
-      "changeTime": "2019-02-16T23:39:11.361Z",
-      "birthTime": "2019-02-16T23:32:08.848Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
-      "base": "index.css",
-      "ext": ".css",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3579453,
-      "blocks": 8,
-      "atimeMs": 1550360351444.591,
-      "mtimeMs": 1550360351361.4622,
-      "ctimeMs": 1550360351361.4622,
-      "birthtimeMs": 1550359928847.7146,
-      "atime": "2019-02-16T23:39:11.445Z",
-      "mtime": "2019-02-16T23:39:11.361Z",
-      "ctime": "2019-02-16T23:39:11.361Z",
-      "birthtime": "2019-02-16T23:32:08.848Z"
-    },
-    "075381bf-c2dd-54cf-9881-f53e9a27a708": {
-      "id": "075381bf-c2dd-54cf-9881-f53e9a27a708",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7c40dcfb361ce44b536326c10c07fd3a",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js",
-      "relativePath": "index.js",
-      "extension": "js",
-      "size": 3002,
-      "prettySize": "3 kB",
-      "modifiedTime": "2019-02-16T23:41:12.013Z",
-      "accessTime": "2019-02-16T23:41:12.013Z",
-      "changeTime": "2019-02-16T23:41:12.013Z",
-      "birthTime": "2019-02-16T23:28:06.484Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3578376,
-      "blocks": 8,
-      "atimeMs": 1550360472012.653,
-      "mtimeMs": 1550360472013.3987,
-      "ctimeMs": 1550360472013.3987,
-      "birthtimeMs": 1550359686483.7236,
-      "atime": "2019-02-16T23:41:12.013Z",
-      "mtime": "2019-02-16T23:41:12.013Z",
-      "ctime": "2019-02-16T23:41:12.013Z",
-      "birthtime": "2019-02-16T23:28:06.484Z"
     },
     "6e06e33b-7491-51fc-856c-557ab8aff1ff": {
       "id": "6e06e33b-7491-51fc-856c-557ab8aff1ff",
@@ -1328,7 +1217,7 @@
       "size": 4680,
       "prettySize": "4.68 kB",
       "modifiedTime": "2019-02-16T22:32:56.056Z",
-      "accessTime": "2019-02-16T23:30:42.668Z",
+      "accessTime": "2019-02-17T00:25:23.032Z",
       "changeTime": "2019-02-16T22:32:57.746Z",
       "birthTime": "2019-02-16T22:32:56.056Z",
       "root": "/",
@@ -1346,44 +1235,42 @@
       "blksize": 4096,
       "ino": 3559807,
       "blocks": 16,
-      "atimeMs": 1550359842667.5444,
+      "atimeMs": 1550363123032.4702,
       "mtimeMs": 1550356376055.9333,
       "ctimeMs": 1550356377745.5493,
       "birthtimeMs": 1550356376055.8704,
-      "atime": "2019-02-16T23:30:42.668Z",
+      "atime": "2019-02-17T00:25:23.032Z",
       "mtime": "2019-02-16T22:32:56.056Z",
       "ctime": "2019-02-16T22:32:57.746Z",
       "birthtime": "2019-02-16T22:32:56.056Z"
     },
-    "6ab78f7b-2b9e-54ec-8f98-e62956c6785e": {
-      "id": "6ab78f7b-2b9e-54ec-8f98-e62956c6785e",
-      "children": [
-        "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1"
-      ],
+    "866ee059-978f-5ae5-b04f-22b467adf2c7": {
+      "id": "866ee059-978f-5ae5-b04f-22b467adf2c7",
+      "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "cb1a91675fe3ccdadd952643ce345990",
+        "contentDigest": "e32bfac4d3e7b6a82222d052af4589b5",
         "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/products/backpack.md\"",
+        "mediaType": "text/css",
+        "description": "File \"src/pages/index.css\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/backpack.md",
-      "relativePath": "products/backpack.md",
-      "extension": "md",
-      "size": 2292,
-      "prettySize": "2.29 kB",
-      "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
-      "changeTime": "2019-02-16T18:16:33.029Z",
-      "birthTime": "2019-02-16T18:05:43.325Z",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.css",
+      "relativePath": "index.css",
+      "extension": "css",
+      "size": 51,
+      "prettySize": "51 B",
+      "modifiedTime": "2019-02-16T23:39:11.361Z",
+      "accessTime": "2019-02-17T00:25:22.652Z",
+      "changeTime": "2019-02-16T23:39:11.361Z",
+      "birthTime": "2019-02-16T23:32:08.848Z",
       "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
-      "base": "backpack.md",
-      "ext": ".md",
-      "name": "backpack",
-      "relativeDirectory": "products",
+      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "base": "index.css",
+      "ext": ".css",
+      "name": "index",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1391,16 +1278,151 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497649,
+      "ino": 3579453,
       "blocks": 8,
-      "atimeMs": 1550359744133.7358,
-      "mtimeMs": 1550340343324.9453,
-      "ctimeMs": 1550340993028.8057,
-      "birthtimeMs": 1550340343324.8757,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atimeMs": 1550363122652.3794,
+      "mtimeMs": 1550360351361.4622,
+      "ctimeMs": 1550360351361.4622,
+      "birthtimeMs": 1550359928847.7146,
+      "atime": "2019-02-17T00:25:22.652Z",
+      "mtime": "2019-02-16T23:39:11.361Z",
+      "ctime": "2019-02-16T23:39:11.361Z",
+      "birthtime": "2019-02-16T23:32:08.848Z"
+    },
+    "c1de4840-3d86-5084-af28-326a958c6f65": {
+      "id": "c1de4840-3d86-5084-af28-326a958c6f65",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5a7727203d856c846dcf09a6a49f95b9",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 340,
+      "prettySize": "340 B",
+      "modifiedTime": "2019-02-16T18:05:43.325Z",
+      "accessTime": "2019-02-17T00:25:23.032Z",
+      "changeTime": "2019-02-16T18:16:33.023Z",
+      "birthTime": "2019-02-16T18:05:43.324Z",
+      "root": "/",
+      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3497656,
+      "blocks": 8,
+      "atimeMs": 1550363123032.3142,
+      "mtimeMs": 1550340343324.5378,
+      "ctimeMs": 1550340993023.0989,
+      "birthtimeMs": 1550340343324.4963,
+      "atime": "2019-02-17T00:25:23.032Z",
       "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.029Z",
-      "birthtime": "2019-02-16T18:05:43.325Z"
+      "ctime": "2019-02-16T18:16:33.023Z",
+      "birthtime": "2019-02-16T18:05:43.324Z"
+    },
+    "075381bf-c2dd-54cf-9881-f53e9a27a708": {
+      "id": "075381bf-c2dd-54cf-9881-f53e9a27a708",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "86319fbcbd7319c61dea8dfae9b9be16",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 3799,
+      "prettySize": "3.8 kB",
+      "modifiedTime": "2019-02-17T01:28:02.231Z",
+      "accessTime": "2019-02-17T01:28:02.231Z",
+      "changeTime": "2019-02-17T01:28:02.231Z",
+      "birthTime": "2019-02-16T23:28:06.484Z",
+      "root": "/",
+      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3578376,
+      "blocks": 8,
+      "atimeMs": 1550366882230.949,
+      "mtimeMs": 1550366882231.3499,
+      "ctimeMs": 1550366882231.3499,
+      "birthtimeMs": 1550359686483.7236,
+      "atime": "2019-02-17T01:28:02.231Z",
+      "mtime": "2019-02-17T01:28:02.231Z",
+      "ctime": "2019-02-17T01:28:02.231Z",
+      "birthtime": "2019-02-16T23:28:06.484Z"
+    },
+    "bef3ed08-6c7f-5678-84c9-bf4671df0261": {
+      "id": "bef3ed08-6c7f-5678-84c9-bf4671df0261",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7bfcd98e35e8fe8ecda80ba24c28da24",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/signup/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js",
+      "relativePath": "signup/index.js",
+      "extension": "js",
+      "size": 6001,
+      "prettySize": "6 kB",
+      "modifiedTime": "2019-02-17T01:00:23.364Z",
+      "accessTime": "2019-02-17T01:00:23.363Z",
+      "changeTime": "2019-02-17T01:00:23.364Z",
+      "birthTime": "2019-02-16T22:32:56.056Z",
+      "root": "/",
+      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "signup",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3559809,
+      "blocks": 16,
+      "atimeMs": 1550365223363.1553,
+      "mtimeMs": 1550365223363.6025,
+      "ctimeMs": 1550365223363.6025,
+      "birthtimeMs": 1550356376056.1133,
+      "atime": "2019-02-17T01:00:23.363Z",
+      "mtime": "2019-02-17T01:00:23.364Z",
+      "ctime": "2019-02-17T01:00:23.364Z",
+      "birthtime": "2019-02-16T22:32:56.056Z"
     },
     "3dc1b13c-eae4-58fc-854b-87e72341de3c": {
       "id": "3dc1b13c-eae4-58fc-854b-87e72341de3c",
@@ -1422,7 +1444,7 @@
       "size": 2870,
       "prettySize": "2.87 kB",
       "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.654Z",
       "changeTime": "2019-02-16T18:16:33.031Z",
       "birthTime": "2019-02-16T18:05:43.325Z",
       "root": "/",
@@ -1440,43 +1462,43 @@
       "blksize": 4096,
       "ino": 3497654,
       "blocks": 8,
-      "atimeMs": 1550359744133.741,
+      "atimeMs": 1550363122653.9521,
       "mtimeMs": 1550340343325.139,
       "ctimeMs": 1550340993031.2468,
       "birthtimeMs": 1550340343325.076,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.654Z",
       "mtime": "2019-02-16T18:05:43.325Z",
       "ctime": "2019-02-16T18:16:33.031Z",
       "birthtime": "2019-02-16T18:05:43.325Z"
     },
-    "62e7724f-7ee1-5aab-b345-8639bcae82aa": {
-      "id": "62e7724f-7ee1-5aab-b345-8639bcae82aa",
+    "6ab78f7b-2b9e-54ec-8f98-e62956c6785e": {
+      "id": "6ab78f7b-2b9e-54ec-8f98-e62956c6785e",
       "children": [
-        "feab1063-6411-5361-86ea-f1b762ae47d6"
+        "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "d3312e5db3a167e9186376030ed4de12",
+        "contentDigest": "cb1a91675fe3ccdadd952643ce345990",
         "type": "File",
         "mediaType": "text/markdown",
-        "description": "File \"src/pages/products/camera.md\"",
+        "description": "File \"src/pages/products/backpack.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/camera.md",
-      "relativePath": "products/camera.md",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/backpack.md",
+      "relativePath": "products/backpack.md",
       "extension": "md",
-      "size": 2865,
-      "prettySize": "2.87 kB",
+      "size": 2292,
+      "prettySize": "2.29 kB",
       "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
-      "changeTime": "2019-02-16T18:16:33.034Z",
+      "accessTime": "2019-02-17T00:25:22.654Z",
+      "changeTime": "2019-02-16T18:16:33.029Z",
       "birthTime": "2019-02-16T18:05:43.325Z",
       "root": "/",
       "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
-      "base": "camera.md",
+      "base": "backpack.md",
       "ext": ".md",
-      "name": "camera",
+      "name": "backpack",
       "relativeDirectory": "products",
       "dev": 16777220,
       "mode": 33188,
@@ -1485,15 +1507,15 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497651,
+      "ino": 3497649,
       "blocks": 8,
-      "atimeMs": 1550359744133.746,
-      "mtimeMs": 1550340343325.2546,
-      "ctimeMs": 1550340993033.5737,
-      "birthtimeMs": 1550340343325.2075,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atimeMs": 1550363122653.8652,
+      "mtimeMs": 1550340343324.9453,
+      "ctimeMs": 1550340993028.8057,
+      "birthtimeMs": 1550340343324.8757,
+      "atime": "2019-02-17T00:25:22.654Z",
       "mtime": "2019-02-16T18:05:43.325Z",
-      "ctime": "2019-02-16T18:16:33.034Z",
+      "ctime": "2019-02-16T18:16:33.029Z",
       "birthtime": "2019-02-16T18:05:43.325Z"
     },
     "c622074d-8063-5b1b-8fb4-7f785ca0bde8": {
@@ -1516,7 +1538,7 @@
       "size": 2783,
       "prettySize": "2.78 kB",
       "modifiedTime": "2019-02-16T18:05:43.325Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.654Z",
       "changeTime": "2019-02-16T18:16:33.037Z",
       "birthTime": "2019-02-16T18:05:43.325Z",
       "root": "/",
@@ -1534,41 +1556,43 @@
       "blksize": 4096,
       "ino": 3497652,
       "blocks": 8,
-      "atimeMs": 1550359744133.7515,
+      "atimeMs": 1550363122654.108,
       "mtimeMs": 1550340343325.3691,
       "ctimeMs": 1550340993036.902,
       "birthtimeMs": 1550340343325.3154,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.654Z",
       "mtime": "2019-02-16T18:05:43.325Z",
       "ctime": "2019-02-16T18:16:33.037Z",
       "birthtime": "2019-02-16T18:05:43.325Z"
     },
-    "43d164b9-21ed-5bbe-95a2-b5ada0a185cc": {
-      "id": "43d164b9-21ed-5bbe-95a2-b5ada0a185cc",
-      "children": [],
+    "62e7724f-7ee1-5aab-b345-8639bcae82aa": {
+      "id": "62e7724f-7ee1-5aab-b345-8639bcae82aa",
+      "children": [
+        "feab1063-6411-5361-86ea-f1b762ae47d6"
+      ],
       "parent": null,
       "internal": {
-        "contentDigest": "576b0acad73989aefdf614618bcd4255",
+        "contentDigest": "d3312e5db3a167e9186376030ed4de12",
         "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/products/index.js\"",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/products/camera.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js",
-      "relativePath": "products/index.js",
-      "extension": "js",
-      "size": 843,
-      "prettySize": "843 B",
-      "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-16T23:30:44.186Z",
-      "changeTime": "2019-02-16T18:16:33.040Z",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/camera.md",
+      "relativePath": "products/camera.md",
+      "extension": "md",
+      "size": 2865,
+      "prettySize": "2.87 kB",
+      "modifiedTime": "2019-02-16T18:05:43.325Z",
+      "accessTime": "2019-02-17T00:25:22.654Z",
+      "changeTime": "2019-02-16T18:16:33.034Z",
       "birthTime": "2019-02-16T18:05:43.325Z",
       "root": "/",
       "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
+      "base": "camera.md",
+      "ext": ".md",
+      "name": "camera",
       "relativeDirectory": "products",
       "dev": 16777220,
       "mode": 33188,
@@ -1577,15 +1601,15 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3497653,
+      "ino": 3497651,
       "blocks": 8,
-      "atimeMs": 1550359844185.827,
-      "mtimeMs": 1550340343325.5154,
-      "ctimeMs": 1550340993040.2947,
-      "birthtimeMs": 1550340343325.4272,
-      "atime": "2019-02-16T23:30:44.186Z",
-      "mtime": "2019-02-16T18:05:43.326Z",
-      "ctime": "2019-02-16T18:16:33.040Z",
+      "atimeMs": 1550363122654.019,
+      "mtimeMs": 1550340343325.2546,
+      "ctimeMs": 1550340993033.5737,
+      "birthtimeMs": 1550340343325.2075,
+      "atime": "2019-02-17T00:25:22.654Z",
+      "mtime": "2019-02-16T18:05:43.325Z",
+      "ctime": "2019-02-16T18:16:33.034Z",
       "birthtime": "2019-02-16T18:05:43.325Z"
     },
     "f9df161c-9a3e-5c95-bc8f-e720ce0055e2": {
@@ -1608,7 +1632,7 @@
       "size": 2938,
       "prettySize": "2.94 kB",
       "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.654Z",
       "changeTime": "2019-02-16T18:16:33.043Z",
       "birthTime": "2019-02-16T18:05:43.326Z",
       "root": "/",
@@ -1626,14 +1650,59 @@
       "blksize": 4096,
       "ino": 3497655,
       "blocks": 8,
-      "atimeMs": 1550359744133.7612,
+      "atimeMs": 1550363122654.2275,
       "mtimeMs": 1550340343325.6448,
       "ctimeMs": 1550340993042.6125,
       "birthtimeMs": 1550340343325.5945,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.654Z",
       "mtime": "2019-02-16T18:05:43.326Z",
       "ctime": "2019-02-16T18:16:33.043Z",
       "birthtime": "2019-02-16T18:05:43.326Z"
+    },
+    "43d164b9-21ed-5bbe-95a2-b5ada0a185cc": {
+      "id": "43d164b9-21ed-5bbe-95a2-b5ada0a185cc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "576b0acad73989aefdf614618bcd4255",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/products/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/index.js",
+      "relativePath": "products/index.js",
+      "extension": "js",
+      "size": 843,
+      "prettySize": "843 B",
+      "modifiedTime": "2019-02-16T18:05:43.326Z",
+      "accessTime": "2019-02-17T00:25:23.032Z",
+      "changeTime": "2019-02-16T18:16:33.040Z",
+      "birthTime": "2019-02-16T18:05:43.325Z",
+      "root": "/",
+      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "products",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3497653,
+      "blocks": 8,
+      "atimeMs": 1550363123032.4185,
+      "mtimeMs": 1550340343325.5154,
+      "ctimeMs": 1550340993040.2947,
+      "birthtimeMs": 1550340343325.4272,
+      "atime": "2019-02-17T00:25:23.032Z",
+      "mtime": "2019-02-16T18:05:43.326Z",
+      "ctime": "2019-02-16T18:16:33.040Z",
+      "birthtime": "2019-02-16T18:05:43.325Z"
     },
     "f3d1ee7d-1112-5d84-b1c8-534312917856": {
       "id": "f3d1ee7d-1112-5d84-b1c8-534312917856",
@@ -1655,7 +1724,7 @@
       "size": 2806,
       "prettySize": "2.81 kB",
       "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.654Z",
       "changeTime": "2019-02-16T18:16:33.045Z",
       "birthTime": "2019-02-16T18:05:43.326Z",
       "root": "/",
@@ -1673,59 +1742,14 @@
       "blksize": 4096,
       "ino": 3497650,
       "blocks": 8,
-      "atimeMs": 1550359744133.766,
+      "atimeMs": 1550363122654.2954,
       "mtimeMs": 1550340343325.7856,
       "ctimeMs": 1550340993045.4548,
       "birthtimeMs": 1550340343325.7288,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.654Z",
       "mtime": "2019-02-16T18:05:43.326Z",
       "ctime": "2019-02-16T18:16:33.045Z",
       "birthtime": "2019-02-16T18:05:43.326Z"
-    },
-    "bef3ed08-6c7f-5678-84c9-bf4671df0261": {
-      "id": "bef3ed08-6c7f-5678-84c9-bf4671df0261",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7bfcd98e35e8fe8ecda80ba24c28da24",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/signup/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup/index.js",
-      "relativePath": "signup/index.js",
-      "extension": "js",
-      "size": 6001,
-      "prettySize": "6 kB",
-      "modifiedTime": "2019-02-16T22:32:56.056Z",
-      "accessTime": "2019-02-16T23:30:41.394Z",
-      "changeTime": "2019-02-16T22:32:57.751Z",
-      "birthTime": "2019-02-16T22:32:56.056Z",
-      "root": "/",
-      "dir": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/signup",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "signup",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3559809,
-      "blocks": 16,
-      "atimeMs": 1550359841394.3872,
-      "mtimeMs": 1550356376056.1885,
-      "ctimeMs": 1550356377750.85,
-      "birthtimeMs": 1550356376056.1133,
-      "atime": "2019-02-16T23:30:41.394Z",
-      "mtime": "2019-02-16T22:32:56.056Z",
-      "ctime": "2019-02-16T22:32:57.751Z",
-      "birthtime": "2019-02-16T22:32:56.056Z"
     },
     "e9e6a156-e200-542e-8197-f6b881228eab": {
       "id": "e9e6a156-e200-542e-8197-f6b881228eab",
@@ -1747,7 +1771,7 @@
       "size": 1252,
       "prettySize": "1.25 kB",
       "modifiedTime": "2019-02-16T18:05:43.326Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.656Z",
       "changeTime": "2019-02-16T18:16:33.049Z",
       "birthTime": "2019-02-16T18:05:43.326Z",
       "root": "/",
@@ -1765,11 +1789,11 @@
       "blksize": 4096,
       "ino": 3497659,
       "blocks": 8,
-      "atimeMs": 1550359744133.8232,
+      "atimeMs": 1550363122656.1484,
       "mtimeMs": 1550340343326.2756,
       "ctimeMs": 1550340993049.3184,
       "birthtimeMs": 1550340343326.1252,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.656Z",
       "mtime": "2019-02-16T18:05:43.326Z",
       "ctime": "2019-02-16T18:16:33.049Z",
       "birthtime": "2019-02-16T18:05:43.326Z"
@@ -1794,7 +1818,7 @@
       "size": 1257,
       "prettySize": "1.26 kB",
       "modifiedTime": "2019-02-16T18:05:43.327Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.656Z",
       "changeTime": "2019-02-16T18:16:33.055Z",
       "birthTime": "2019-02-16T18:05:43.327Z",
       "root": "/",
@@ -1812,11 +1836,11 @@
       "blksize": 4096,
       "ino": 3497661,
       "blocks": 8,
-      "atimeMs": 1550359744133.8347,
+      "atimeMs": 1550363122656.2017,
       "mtimeMs": 1550340343326.6714,
       "ctimeMs": 1550340993055.2456,
       "birthtimeMs": 1550340343326.6025,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.656Z",
       "mtime": "2019-02-16T18:05:43.327Z",
       "ctime": "2019-02-16T18:16:33.055Z",
       "birthtime": "2019-02-16T18:05:43.327Z"
@@ -1839,7 +1863,7 @@
       "size": 2485,
       "prettySize": "2.48 kB",
       "modifiedTime": "2019-02-16T18:05:43.327Z",
-      "accessTime": "2019-02-16T23:30:44.186Z",
+      "accessTime": "2019-02-17T00:25:23.033Z",
       "changeTime": "2019-02-16T18:16:33.059Z",
       "birthTime": "2019-02-16T18:05:43.327Z",
       "root": "/",
@@ -1857,11 +1881,11 @@
       "blksize": 4096,
       "ino": 3497660,
       "blocks": 8,
-      "atimeMs": 1550359844185.9785,
+      "atimeMs": 1550363123032.5732,
       "mtimeMs": 1550340343326.8647,
       "ctimeMs": 1550340993058.5425,
       "birthtimeMs": 1550340343326.792,
-      "atime": "2019-02-16T23:30:44.186Z",
+      "atime": "2019-02-17T00:25:23.033Z",
       "mtime": "2019-02-16T18:05:43.327Z",
       "ctime": "2019-02-16T18:16:33.059Z",
       "birthtime": "2019-02-16T18:05:43.327Z"
@@ -1886,7 +1910,7 @@
       "size": 1262,
       "prettySize": "1.26 kB",
       "modifiedTime": "2019-02-16T18:05:43.327Z",
-      "accessTime": "2019-02-16T23:29:04.134Z",
+      "accessTime": "2019-02-17T00:25:22.657Z",
       "changeTime": "2019-02-16T18:16:33.061Z",
       "birthTime": "2019-02-16T18:05:43.327Z",
       "root": "/",
@@ -1904,34 +1928,14 @@
       "blksize": 4096,
       "ino": 3497662,
       "blocks": 8,
-      "atimeMs": 1550359744133.8572,
+      "atimeMs": 1550363122656.5544,
       "mtimeMs": 1550340343327.02,
       "ctimeMs": 1550340993061.0137,
       "birthtimeMs": 1550340343326.9556,
-      "atime": "2019-02-16T23:29:04.134Z",
+      "atime": "2019-02-17T00:25:22.657Z",
       "mtime": "2019-02-16T18:05:43.327Z",
       "ctime": "2019-02-16T18:16:33.061Z",
       "birthtime": "2019-02-16T18:05:43.327Z"
-    },
-    "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1": {
-      "id": "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1",
-      "children": [],
-      "parent": "6ab78f7b-2b9e-54ec-8f98-e62956c6785e",
-      "internal": {
-        "content": "\nWolf incididunt authentic fam kale chips kitsch. Consectetur blog schlitz\nlive-edge elit helvetica man bun cliche kombucha mixtape semiotics.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2028f4b68cae373d34316b3046218d93",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Balderdash Backpack",
-        "path": "/products/backpack",
-        "date": "2018-11-18T02:33:46.000Z",
-        "image": "products/jakob-owens-235219-unsplash.jpg"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nWolf incididunt authentic fam kale chips kitsch. Consectetur blog schlitz\nlive-edge elit helvetica man bun cliche kombucha mixtape semiotics.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n",
-      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/backpack.md"
     },
     "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8": {
       "id": "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8",
@@ -1952,6 +1956,26 @@
       "excerpt": "",
       "rawMarkdownBody": "\nChambray offal wayfarers hoodie everyday carry photo booth, narwhal schlitz put\na bird on it tumblr. Art party mustache williamsburg laborum roof party anim,\ngluten-free meh authentic. Tempor selvage craft beer vice occupy migas offal\nchambray fanny pack unicorn authentic cray.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n\nBushwick distillery copper mug you probably haven't heard of them hell of.\nForage man bun dolore selvage, adaptogen iPhone freegan knausgaard ut\nchurch-key. Heirloom wayfarers kinfolk art party. Actually franzen readymade\necho park forage taiyaki cillum gastropub hella. Bitters normcore activated\ncharcoal shabby chic fashion axe listicle flannel eiusmod succulents.\nFlexitarian helvetica edison bulb biodiesel portland marfa mixtape kale chips\nnisi.\n",
       "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/bug.md"
+    },
+    "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1": {
+      "id": "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1",
+      "children": [],
+      "parent": "6ab78f7b-2b9e-54ec-8f98-e62956c6785e",
+      "internal": {
+        "content": "\nWolf incididunt authentic fam kale chips kitsch. Consectetur blog schlitz\nlive-edge elit helvetica man bun cliche kombucha mixtape semiotics.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2028f4b68cae373d34316b3046218d93",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Balderdash Backpack",
+        "path": "/products/backpack",
+        "date": "2018-11-18T02:33:46.000Z",
+        "image": "products/jakob-owens-235219-unsplash.jpg"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWolf incididunt authentic fam kale chips kitsch. Consectetur blog schlitz\nlive-edge elit helvetica man bun cliche kombucha mixtape semiotics.\n\n## Shabby chic fixie subway tile in bespoke disrupt\n\nVinyl butcher ugh, occaecat pariatur selvage eiusmod air plant yr freegan\ndeserunt sint ullamco. Kombucha cupidatat 3 wolf moon, tilde austin mumblecore\npabst fam activated charcoal tumblr bitters direct trade.\n\n1. Cum det dixit Parcarum qui spemque est\n2. Exit ex huic\n3. Quod consiste agitataque claustraque vicina videt lacertis\n4. Loquor videt\n5. Ardua non igne caelesti coniugis cognovi diversorum\n6. Per nunc pariterque saeva vindicet\n\nSubway tile waistcoat four dollar toast vinyl shoreditch lyft viral pour-over\nskateboard. Ethical chicharrones lomo forage ennui iceland chambray messenger\nbag distillery edison bulb chia tumblr blog coloring book. Skateboard banh mi\nsmall batch hot chicken leggings chartreuse. Sartorial dolore organic\nsustainable aesthetic. Nisi hammock freegan knausgaard celiac. Exercitation\ndrinking vinegar viral, food truck ennui coloring book labore eiusmod.\n\n## Qui kitsch snackwave\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\n- Parens est studiisque interea\n- Pro istis mediis carnes iste nec imperat\n- Te vocas orat nisi quantumque castra\n- Gestumque crepuscula esse videntur coegit\n- Ambo videtque gerat aquae ferens vagina\n- Adde leviter faciam tetigisse regunt concava in\n\nEthical chicharrones lomo forage ennui iceland chambray messenger bag\ndistillery edison bulb chia tumblr blog coloring book. Skateboard banh mi small\nbatch hot chicken leggings chartreuse. Sartorial dolore organic sustainable\naesthetic. Nisi hammock freegan knausgaard celiac. Exercitation drinking\nvinegar viral, food truck ennui coloring book labore eiusmod.\n\nPug fam man braid, dreamcatcher enim squid sartorial nulla iceland four dollar\ntoast. Qui kitsch snackwave ad PBR&B sriracha semiotics hexagon messenger bag\nhashtag humblebrag kickstarter four loko.\n",
+      "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/products/backpack.md"
     },
     "feab1063-6411-5361-86ea-f1b762ae47d6": {
       "id": "feab1063-6411-5361-86ea-f1b762ae47d6",
@@ -2102,24 +2126,68 @@
       "rawMarkdownBody": "\nBiodiesel narwhal banh mi, vice eu non venmo flannel. Health goth labore\norganic ex listicle semiotics officia. Succulents vape typewriter subway tile,\nkeffiyeh helvetica aesthetic officia culpa adipisicing quinoa nulla +1. Bicycle\nrights green juice lomo jean shorts succulents tofu live-edge locavore\nstumptown.\n\nTousled ut succulents, hella excepteur pickled raclette jean shorts\nirure woke mollit ugh messenger bag food truck.\n\nFixie pitchfork edison bulb, ad palo santo tbh tousled williamsburg mustache\nliterally chicharrones bitters. Venmo hexagon dreamcatcher godard kickstarter\nfour dollar toast vaporware art party cloud bread distillery.\n\nUt gastropub stumptown, cillum hashtag tousled butcher tumblr ramps food truck.\nEt coloring book dreamcatcher fugiat. Tote bag succulents portland, in sed lyft\nlive-edge vexillologist narwhal est pickled. Seitan letterpress wayfarers ut\nheirloom coloring book officia cupidatat post-ironic. Stumptown vaporware af\ngochujang intelligentsia. Green juice blue bottle authentic schlitz direct\ntrade celiac.\n",
       "fileAbsolutePath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/team/teddy-von-tumpletumple.md"
     },
-    "SitePage /products/backpack": {
-      "jsonName": "products-backpack-659",
-      "internalComponentName": "ComponentProductsBackpack",
-      "path": "/products/backpack",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
-      "componentChunkName": "component---src-templates-general-js",
+    "SitePage /team/dolly-burperlous": {
+      "jsonName": "team-dolly-burperlous-9ef",
+      "internalComponentName": "ComponentTeamDollyBurperlous",
+      "path": "/team/dolly-burperlous",
+      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "componentChunkName": "component---src-templates-team-js",
       "context": {
-        "id": "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1"
+        "id": "0040f83f-0763-51fb-984c-5b26dedc29ee"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
-      "id": "SitePage /products/backpack",
+      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "id": "SitePage /team/dolly-burperlous",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dde2ca4ebe56eef811f12b7f8dbf5c28",
+        "contentDigest": "0b1ed12027481093abb2996e332170ed",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /team/george-geppetto": {
+      "jsonName": "team-george-geppetto-31f",
+      "internalComponentName": "ComponentTeamGeorgeGeppetto",
+      "path": "/team/george-geppetto",
+      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "componentChunkName": "component---src-templates-team-js",
+      "context": {
+        "id": "a92e05c1-eae2-5a7b-9c74-694963453faa"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "id": "SitePage /team/george-geppetto",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9bcd8119ed50ad765751240d25c58a03",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /team/teddy-von-tumpletumple": {
+      "jsonName": "team-teddy-von-tumpletumple-52e",
+      "internalComponentName": "ComponentTeamTeddyVonTumpletumple",
+      "path": "/team/teddy-von-tumpletumple",
+      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "componentChunkName": "component---src-templates-team-js",
+      "context": {
+        "id": "dfb0268d-dc13-5750-85d9-4bebd6822670"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
+      "id": "SitePage /team/teddy-von-tumpletumple",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c2d871b5664cf6cddd36c0722012acc8",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2142,6 +2210,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "97e0e5b8271a1e9e52010bf3ae82d57b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/backpack": {
+      "jsonName": "products-backpack-659",
+      "internalComponentName": "ComponentProductsBackpack",
+      "path": "/products/backpack",
+      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "componentChunkName": "component---src-templates-general-js",
+      "context": {
+        "id": "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js",
+      "id": "SitePage /products/backpack",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dde2ca4ebe56eef811f12b7f8dbf5c28",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2230,72 +2320,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "91236ab284a84f9bdf595b2e53c690bb",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /team/dolly-burperlous": {
-      "jsonName": "team-dolly-burperlous-9ef",
-      "internalComponentName": "ComponentTeamDollyBurperlous",
-      "path": "/team/dolly-burperlous",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
-      "componentChunkName": "component---src-templates-team-js",
-      "context": {
-        "id": "0040f83f-0763-51fb-984c-5b26dedc29ee"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
-      "id": "SitePage /team/dolly-burperlous",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0b1ed12027481093abb2996e332170ed",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /team/george-geppetto": {
-      "jsonName": "team-george-geppetto-31f",
-      "internalComponentName": "ComponentTeamGeorgeGeppetto",
-      "path": "/team/george-geppetto",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
-      "componentChunkName": "component---src-templates-team-js",
-      "context": {
-        "id": "a92e05c1-eae2-5a7b-9c74-694963453faa"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
-      "id": "SitePage /team/george-geppetto",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9bcd8119ed50ad765751240d25c58a03",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /team/teddy-von-tumpletumple": {
-      "jsonName": "team-teddy-von-tumpletumple-52e",
-      "internalComponentName": "ComponentTeamTeddyVonTumpletumple",
-      "path": "/team/teddy-von-tumpletumple",
-      "component": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
-      "componentChunkName": "component---src-templates-team-js",
-      "context": {
-        "id": "dfb0268d-dc13-5750-85d9-4bebd6822670"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js",
-      "id": "SitePage /team/teddy-von-tumpletumple",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c2d871b5664cf6cddd36c0722012acc8",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2443,7 +2467,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f578fa35f5c47efea08cbcda2fff2da7"
+    "PLUGINS_HASH": "4bf4159dd1be825dd5811523f7cb94b9"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2453,11 +2477,11 @@
         "sq--src-components-menu-mobile-js",
         "sq--src-components-seo-js"
       ],
-      "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1": [
-        "/products/backpack"
-      ],
       "a7da5c01-50aa-562a-9ce3-5e5f2f25e4a8": [
         "/products/bug"
+      ],
+      "5c22f0a9-ffcb-500f-9acb-be5c0cfdfdf1": [
+        "/products/backpack"
       ],
       "feab1063-6411-5361-86ea-f1b762ae47d6": [
         "/products/camera"
@@ -2486,6 +2510,7 @@
         null,
         "/products/",
         "/team/",
+        null,
         "/"
       ]
     }
@@ -2495,8 +2520,8 @@
     "sq--src-components-menu-js": 240237662,
     "sq--src-components-seo-js": 1175772,
     "sq--src-components-menu-mobile-js": 709782962,
-    "products-6ef": "304/path---products-6-ef-42b-3rCtF1ZhafsMueIRWviOZSVtZA",
-    "index": "708/path---index-6a9-3BJni9I2p1lAr22YB8UwMlpFw",
+    "products-6ef": "453/path---products-6-ef-42b-oqJDsJnYOoCdZ8l2O6dYIo2ozt4",
+    "index": "659/path---index-6a9-fy0pgIaZNCsbS9vnfVyA4caBk7c",
     "team-a07": "994/path---team-a-07-82c-fVVANITw7sph1wtGrcJ9AcgKTIo",
     "products-backpack-659": "813/path---products-backpack-659-34a-KXue0ZjmHGVUueMfbDL3fut5Bk",
     "products-bug-442": "211/path---products-bug-442-169-StUASOiA89j29yjnZDYQcc1b6I",
@@ -2515,10 +2540,6 @@
     "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js"
-    },
     "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js": {
       "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcTemplatesGeneralJs382641756(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    frontmatter {\n      title\n      path\n      image\n    }\n    html\n  }\n}\n",
       "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/general.js"
@@ -2526,6 +2547,10 @@
     "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js": {
       "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcTemplatesTeamJs2412733283(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    frontmatter {\n      title\n      path\n      image\n      jobtitle\n    }\n    html\n  }\n}\n",
       "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/templates/team.js"
+    },
+    "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/.cache/dev-404-page.js"
     },
     "/Users/colbystauss/Documents/hackDFW/Team-Source/src/pages/404.js": {
       "query": "",
@@ -2561,6 +2586,14 @@
       "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsFooterJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
       "hash": 4102418190
     },
+    "sq--src-components-header-js": {
+      "name": "usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsHeaderJs4102418190",
+      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/Header.js",
+      "id": "sq--src-components-header-js",
+      "jsonName": "sq--src-components-header-js",
+      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsHeaderJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
+      "hash": 4102418190
+    },
     "sq--src-components-menu-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/Menu.js",
@@ -2584,14 +2617,6 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 1175772
-    },
-    "sq--src-components-header-js": {
-      "name": "usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsHeaderJs4102418190",
-      "componentPath": "/Users/colbystauss/Documents/hackDFW/Team-Source/src/components/Header.js",
-      "id": "sq--src-components-header-js",
-      "jsonName": "sq--src-components-header-js",
-      "query": "query usersColbystaussDocumentsHackDfwTeamSourceSrcComponentsHeaderJs4102418190 {\n  site {\n    siteMetadata {\n      title\n      contact {\n        email\n        phone\n      }\n    }\n  }\n}\n",
-      "hash": 4102418190
     }
   }
 }

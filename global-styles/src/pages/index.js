@@ -23,7 +23,7 @@ const styles = theme => ({
   }),
   Home = props => {
 
-    if(!firebase.app.length){
+    if(!firebase.app){
       // Initialize Firebase
       var config = {
         apiKey: "AIzaSyAqFMUVjL_ENCC5H3rYYqqjak2JAO2UHPY",
@@ -67,7 +67,7 @@ const styles = theme => ({
                   <Button
                     variant="contained"
                     color="secondary"
-                    className={props.classes.root}
+                    className={this.props.classes.root}
                   >
                     <Link to="/products">View All Products</Link>
                   </Button>
