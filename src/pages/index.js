@@ -100,6 +100,7 @@ class Home extends React.Component{
                         <Button
                           variant="contained"
                           color="secondary"
+                          style={{backgroundColor: '#6188F3'}}
                           className={this.props.classes.root}
                         >
                           <Link to="/products">Accept the Challenge</Link>

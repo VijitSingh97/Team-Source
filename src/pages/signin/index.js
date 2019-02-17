@@ -14,6 +14,7 @@ import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import lockIcon from '../../images/lockIcon.png';
 
 import firebase from "firebase";
 
@@ -97,11 +98,25 @@ class SignIn extends React.Component{
         return (
         <Page> 
             <main className={classes.main} >
-      <CssBaseline />classes
-      <Paper className={classes.paper}>
-        <Avatar className={classes.avatar}>
+      <CssBaseline />
+      <Paper className={classes.paper}
+      style={{
+        margin: '50px auto 0 auto',
+        width: '475px',
+        height: '430px',
+        padding: '30px',
+        borderRadius: '15px',
+        boxShadow: '0 0 15px white',
+        fontFamily: 'Saira Extra Condensed !important'
+      }}>
+        <Avatar className={classes.avatar} style={{
+          margin: '0 auto',
+          width: '60px',
+          height: '60px'
+        }}>
+          <img src={lockIcon} style={{width: '60px', height: '60px'}}/>
         </Avatar>
-        <Typography component="h1" variant="h5">
+        <Typography component="h1" variant="h4" style={{textAlign: 'center', paddingTop: '10px'}}>
           Sign in
         </Typography>
         <form className={classes.form} onSubmit={this.handleSubmit}>
@@ -123,20 +138,16 @@ class SignIn extends React.Component{
             variant="contained"
             color="primary"
             className={classes.submit}
+            style={{
+              margin: '30px 0',
+              backgroundColor: '#6188F3'
+            }}
           >
             Sign in
           </Button>
         </form>
       </Paper>
 </main>
-<Link to="/signup">
-    <Button
-      variant="contained"
-      color="secondary"
-    >
-      Sign Up
-    </Button>
-  </Link>
         </Page>
         
     )
