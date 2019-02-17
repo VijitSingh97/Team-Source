@@ -14,6 +14,7 @@ import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import lockIcon from '../../images/lockIcon.png';
 
 import firebase from "firebase";
 
@@ -112,11 +113,25 @@ class SignUp extends React.Component{
         return (
         <Page> 
             <main className={classes.main} >
-      <CssBaseline />classes
-      <Paper className={classes.paper}>
-        <Avatar className={classes.avatar}>
+      <CssBaseline />
+      <Paper className={classes.paper}
+        style={{
+          margin: '25px auto 0 auto',
+          width: '475px',
+          height: '580px',
+          padding: '30px',
+          borderRadius: '15px',
+          boxShadow: '0 0 15px white',
+          fontFamily: 'Saira Extra Condensed !important'
+        }}>
+        <Avatar className={classes.avatar} style={{
+          margin: '0 auto',
+          width: '60px',
+          height: '60px'
+        }}>
+          <img src={lockIcon} style={{width: '60px', height: '60px'}}/>
         </Avatar>
-        <Typography component="h1" variant="h5">
+        <Typography component="h1" variant="h4" style={{textAlign: 'center', paddingTop: '10px'}}>
           Sign up
         </Typography>
         <form className={classes.form} onSubmit={this.handleSubmit}>
@@ -125,7 +140,7 @@ class SignUp extends React.Component{
             <Input id="email" name="email" autoComplete="email" autoFocus onChange={this.handleEmail} />
           </FormControl>
           <FormControl margin="normal" required fullWidth>
-            <InputLabel htmlFor="retype_email">Retype Email Address</InputLabel>
+            <InputLabel htmlFor="retype_email">Confirm Email Address</InputLabel>
             <Input id="retype_email" name="retype_email" autoComplete="retype_email" onChange={this.handleRetypeEmail} />
           </FormControl>
           <FormControl margin="normal" required fullWidth>
@@ -133,7 +148,7 @@ class SignUp extends React.Component{
             <Input name="password" type="password" id="password" autoComplete="current-password" onChange={this.handlePass}/>
           </FormControl>
           <FormControl margin="normal" required fullWidth>
-            <InputLabel htmlFor="retype_pass">Password</InputLabel>
+            <InputLabel htmlFor="retype_pass">Confirm Password</InputLabel>
             <Input name="retype_password" type="password" id="retype_password" autoComplete="current-password" onChange={this.handleRetypePass}/>
           </FormControl>
           <FormControlLabel
@@ -146,6 +161,10 @@ class SignUp extends React.Component{
             variant="contained"
             color="primary"
             className={classes.submit}
+            style={{
+              margin: '30px 0',
+              backgroundColor: '#6188F3'
+            }}
           >
             Sign Up
           </Button>
@@ -154,14 +173,6 @@ class SignUp extends React.Component{
         
       </Paper>
 </main>
-  <Link to="/signin">
-    <Button
-      variant="contained"
-      color="secondary"
-    >
-      Sign In
-    </Button>
-  </Link>
 
 </Page> 
     )
