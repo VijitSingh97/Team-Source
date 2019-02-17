@@ -8,7 +8,7 @@ import withRoot from "../../utils/withRoot";
 import firebase from "firebase";
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
-import Card from "../../components/Card";
+import Card from "../../components/CardUser";
 import { Gift } from "mdi-material-ui";
 import Button from "@material-ui/core/Button";
 
@@ -83,13 +83,16 @@ class User extends React.Component{
       // console.log(currentSnapshot);
       const currentChallengesDescription = currentSnapshot.data();
       // console.log(currentChallengesDescription);
-      const currentChallengesDescriptions = this.state.currentChallengesDescriptions;
-      currentChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
-      currentChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
-      currentChallengesDescriptions.push(currentChallengesDescription)
-      this.setState({
-        currentChallengesDescriptions
-      });
+      if(currentChallengesDescription !== undefined){
+        const currentChallengesDescriptions = this.state.currentChallengesDescriptions;
+        currentChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
+        currentChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
+        currentChallengesDescriptions.push(currentChallengesDescription)
+        this.setState({
+          currentChallengesDescriptions
+
+        });
+      }
     });
 
     pastChallenges.forEach(async(challenge) => {
@@ -100,15 +103,17 @@ class User extends React.Component{
       console.log(pastChallengesDescription);
       const pastChallengesDescription = currentSnapshot.data();
       console.log(pastChallengesDescription);
-      const pastChallengesDescriptions = this.state.pastChallengesDescriptions;
-      pastChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
-      pastChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
-      pastChallengesDescriptions.push(pastChallengesDescription)
-      this.setState({
-        pastChallengesDescriptions
-      });
+      if(pastChallengesDescription != undefined)
+      {
+        const pastChallengesDescriptions = this.state.pastChallengesDescriptions;
+        pastChallengesDescription.company_name = Object.values(challenge)[0].split("/")[2];
+        pastChallengesDescription.task = Object.values(challenge)[0].split("/")[4];
+        pastChallengesDescriptions.push(pastChallengesDescription)
+        this.setState({
+          pastChallengesDescriptions
+        });    
+      }
     });
-    
 }
   render() {
     //console.log("state");
@@ -162,7 +167,7 @@ class User extends React.Component{
                       </Avatar>
                     }
                     style={{marginBottom: "100px"}}
-                    children={"Equity Award: " + challenge.equity_award + "\nCash Award: " + challenge.cash_award + "\nChallenge Description: " + challenge.description}
+                    children={"Equity Award: " + challenge.equity_award + " Cash Award: " + challenge.cash_award + " Challenge Description: " + challenge.description}
             
                   >
                   </Card>
